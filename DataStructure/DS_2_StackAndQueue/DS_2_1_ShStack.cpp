@@ -122,7 +122,7 @@ void testShStack() {
     }
 
 
-    printf("测试第一个栈\n");
+    printf("测试第二个栈\n");
     if (Push1(S,10)){
         printf("入栈成功啦！\n");
     } else{
