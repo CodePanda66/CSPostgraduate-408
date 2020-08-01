@@ -80,6 +80,11 @@ void TestQueue(){
     } else{
         printf("出队失败了，再检出一下吧！\n");
     }
+    if(GetHead(Q,x)){
+        printf("获取队头成功！,队头元素为：%d\n",x);
+    } else{
+        printf("获取队头元素失败！");
+    }
 
     printf("结束测试！\n");
 }
