@@ -51,11 +51,11 @@ bool GetHead(SqQueue Q,int &x){
 //打印整个队列
 void PrintQueue(SqQueue Q){
     printf("开始打印队列\n");
-    while(Q.front==Q.rear){
-
-        printf("Q[%d]=%d",Q.front,Q.data[Q.front]);
+    while(Q.front!=Q.rear){
+        printf("Q[%d]=%d\n",Q.front,Q.data[Q.front]);
         Q.front=(Q.front+1)%MaxSize;
     }
+    printf("打印完毕！\n");
 }
 
 //测试
@@ -80,8 +80,6 @@ void TestQueue(){
     } else{
         printf("出队失败了，再检出一下吧！\n");
     }
-
-
 
     printf("结束测试！\n");
 }
