@@ -66,36 +66,36 @@ void TestQueue(){
     printf("开始测试！\n");
     SqQueue Q;
     InitQueue(Q);
-    if (EnQueue(Q,1)){
+    if (EnQueue(Q, 1)) {
         printf("入队成功啦！\n");
-    } else{
+    } else {
         printf("入队失败了\n");
     }
-    if (EnQueue(Q,2)){
+    if (EnQueue(Q, 2)) {
         printf("入队又成功啦！\n");
-    } else{
+    } else {
         printf("入队又失败了\n");
     }
     PrintQueue(Q);
     int x;
-    if (DeQueue(Q, x)){
-        printf("出队成功，弹出的元素为:%d\n",x);
-    } else{
+    if (DeQueue(Q, x)) {
+        printf("出队成功，弹出的元素为:%d\n", x);
+    } else {
         printf("出队失败了，再检出一下吧！\n");
     }
-    if(GetHead(Q,x)){
-        printf("获取队头成功！,队头元素为：%d\n",x);
-    } else{
+    if (GetHead(Q, x)) {
+        printf("获取队头成功！,队头元素为：%d\n", x);
+    } else {
         printf("获取队头元素失败！\n");
     }
-    if (DeQueue(Q, x)){
-        printf("出队成功，弹出的元素为:%d\n",x);
-    } else{
+    if (DeQueue(Q, x)) {
+        printf("出队成功，弹出的元素为:%d\n", x);
+    } else {
         printf("出队失败了，再检出一下吧！\n");
     }
-    if(QueueEmpty(Q)){
+    if (QueueEmpty(Q)) {
         printf("队空啦\n");
-    } else{
+    } else {
         printf("队非空\n");
     }
 
