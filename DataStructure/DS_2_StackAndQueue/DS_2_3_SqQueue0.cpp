@@ -85,6 +85,11 @@ void TestQueue(){
     } else{
         printf("获取队头元素失败！");
     }
+    if(QueueEmpty(Q)){
+        printf("队空啦\n");
+    } else{
+        printf("队非空\n");
+    }
 
     printf("结束测试！\n");
 }

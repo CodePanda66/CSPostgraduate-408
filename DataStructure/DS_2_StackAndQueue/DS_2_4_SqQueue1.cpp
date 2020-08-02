@@ -93,6 +93,11 @@ void TestQueue(){
     } else{
         printf("出队失败了，再检出一下吧！\n");
     }
+    if(QueueEmpty(Q)){
+        printf("队空啦\n");
+    } else{
+        printf("队非空\n");
+    }
 
 
     printf("结束测试！\n");
