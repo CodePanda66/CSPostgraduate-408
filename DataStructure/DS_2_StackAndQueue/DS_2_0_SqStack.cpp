@@ -11,6 +11,7 @@ typedef struct {
     int top;
 } SqStack;
 
+
 //初始化
 void InitStack(SqStack &S) {
     S.top = -1;//这种初始化的方式，栈顶指针始终指向栈顶元素
