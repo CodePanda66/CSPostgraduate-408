@@ -1,5 +1,5 @@
 //
-// Created by kim yang on 2020/8/2.
+// Created by kim yang on 2020/8/3.
 //
 
 //链式队列（带头节点版本）
@@ -17,13 +17,12 @@ typedef struct {
 } LinkQueue;
 
 void InitQueue(LinkQueue &Q) {
-    Q.front = Q.rear = (LinkNode *) malloc(sizeof(LinkNode));
-    //初始化时，front 、rear 都指向头节点
-    Q.front->next = NULL;
+    Q.front = Q.rear = NULL;
+    //不带头点，初始化时，front 、rear 指向NULL
 }
 
 //判空
-bool IseEmpty(LinkQueue Q) {
+bool IsEmpty(LinkQueue Q) {
     if (Q.front == Q.rear)
         return true;
     else
@@ -37,38 +36,45 @@ bool EnQueue(LinkQueue &Q, int x) {
     if (s == NULL)return false;
     s->data = x;
     s->next = NULL;
-    Q.rear->next = s;//新节点插入到rear之后
-    Q.rear = s;//修改表尾指针
+    if (Q.front == NULL) {
+        //不带头节点插入第一个元素时，需要做特殊处理
+        Q.rear = Q.front = s;
+    } else {
+        //非第一个元素
+        Q.rear->next = s;//新节点插入到rear之后
+        Q.rear = s;//修改表尾指针
+    }
     return true;
 }
 
 //出队
 bool DeQueue(LinkQueue &Q, int &x) {
-    if (Q.front == Q.rear)return false;//队空
-    LinkNode *p = Q.front->next;//用指针p记录队头元素
+    if (Q.front == NULL&&Q.rear==NULL)return false;//队空
+    LinkNode *p = Q.front;//用指针p记录队头元素
     x = p->data;//用x变量返回队头元素
-    Q.front->next = p->next;//修改头节点的next指针
+    Q.front = p->next;//修改头节点的next指针
     if (Q.rear == p)//此次是最后一个节点出队
-        Q.rear = Q.front;//修改rear指针，思考一下为什么？
+        Q.rear = Q.front = NULL;//修改rear指针，思考一下为什么？修改为判空的条件
     free(p); //释放节点空间
     return true;
 }
 
 bool GetHead(LinkQueue Q, int &x) {
-    if (Q.front == Q.rear)return false;//队空
-    x = Q.front->next->data;//用x变量返回队头元素
+    if (Q.front == NULL&&Q.rear==NULL)return false;//队空
+    x = Q.front->data;//用x变量返回队头元素
     return true;
 }
-bool QueueEmpty(LinkQueue Q){
-    return Q.front==Q.rear? true: false;
+
+bool QueueEmpty(LinkQueue Q) {
+    return Q.front == Q.rear ? true : false;
 }
 
 void PrintQueue(LinkQueue Q) {
     printf("开始打印队列\n");
     int i = 0;
-    while (Q.front != Q.rear) {
-        Q.front = Q.front->next;
+    while (Q.front != NULL&&Q.rear!=NULL) {
         printf("Q[%d]=%d\n", i++, Q.front->data);
+        Q.front = Q.front->next;
     }
     printf("打印完毕！\n");
 }
