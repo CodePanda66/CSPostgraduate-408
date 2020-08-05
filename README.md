@@ -1,10 +1,11 @@
 # 2021-CSPostgraduate-408
 
-![](https://img.shields.io/github/languages/top/KimYangOfCat/2021-CSPostgraduate-408?color=F8008E)
-![](https://img.shields.io/static/v1?label=&message=DataStructure&color=brightgreen)
-![](https://img.shields.io/static/v1?label=&message=CpmputerOrganization&color=blueviolet)
-![](https://img.shields.io/static/v1?label=&message=NetWork&color=blue)
-![](https://img.shields.io/static/v1?label=&message=OperatingSystem&color=important)
+[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](LICENSE)
+![Top Language](https://img.shields.io/github/languages/top/KimYangOfCat/2021-CSPostgraduate-408?color=F8008E)
+![DataStructure](https://img.shields.io/static/v1?label=&message=DataStructure&color=brightgreen)
+![ComputerOrganization](https://img.shields.io/static/v1?label=&message=ComputerOrganization&color=blueviolet)
+![ComputerNetWork](https://img.shields.io/static/v1?label=&message=ComputerNetWork&color=blue)
+![OperatingSystem](https://img.shields.io/static/v1?label=&message=OperatingSystem&color=important)
 
 本仓库主要记录了一些我在学习408的过程中搜寻的一些资料、笔记以及算法源码。
 
@@ -95,3 +96,4 @@
 
 如果你有新的内容📜想要贡献到本仓库或者发现了本仓库的一些错误🐛，👏🏻欢迎阅读[贡献文档](Documents.md)提交Pr～
 
+## 许可证
