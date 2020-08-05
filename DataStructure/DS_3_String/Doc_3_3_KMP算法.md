@@ -38,3 +38,19 @@
 
 ![image-20200804230554660](https://tva1.sinaimg.cn/large/007S8ZIlly1ghf6h8xgswj31s90u0e81.jpg)
 
+### 求next数组
+
+![image-20200805131252851](https://tva1.sinaimg.cn/large/007S8ZIlly1ghfuyjb95wj31kb0u0u0x.jpg)
+
+![image-20200805131431528](https://tva1.sinaimg.cn/large/007S8ZIlly1ghfv07vuv3j31bv0u07wh.jpg)
+
+![image-20200805131611443](https://tva1.sinaimg.cn/large/007S8ZIlly1ghfv1y2zzxj31y20qs4ev.jpg)
+
+### 代码实现求next数组
+
+![image-20200805131821691](https://tva1.sinaimg.cn/large/007S8ZIlly1ghfv47tlccj31s00u0npd.jpg)
+
+## 回顾总结
+
+![image](https://tva1.sinaimg.cn/large/007S8ZIlly1ghfv6uhe5rj31jt0u0u0x.jpg)
+
