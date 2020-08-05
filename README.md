@@ -16,7 +16,7 @@
 
 ### 985高校
 
-| ![浙江大学](https://tva1.sinaimg.cn/large/007S8ZIlly1ghgavob0sgj3069069dfs.jpg) | ![上海交通大学](https://tva1.sinaimg.cn/large/007S8ZIlly1ghgawf09sij30690690ss.jpg) | ![同济大学](https://tva1.sinaimg.cn/large/007S8ZIlly1ghgaykf1hwj3068069glv.jpg) | ![同济大学](https://tva1.sinaimg.cn/large/007S8ZIlly1ghgaykf1hwj3068069glv.jpg) |
+| ![浙江大学](https://i.loli.net/2020/08/05/MFHI5ztAJ2amf64.png) | ![下载 _1_.png](https://i.loli.net/2020/08/05/gEpRkMJ8vi15OPo.png) | ![下载 _2_.png](https://i.loli.net/2020/08/05/64MiHnBxgypIdGm.png) | ![下载 _1_.png](https://i.loli.net/2020/08/05/gEpRkMJ8vi15OPo.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                           浙江大学                           |                         上海交通大学                         |                           同济大学                           |                           同济大学                           |
 
