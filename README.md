@@ -7,7 +7,7 @@
 ![ComputerNetWork](https://img.shields.io/static/v1?label=&message=ComputerNetWork&color=blue)
 ![OperatingSystem](https://img.shields.io/static/v1?label=&message=OperatingSystem&color=important)
 
-本仓库主要记录了一些我在学习408的过程中搜寻的一些资料、笔记以及算法源码。
+本仓库主要记录了一些CS考研408等专业课的一些资料、笔记以及算法源码。
 
 虽然408被誉为CS考研中最难的专业课，但是对我而言，学习它只是对我自己专业知识的弥补提升，对未来的职业发展也会有+∞益处。
 所以希望你也能保持一份学习的态度面对它，而不是因它的名头而畏惧。只要你潜心学习，它也能让你和其他人拉开差距～
@@ -36,7 +36,7 @@
 
 ## 经验贴
 
-经验贴在王道上有很多，就推荐一些，我读过并觉得很好的贴子推荐给大家吧！
+经验贴在王道上有很多，就推荐一些读过并觉得很好的贴子给大家吧！
 
 +   [20华南理工大学（数二、英二、408）407分意识流分析贴](http://www.cskaoyan.com/forum.php?mod=viewthread&tid=659830&highlight=408) 
 +   [20上交408复习](https://www.zhihu.com/question/371489743/answer/1314525010?utm_source=wechat_session&utm_medium=social&utm_oi=746271865860796416)
