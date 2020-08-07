@@ -72,7 +72,7 @@
 
 王道系列起源于[王道考研论坛](http://cskaoyan.com/)，从它的论坛中，你能找到不少经验贴，非常值得关注！而王道系列辅导书籍，题量充足，知识点全面，可能更适合科班考研🈶️一定专业课基础的同学。
 
-需要2021王道高清无水印PDF，可至[Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8Dv1)中下载。
+需要2021王道高清无水印PDF，可至[Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D)中下载。
 ### 天勤系列
 
 天勤系列，相比于王道更注重基础知识，，但是题量并没有王道的多。也正是由于它更注重基础，所以也许它更适合跨考计算机的同学。
