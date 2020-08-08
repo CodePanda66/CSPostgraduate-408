@@ -56,14 +56,14 @@
 书写并运行源码使用的 IDE 是 `CLion`，其主要的配置文件是仓库根目录下的 `CMakeLists.txt` 文件。
 
 #### 章节目录
-* [绪论](DS_0_Introduction)
-* [线性表](DS_1_LinearList)
-* [栈与队列](DS_2_StackAndQueue)
-* [字符串](DS_3_String)
-* [树与二叉树](DS_4_TreeAndBinaryTree)
-* [图](DS_5_Graph)
-* [查找](DS_6_Search)
-* [排序](DS_7_Sort)
+* [绪论](DataStructure/DS_0_Introduction)
+* [线性表](DataStructure/DS_1_LinearList)
+* [栈与队列](DataStructure/DS_2_StackAndQueue)
+* [字符串](DataStructure/DS_3_String)
+* [树与二叉树](DataStructure/DS_4_TreeAndBinaryTree)
+* [图](DataStructure/DS_5_Graph)
+* [查找](DataStructure/DS_6_Search)
+* [排序](DataStructure/DS_7_Sort)
 
 ### [计算机组成原理](ComputerOrganization)
 
