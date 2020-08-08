@@ -48,12 +48,12 @@
 
 #### 语言
 
-虽然是.cpp文件，但其中的语法既有C++的语法也有部分C的语法！属
+虽然都是.cpp文件，但其中的语法既有C++的语法也有部分C的语法！
 
 如果想要C++版本的源码，可以参考我学习数据结构时写的一些数据结构的C++版本源码！[传送门](https://github.com/KimYangOfCat/Data_Structure) 在此～
 
 #### IDE
-书写并运行源码使用的 IDE 是 `Clion`，其主要的配置文件是苍库根目录下的 `CMakeLists.txt` 文件。
+书写并运行源码使用的 IDE 是 `CLion`，其主要的配置文件是仓库根目录下的 `CMakeLists.txt` 文件。
 
 #### 章节目录
 * [绪论](DS_0_Introduction)
