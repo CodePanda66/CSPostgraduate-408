@@ -4,13 +4,13 @@
 
 ## 基本概念
 
-![image-20200616214853491](https://tva1.sinaimg.cn/large/007S8ZIlly1gfugvzxnvwj30kp06q76j.jpg)
+![image-20200616214853491](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001358.jpg)
 
 ### 什么是算法？
 
 程序=数据结构+算法
 
-![image-20200616215006166](https://tva1.sinaimg.cn/large/007S8ZIlly1gfugx9fo26j30mb07fn0y.jpg)
+![image-20200616215006166](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001359.jpg)
 
 ###算法的特性
 
@@ -18,7 +18,7 @@
 
    注：算法必须是有穷的，二程序可以是无穷的。
 
-   ![image-20200616215340371](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuh0zabt5j30ir06k77k.jpg)
+   ![image-20200616215340371](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001400.jpg)
 
 2. 确定性：算法每一条指令必须有确切的含义，对于相同的输入只能得出相同的输出
 
@@ -39,11 +39,11 @@
 
 ###总结
 
-![image-20200616220536590](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuhdekssej30sl0jdqf5.jpg)
+![image-20200616220536590](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001401.jpg)
 
 ## 算法效率的度量
 
-![image-20200616220923527](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuhhbotwbj30ld057wgp.jpg)
+![image-20200616220923527](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001402.jpg)
 
 ### 如何评估算法时间开销？
 
@@ -64,25 +64,25 @@
 
 如何计算T，例子：
 
-![image-20200616234743261](https://tva1.sinaimg.cn/large/007S8ZIlly1gfukbpctznj31k70u0hdt.jpg)
+![image-20200616234743261](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001403.jpg)
 
 #### 问题1:是否可以忽略表达式某些部分？
 
-![image-20200616235203889](https://tva1.sinaimg.cn/large/007S8ZIlly1gfukg635rdj31ik0u0u0x.jpg)
+![image-20200616235203889](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001404.jpg)
 
 1.  加法规则：多项相加，只保留最高阶的项，且系数变为1
 
-    ![image-20200616235558501](https://tva1.sinaimg.cn/large/007S8ZIlly1gfukk8om4cj321y0cedxg.jpg)
+    ![image-20200616235558501](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001405.jpg)
 
 2.  乘法规则：多项相乘，都保留
 
-    ![image-20200616235856976](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuknbut9qj31ga0bigsj.jpg)
+    ![image-20200616235856976](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001406.jpg)
 
 ##### 算法时间复杂度阶数顺序
 
-![image-20200617000121744](https://tva1.sinaimg.cn/large/007S8ZIlly1gfukpu8233j31da06atdu.jpg)
+![image-20200617000121744](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001407.jpg)
 
-![image-20200617000310666](https://tva1.sinaimg.cn/large/007S8ZIlly1gfukrq8z28j31eu0u04qp.jpg)
+![image-20200617000310666](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001408.jpg)
 
 #### 如果有好几千行代码，需要一行一行数？
 
@@ -92,15 +92,15 @@
 
 #### 小练习
 
-![image-20200617001603926](https://tva1.sinaimg.cn/large/007S8ZIlly1gful55dhkwj31m50u0qv5.jpg)
+![image-20200617001603926](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001409.jpg)
 
-![image-20200617001659516](https://tva1.sinaimg.cn/large/007S8ZIlly1gful64i4plj31ih0u0b29.jpg)
+![image-20200617001659516](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001410.jpg)
 
-![image-20200617001353856](https://tva1.sinaimg.cn/large/007S8ZIlly1gful2voqyhj31lu0u0qv5.jpg)
+![image-20200617001353856](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001411.jpg)
 
 #### 总结
 
-![image-20200617001826231](https://tva1.sinaimg.cn/large/007S8ZIlly1gful7lx0gkj31u20u01kx.jpg)
+![image-20200617001826231](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001412.jpg)
 
 算法的性能问题只有在n很大时才会暴露出来。
 
@@ -108,27 +108,27 @@
 
 #### 原地工作算法
 
-![image-20200617002424730](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuldv14wbj31o20u07wh.jpg)
+![image-20200617002424730](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001413.jpg)
 
 分析空间复杂度时，只需关注与问题规模相关的变量就好（讲人话，就是，看程序中的变量就好）
 
-![image-20200617002625466](https://tva1.sinaimg.cn/large/007S8ZIlly1gfulfxjzfoj31s00u0e4m.jpg)
+![image-20200617002625466](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001414.jpg)
 
 加法法则
 
-![image-20200617002941853](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuljbdlnbj31kn0u07wh.jpg)
+![image-20200617002941853](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001415.jpg)
 
 #### 函数递归调用带来的内存开销
 
-![image-20200617003249255](https://tva1.sinaimg.cn/large/007S8ZIlly1gfulmkft4xj31ln0u0e81.jpg)
+![image-20200617003249255](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001416.jpg)
 
 在这种情况下，空间复杂度等于递归调用的深度。
 
-![image-20200617003702543](https://tva1.sinaimg.cn/large/007S8ZIlly1gfulqyn7d0j31nm0u04qp.jpg)
+![image-20200617003702543](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001417.jpg)
 
 递归调用的过程中，每一次开辟的内存空间也可以不一致，如上例。
 
 #### 总结
 
-![image-20200617003857723](https://tva1.sinaimg.cn/large/007S8ZIlly1gfulsypll3j31th0u01kx.jpg)
+![image-20200617003857723](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001418.jpg)
 

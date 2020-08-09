@@ -1,21 +1,21 @@
 # 顺序表
 ##顺序表的基本概念
 
-![image-20200617172240151](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvetax0y7j30v20a6jwv.jpg)
+![image-20200617172240151](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002154.jpg)
 
 ### 顺序表的定义
 
-![image-20200617172428297](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvev6pex4j30w80gydvc.jpg)
+![image-20200617172428297](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002155.jpg)
 
 ### 顺序表的初始化
 
 #### 静态分配
 
-![image-20200617172843813](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvezlw2d3j30ww0hjqda.jpg)
+![image-20200617172843813](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002156.jpg)
 
 具体实现：
 
-![image-20200617173539443](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvf6tyv9gj30zh0j67n2.jpg)
+![image-20200617173539443](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002157.jpg)
 
 ```c
 //初始化(静态分配)
@@ -40,11 +40,11 @@ void InitList(SqList &L){
 
 #### 动态分配
 
-![image-20200617190108177](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvhnrmmsaj30uw0gnwp4.jpg)
+![image-20200617190108177](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002158.jpg)
 
 具体实现方式
 
-![image-20200617190651552](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvhtq2yz3j31020jddxd.jpg)
+![image-20200617190651552](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002159.jpg)
 
 ```c
 //初始化（动态方式）
@@ -63,9 +63,9 @@ bool InitList(SeqList &L){
 
 #### 总结
 
-![image-20200617190838244](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvhvlp3blj30vw0gm48a.jpg)
+![image-20200617190838244](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002200.jpg)
 
-![image-20200617191008606](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvhx506r8j30w20ga47f.jpg)
+![image-20200617191008606](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002201.jpg)
 
 ### 顺序表的基本操作
 
@@ -73,15 +73,15 @@ bool InitList(SeqList &L){
 
 ListInsert(&L,i,e):插入操作。在表L中的第i个位置上插入指定元素e。
 
-![image-20200617211304785](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvlh1yhi4j30yt0i6tma.jpg)
+![image-20200617211304785](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002202.jpg)
 
 详细实现方式：
 
-![image-20200617212225782](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvlqt37s4j30x10howwh.jpg)
+![image-20200617212225782](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002203.jpg)
 
 优化之后：
 
-![image-20200617212144846](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvlq3dqifj30xg0gjwsn.jpg)
+![image-20200617212144846](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002204.jpg)
 
 ```c
 bool ListInsert(SqList &L,int i,int e){
@@ -104,11 +104,11 @@ bool ListInsert(SqList &L,int i,int e){
 
 #####插入操作的时间复杂度分析
 
-![image-20200617213723625](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvm6cjrx0j30x80gugxr.jpg)
+![image-20200617213723625](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002205.jpg)
 
 #### 删除
 
-![image-20200617220850929](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvn335whij30y90i8dww.jpg)
+![image-20200617220850929](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002206.jpg)
 
 ```c
 //删除
@@ -133,11 +133,11 @@ bool ListDelete(SqList &L,int i,int &e){
 
 ##### 删除操作的时间复杂度分析
 
-![image-20200617221030044](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvn4sq428j30w20j4qfi.jpg)
+![image-20200617221030044](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002207.jpg)
 
 #### 总结反思
 
-![image-20200617221250309](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvn78glgxj30x50ffgwe.jpg)
+![image-20200617221250309](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002208.jpg)
 
 #### 查找
 #####按位查找
@@ -146,11 +146,11 @@ GetElem(L,i):按位查找操作，获取表L中第i个位置的元素的值
 
 ###### 静态分配状态下的实现方式
 
-![image-20200617222107279](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvnfu8xd7j30st0cf7bq.jpg)
+![image-20200617222107279](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002209.jpg)
 
 ###### 动态分配状态下的实现方式
 
-![image-20200617222212660](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvngzflxoj30wx0hhang.jpg)
+![image-20200617222212660](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002210.jpg)
 
 用指针加数组下标的方式取数据的时候，数组类型决定着取数据时取几个字节！！
 
@@ -166,11 +166,11 @@ int GetElem(SeqList L,int i){
 
 ###### 按位查找的时间复杂度分析
 
-![image-20200617222451314](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvnjqz0ayj30vk0dvdm6.jpg)
+![image-20200617222451314](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002211.jpg)
 
 ##### 按值查找
 
-![image-20200618215105169](https://tva1.sinaimg.cn/large/007S8ZIlly1gfws6wtavaj30yc0kcaow.jpg)
+![image-20200618215105169](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002212.jpg)
 
 ```c
 //按值查找
@@ -186,7 +186,7 @@ int LocateElem(SeqList L,int e){
 
 ###### 结构类型的比较
 
-![image-20200618215217216](https://tva1.sinaimg.cn/large/007S8ZIlly1gfws85u0bfj30vx0h87h6.jpg)
+![image-20200618215217216](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002213.jpg)
 
 注意：考研初试中华，手写代码可以直接用“==”，无论是ElemType是基本数据类型还是结构类型，手写代码主要考察学生是否理解算法思想，不会严格要求代码完全可运行
 
@@ -194,9 +194,9 @@ int LocateElem(SeqList L,int e){
 
 ######  按值查找的时间复杂度
 
-![image-20200618215714251](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwsdclu05j30vr0fun79.jpg)
+![image-20200618215714251](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002214.jpg)
 
 ##### 总结反思
 
-![image-20200618215837154](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwseqqu3jj30xm0c7450.jpg)
+![image-20200618215837154](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002215.jpg)
 

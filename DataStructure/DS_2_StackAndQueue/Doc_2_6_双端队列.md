@@ -1,28 +1,28 @@
 # 双端队列
 
-![image-20200624161331529](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3g5ijsqaj30og0gt0xt.jpg)
+![image-20200624161331529](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810011030.jpg)
 
 ## 双端队列的定义
 
-![image-20200624161416772](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3g6b1zgmj30px0h2gvk.jpg)
+![image-20200624161416772](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810011037.jpg)
 
 ## 考点：判断输出序列的合法性
 
 ### 对于栈的输出序列的合法性
 
-![image-20200624161642449](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3g8tspcwj30wn0fb441.jpg)
+![image-20200624161642449](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810011052.jpg)
 
 绿色为合法，红色为非法
 
 ### 对于输入受限的双端队列的输出序列的合法性
 
-![image-20200624162025565](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3gcpf6fcj30wk0evq9k.jpg)
+![image-20200624162025565](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810011057.jpg)
 
 绿色为合法，红色为非法，带下划线是在栈中不合法，但在输入受限的双端队列中合法的。
 
 ### 对于输出受限的双端队列
 
-![image-20200624162509184](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3ghmbilrj30w20et454.jpg)
+![image-20200624162509184](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810011102.jpg)
 
 绿色为合法，红色为非法，带下划线是在栈中不合法，但在输出受限的双端队列中合法
 

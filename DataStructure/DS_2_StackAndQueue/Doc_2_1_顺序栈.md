@@ -1,41 +1,41 @@
 # 顺序栈
 
-![image-20200624151201362](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3ediqo6gj30n70bvgpc.jpg)
+![image-20200624151201362](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010154.jpg)
 
 ## 顺序栈的定义
 
-![image-20200624151329974](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3ef24b97j30wx0hxgvy.jpg)
+![image-20200624151329974](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010159.jpg)
 
 ## 基本操作
 
 ### 初始化操作
 
-![image-20200624151413408](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3eftbuugj30wr0i1qbi.jpg)
+![image-20200624151413408](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010206.jpg)
 
 ### 进栈操作
 
-![image-20200624151826628](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3ek7hcz7j30xn0icdsu.jpg)
+![image-20200624151826628](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010237.jpg)
 
 ### 出栈操作
 
-![image-20200624152110685](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3en4wi18j30y70idgzs.jpg)
+![image-20200624152110685](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010246.jpg)
 
 
 
 ### 读取栈顶元素
 
-![image-20200624152208184](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3eo1opjcj30xn0hjguw.jpg)
+![image-20200624152208184](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010251.jpg)
 
 ## 另一种基本操作的实现方式：
 
-![image-20200624152341443](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3epo5wa6j30xn0fuwn2.jpg)
+![image-20200624152341443](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010257.jpg)
 
-![image-20200624152540477](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3erqkql9j31090hrqg4.jpg)
+![image-20200624152540477](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010304.jpg)
 
 ## 共享栈
 
-![image-20200624152655905](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3et1c5a6j30x60j4aib.jpg)
+![image-20200624152655905](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010311.jpg)
 
 ## 总结
 
-![image-20200624152849214](https://tva1.sinaimg.cn/large/007S8ZIlly1gg3ev03gkaj30rs0g3aet.jpg)
+![image-20200624152849214](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010316.jpg)

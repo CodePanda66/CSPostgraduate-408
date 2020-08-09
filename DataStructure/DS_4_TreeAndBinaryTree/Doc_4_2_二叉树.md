@@ -1,18 +1,18 @@
 # 二叉树
 
-![image-20200805182546741](https://tva1.sinaimg.cn/large/007S8ZIlly1ghg402vkcwj31te0u0k5q.jpg)
+![image-20200805182546741](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013238.jpg)
 
 基本定义：
 
-![image-20200805182702622](https://tva1.sinaimg.cn/large/007S8ZIlly1ghg41e8cgdj31jn0u0hdu.jpg)
+![image-20200805182702622](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013246.jpg)
 
 常见术语：
 
-![image-20200805183043813](https://tva1.sinaimg.cn/large/007S8ZIlly1ghg458dan1j31nf0u07wi.jpg)
+![image-20200805183043813](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013259.jpg)
 
-![image-20200805183250777](https://tva1.sinaimg.cn/large/007S8ZIlly1ghg47fjzgjj31l90u0qv6.jpg)
+![image-20200805183250777](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013306.jpg)
 
-![image-20200805183426726](https://tva1.sinaimg.cn/large/007S8ZIlly1ghg493dq4tj31j80u01ky.jpg)
+![image-20200805183426726](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013313.jpg)
 
 总结：
 

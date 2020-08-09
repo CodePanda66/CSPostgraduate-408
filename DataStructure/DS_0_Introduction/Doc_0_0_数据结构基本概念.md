@@ -1,6 +1,6 @@
 # 绪论第一节
 
-![image-20200616203728181](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuetqfhjsj30ol0eh432.jpg)
+![image-20200616203728181](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001224.jpg)
 
 ## 基本概念
 
@@ -24,35 +24,35 @@
 
 ## 三要素
 
-![image-20200616204952204](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuf6l2hecj30mu08a77r.jpg)
+![image-20200616204952204](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001225.jpg)
 
 ### 逻辑结构
 
 即，数据元素之间的逻辑关系是什么？
 
-![image-20200616205141919](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuf8hwsrsj30ij07w40n.jpg)
+![image-20200616205141919](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001226.jpg)
 
 #### 集合
 
-![image-20200616205508144](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufc2oz43j30g90chgpg.jpg)
+![image-20200616205508144](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001227.jpg)
 
 各个数据元素同属一个集合，别无其它关系
 
 #### 线性结构
 
-![image-20200616205527638](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufcetgb3j30fn0a7n14.jpg)
+![image-20200616205527638](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001228.jpg)
 
 数据元素之间是一对一的关系，除了第一个元素，所有元素都有唯一前驱，除了最后一个元素，所有元素都有唯一后继
 
 #### 树形结构
 
-![image-20200616205648476](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufdsxoxdj307u0dp774.jpg)
+![image-20200616205648476](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001229.jpg)
 
 数据元素之间是一对多的关系
 
 #### 图结构
 
-![image-20200616205732165](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufeklp71j309a0cx775.jpg)
+![image-20200616205732165](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001230.jpg)
 
 数据元素之间是多对多的关系
 
@@ -62,25 +62,25 @@
 
 #### 顺序存储
 
-![image-20200616205941135](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufgt6r70j30o80d4wjn.jpg)
+![image-20200616205941135](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001231.jpg)
 
 **把逻辑上相邻的元素存储在物理地址上也相邻的存储单元中**，元素之间的关系由存储单元的领接关系来体现。
 
 #### 链式存储
 
-![image-20200616210302754](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufkbheq8j30u70d944u.jpg)
+![image-20200616210302754](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001232.jpg)
 
 #### 索引存储
 
-![image-20200616210349944](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufl3zghqj30rw0fgdn6.jpg)
+![image-20200616210349944](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001233.jpg)
 
 #### 散列存储
 
-![image-20200616210434678](https://tva1.sinaimg.cn/large/007S8ZIlly1gfuflw76d2j30tf0aw438.jpg)
+![image-20200616210434678](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001234.jpg)
 
 #### 总结
 
-![image-20200616210508542](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufmh5xb4j30oh09742a.jpg)
+![image-20200616210508542](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001235.jpg)
 
 1. 若采用顺序存储，则各个数据元素在物理上必须是连续的；若采用非顺存储，则各个数据元素在物理上是可以离散的
 2. 数据的存储结构会影响存储空间的分配的方便程度
@@ -99,7 +99,7 @@
 1. 原子类型，其值不可再分的数据类型
 2. 结构类型，其值可以再分解为若干成分（分量）的数据类型
 
-![image-20200616211417412](https://tva1.sinaimg.cn/large/007S8ZIlly1gfufw04oidj30rk05w0vw.jpg)
+![image-20200616211417412](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001236.jpg)
 
 ### 抽象数据类型
 
@@ -109,9 +109,9 @@ ADT 是用数学化的语言定义数据的逻辑结构、定义运算。与其�
 
 ## 总结
 
-![image-20200616212103345](https://tva1.sinaimg.cn/large/007S8ZIlly1gfug31fiwgj30s00gq7f0.jpg)
+![image-20200616212103345](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001237.jpg)
 
-![image-20200616212152228](https://tva1.sinaimg.cn/large/007S8ZIlly1gfug3w4k7sj30vy0fbqcu.jpg)
+![image-20200616212152228](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001238.jpg)
 
 在探讨一种数据结构时：
 
@@ -119,5 +119,5 @@ ADT 是用数学化的语言定义数据的逻辑结构、定义运算。与其�
 2. 定义数据的运算（针对现实需求，应该对这种逻辑结构进行什么样的运算）
 3. 确定某种存储结构，实现数据结构，并实现一些对数据结构的基本运算
 
-![image-20200616212530957](https://tva1.sinaimg.cn/large/007S8ZIlly1gfug7om407j30o90gxago.jpg)
+![image-20200616212530957](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001239.jpg)
 
