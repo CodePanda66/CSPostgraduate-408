@@ -2,7 +2,7 @@
 // Created by kim yang on 2020/8/8.
 //
 
-//链式存储
+//链式存储——单结点单字符
 #include <stdio.h>
 
 typedef struct StringNode{
