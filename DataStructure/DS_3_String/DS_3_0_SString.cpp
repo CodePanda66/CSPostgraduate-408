@@ -4,6 +4,7 @@
 
 //顺序存储——静态数组实现方式（定长顺序存储），注意下面实现在数组中存放字符串时，都会舍弃，Str[0]，第一个结点的空间，以保证字符下标和数组下标保证一致
 #include <stdio.h>
+#include <cstring>
 
 #define MAXLEN 255 //预定义最大串长为255
 
@@ -12,9 +13,59 @@ typedef struct {
     int length; //串的实际长度
 } SString;
 
-bool InitStr() {
+//初始化
+bool InitStr(SString &S) {
+    S.ch[1] = ' ';
+    S.length = 0;
+}
+
+//赋值操作
+bool StrAssign(SString &T, char str[]) {
+    if (str[0] == NULL)return false;//传入空数组就失败
+    int strLength = sizeof(str) / sizeof(str[0]);
+    for (int i = 0; i < strLength; ++i) {
+        T.ch[i + 1] == str[i];//空置T的第一个元素位置
+    }
+    T.length = strLength;
+    return true;
+}
+
+//复制操作
+bool StrCopy(SString &T, SString S) {
+    for (int i = 1; i < S.length; ++i) {
+        T.ch[i] = S.ch[i];
+    }
+    T.length = S.length;
+    return true;
+}
+
+//判空
+bool StrEmpty(SString S) {
+    return S.length == 0;
+}
+
+//清空操作
+void ClearStr(SString &S) {
+    S.length = 0;
+    memset(S.ch, 0, MAXLEN);//用到了一个cstring库中的memset函数
+}
+
+//销毁操作
+void DestoryString(SString &S) {
 
 }
+
+//串链操作
+void Concat(SString &T, SString S1, SString S2) {
+    for (int i = 1; i < S1.length; ++i) {
+        T.ch[i] = S1.ch[i];
+    }
+    for (int j = S1.length; j < S1.length + S2.length; ++j) {
+        T.ch[j] == S2.ch[j];
+    }
+    T.length = S1.length + S2.length;
+}
+
 
 //求子串
 bool SubString(SString &Sub, SString S, int pos, int len) {
