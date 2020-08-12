@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <cstring>
 
-#define MAXLEN 255 //预定义最大串长为255
+#define MAXLEN 15 //预定义最大串长为15
 
 typedef struct {
     char ch[MAXLEN];//每个分量存储一个字符
@@ -14,17 +14,17 @@ typedef struct {
 } SString;
 
 //初始化
-bool InitStr(SString &S) {
+void InitStr(SString &S) {
     S.ch[1] = ' ';
     S.length = 0;
 }
 
 //赋值操作
-bool StrAssign(SString &T, char str[]) {
+bool StrAssign(SString &T, char *str[]) {
     if (str[0] == NULL)return false;//传入空数组就失败
     int strLength = sizeof(str) / sizeof(str[0]);
     for (int i = 0; i < strLength; ++i) {
-        T.ch[i + 1] == str[i];//空置T的第一个元素位置
+        T.ch[i + 1] = *str[i];//空置T的第一个元素位置
     }
     T.length = strLength;
     return true;
@@ -211,8 +211,23 @@ void Get_BetterNext(SString T, int betterNext[]) {
     }
 }
 
+void PrintStr(SString S){
+    for (int i = 1; i <=S.length ; ++i) {
+        printf("%s",S.ch[i]);
+    }
+}
+
 void TestStr() {
     printf("开始测试！\n");
+
+    SString S,T;
+    InitStr(S);
+    char *str1[10]={"k","i","m"};
+    printf("%s\n",str1[0]);
+    if (StrAssign(S,str1)){
+        printf("赋值操作成功啦！\n");
+    }
+//    PrintStr(S);
 
     printf("测试结束!\n");
 }
