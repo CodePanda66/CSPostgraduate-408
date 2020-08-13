@@ -218,9 +218,10 @@ void ClearStr(SString &S) {
 }
 
 //销毁操作
-void DestoryString(SString &S) {
-
-}
+//void DestoryString(SString &S) {
+//
+//}
+//基于数组实现的字符串存储会自动销毁，无须单独销毁
 
 /**实现模块**/
 
@@ -234,6 +235,14 @@ void printDs(SString S, char *StrName) {
     printf("\n");
 }
 
+void testBoolOperate(bool result, char *message, char *success, char *fail) {
+    if (result) {
+        printf("%s%s\n", message, success);
+    } else {
+        printf("%s%s\n", message, fail);
+    }
+}
+
 void testModule() {
     printf("开始测试！\n");
 
@@ -244,36 +253,21 @@ void testModule() {
     // char str1[] = {'k','i','m'};
     // 而这种不会，所以在选择初始化方式的时候尽量做到统一，否则你很有可能因为'\0'而匹配不到子串
 
-    char str2[] = "kimyang";
-
-    if (StrAssign(S, str1)) {
-        printf("赋值操作成功啦！\n");
-    } else {
-        printf("赋值操作失败了！\n");
-    }
+    char str2[] = "kimYang";
+    testBoolOperate(StrAssign(S, str1), "赋值操作", "成功啦！", "失败啦！");
     printDs(S, "S");
-    if (StrAssign(T, str2)) {
-        printf("赋值操作又成功啦！\n");
-    } else {
-        printf("赋值操作失败了！\n");
-    }
+    testBoolOperate(StrAssign(S, str2), "赋值操作", "又成功啦！", "失败啦！");
     printDs(T, "T");
 
     SString S1;
     InitStr(S1);
-    if (StrEmpty(S1)) {
-        printf("字符串为空！\n");
-    } else {
-        printf("字符串非空！\n");
-    }
     StrCopy(S1, S);
-    if (StrEmpty(S1)) {
-        printf("字符串为空！\n");
-    } else {
-        printf("字符串非空！\n");
-    }
     printDs(S1, "S1");
 
+    SString S2;
+    InitStr(S2);
+    Concat(S2, S, T);
+    printDs(S2, "S2");
 
     printf("测试结束!\n");
 }
