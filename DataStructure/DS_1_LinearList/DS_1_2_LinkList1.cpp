@@ -1,5 +1,6 @@
 //
 // Created by kim on 2020/6/19.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //带头节点的单链表
@@ -7,10 +8,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**定义模块**/
+
 typedef struct LNode{
     int data;
     LNode *next;
 }LNode,*LinkList;
+
+/**定义模块**/
+
+
+/**实现模块**/
 
 //初试化(带有头节点)
 bool InitList(LinkList &L){
@@ -97,6 +105,9 @@ bool DeleteNode(LNode *p){
 
 }
 
+/**实现模块**/
+
+/**测试模块**/
 //Test
 void TestPrint(bool test,char about[]){
     if (test)
@@ -117,6 +128,7 @@ void PrintList(LinkList L){
     }
 
 }
+/**测试模块**/
 
 int main(){
     LinkList L;

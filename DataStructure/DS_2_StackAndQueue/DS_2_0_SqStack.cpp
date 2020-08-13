@@ -1,9 +1,12 @@
 //
 // Created by kim on 2020/6/21.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //顺序栈的实现
 #include <stdio.h>
+
+/**定义模块**/
 
 # define  MaxSize 10
 typedef struct {
@@ -11,6 +14,9 @@ typedef struct {
     int top;
 } SqStack;
 
+/**定义模块**/
+
+/**实现模块**/
 
 //初始化
 void InitStack(SqStack &S) {
@@ -94,7 +100,9 @@ int GetTopOther1(SqStack S) {
     if (S.top == 0)return -1;
     return S.data[S.top - 1];
 }
+/**实现模块**/
 
+/**测试模块**/
 
 //打印整个栈
 void PrintStack(SqStack S) {
@@ -188,7 +196,7 @@ void testStack() {
 
     printf("测试完毕了！\n");
 }
-
+/**测试模块**/
 
 int main() {
     printf("Hello, SqStack!");

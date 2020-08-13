@@ -1,8 +1,12 @@
 //
 // Created by kim on 2020/6/17.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //顺序表——静态分配的实现方式
+
+/**定义模块**/
+
 #include <stdio.h>
 #define MaxSize 10
 
@@ -14,8 +18,9 @@ typedef struct {
 //函数声明
 void PrintSqList(SqList L);
 
-//
+/**定义模块**/
 
+/**实现模块**/
 
 //初始化
 void InitList(SqList &L){
@@ -137,6 +142,10 @@ void ChangeTest(SqList &L,int e,int em1,int i, int em2){
 //销毁
 //由于静态分配方式是通过声明数组的方式实现的，故不需要手动销毁SqList表，在使用完成之后，系统会自动删除数据并回收数据空间
 
+/**实现模块**/
+
+/**测试模块**/
+
 //测试
 //打印整个顺序表
 void PrintSqList(SqList L){
@@ -192,7 +201,7 @@ void Test(){
     //打印输出
     PrintSqList(L);
 }
-
+/**测试模块**/
 //主函数
 int  main(){
     Test();

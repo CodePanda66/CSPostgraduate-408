@@ -1,18 +1,22 @@
 //
 // Created by kim yang on 2020/8/3.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //栈的应用
 
-/**以下都是基础操作定义以及实现的方式和前面一样**/
 #include <stdio.h>
 
+/**定义模块**/
 # define  MaxSize 10
 typedef struct {
     char data[MaxSize];
     int top;
 } SqStack;
+/**定义模块**/
 
+/**实现模块**/
+/**以下都是基础操作定义以及实现的方式和前面一样**/
 //初始化
 void InitStack(SqStack &S) {
     S.top = -1;//这种初始化的方式，栈顶指针始终指向栈顶元素
@@ -45,14 +49,6 @@ bool StackEmpty (SqStack S) {
     return S.top==-1;
 }
 
-//打印整个栈
-void PrintStack(SqStack S) {
-    printf("从栈顶元素开始，栈如下：\n");
-    while (S.top >= 0) {//注意判空的条件
-        printf("S[%d]=%d\n", S.top, S.data[S.top--]);
-    }
-    printf("栈打印完毕\n");
-}
 
 /**以上都是基础操作定义以及实现的方式和前面一样**/
 bool bracketCheck(char str[],int length){
@@ -76,7 +72,17 @@ bool bracketCheck(char str[],int length){
     }
     return StackEmpty(S);//最后检查栈，若空匹配成功，非空匹配失败
 }
+/**实现模块**/
 
+/**测试模块**/
+//打印整个栈
+void PrintStack(SqStack S) {
+    printf("从栈顶元素开始，栈如下：\n");
+    while (S.top >= 0) {//注意判空的条件
+        printf("S[%d]=%d\n", S.top, S.data[S.top--]);
+    }
+    printf("栈打印完毕\n");
+}
 
 void TestQueueApplication(){
     printf("开始测试\n");
@@ -116,6 +122,8 @@ void TestQueueApplication(){
 
     printf("测试完毕了！\n");
 }
+/**测试模块**/
+
 int main(){
     TestQueueApplication();
     return 0;

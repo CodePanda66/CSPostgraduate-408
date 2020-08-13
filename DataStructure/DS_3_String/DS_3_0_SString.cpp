@@ -1,10 +1,13 @@
 //
-// Created by kim yang on 2020/8/3.
+// Created by Kim Yang on 2020/8/3.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //顺序存储——静态数组实现方式（定长顺序存储），注意下面实现在数组中存放字符串时，都会舍弃，Str[0]，第一个结点的空间，以保证字符下标和数组下标保证一致
 #include <stdio.h>
 #include <cstring>
+
+/**定义模块**/
 
 #define MAXLEN 15 //预定义最大串长为15
 
@@ -13,30 +16,37 @@ typedef struct {
     int length; //串的实际长度
 } SString;
 
+/**定义模块**/
+
+/**实现模块**/
+
 //初始化
 void InitStr(SString &S) {
-    S.ch[1] = ' ';
+    S.ch[1] = '\0';//以字符串结束符号来作为初始状态
     S.length = 0;
+
 }
 
 //赋值操作
-bool StrAssign(SString &T, char *str[]) {
-    if (str[0] == NULL)return false;//传入空数组就失败
+bool StrAssign(SString &T, char *str) {
+
+    if (str[0] == '\0')return false;//传入空数组就失败,条件依据初始化操作和清空操作而定
     int strLength = sizeof(str) / sizeof(str[0]);
     for (int i = 0; i < strLength; ++i) {
-        T.ch[i + 1] = *str[i];//空置T的第一个元素位置
+        T.ch[i + 1] = str[i];//空置T的第一个元素位置
     }
     T.length = strLength;
     return true;
 }
 
 //复制操作
-bool StrCopy(SString &T, SString S) {
+void StrCopy(SString &T, SString S) {
+
     for (int i = 1; i < S.length; ++i) {
         T.ch[i] = S.ch[i];
     }
     T.length = S.length;
-    return true;
+
 }
 
 //判空
@@ -44,16 +54,6 @@ bool StrEmpty(SString S) {
     return S.length == 0;
 }
 
-//清空操作
-void ClearStr(SString &S) {
-    S.length = 0;
-    memset(S.ch, 0, MAXLEN);//用到了一个cstring库中的memset函数
-}
-
-//销毁操作
-void DestoryString(SString &S) {
-
-}
 
 //串链操作
 void Concat(SString &T, SString S1, SString S2) {
@@ -162,7 +162,7 @@ int Index_KMP(SString S, SString T, int next[]) {
 }
 
 //求模式串T的next数组
-void Get_Next(SString T, int next[]) {
+void getNext(SString T, int *next) {
     int i = 1, j = 0;
     next[1] = 0;
     while (i < T.length) {
@@ -182,7 +182,7 @@ void Get_Next(SString T, int next[]) {
 int Index_KMP1(SString S, SString T) {
     int i = 1, j = 1;
     int next[T.length + 1];
-    Get_Next(T, next);
+    getNext(T, next);
     while (i <= S.length && j <= T.length) {
         if (j == 0 || S.ch[i] == T.ch[j]) {
             ++i;
@@ -201,7 +201,7 @@ int Index_KMP1(SString S, SString T) {
 void Get_BetterNext(SString T, int betterNext[]) {
     int i = 1, j = 0;
     int next[T.length + 1];
-    Get_Next(T, next);//先求出next数组
+    getNext(T, next);//先求出next数组
     betterNext[1] = 0;//令betterNext[1]=0
     for (int j = 2; j <= T.length; ++j) {
         if (T.ch[next[j]] == T.ch[j])
@@ -211,29 +211,77 @@ void Get_BetterNext(SString T, int betterNext[]) {
     }
 }
 
-void PrintStr(SString S){
-    for (int i = 1; i <=S.length ; ++i) {
-        printf("%s",S.ch[i]);
-    }
+//清空操作
+void ClearStr(SString &S) {
+    S.length = 0;
+    memset(S.ch, '\0', MAXLEN);//用到了一个cstring库中的memset函数
 }
 
-void TestStr() {
+//销毁操作
+void DestoryString(SString &S) {
+
+}
+
+/**实现模块**/
+
+/**测试模块**/
+void printDs(SString S, char *StrName) {
+    printf("当前%s字符串内容为：", StrName);
+    for (int i = 1; i <= S.length; ++i) {
+        if (S.ch[i] != '\0')
+            printf("%c", S.ch[i]);//注意输出单个字符用的是%c，而%s是输出一个字符串
+    }
+    printf("\n");
+}
+
+void testModule() {
     printf("开始测试！\n");
 
-    SString S,T;
+    SString S, T;
     InitStr(S);
-    char *str1[10]={"k","i","m"};
-    printf("%s\n",str1[0]);
-    if (StrAssign(S,str1)){
+    InitStr(T);
+    char str1[] = "kim";//使用这种初始化列表进行初始化，最后会数组会多一个结束符'\0'
+    // char str1[] = {'k','i','m'};
+    // 而这种不会，所以在选择初始化方式的时候尽量做到统一，否则你很有可能因为'\0'而匹配不到子串
+
+    char str2[] = "kimyang";
+
+    if (StrAssign(S, str1)) {
         printf("赋值操作成功啦！\n");
+    } else {
+        printf("赋值操作失败了！\n");
     }
-//    PrintStr(S);
+    printDs(S, "S");
+    if (StrAssign(T, str2)) {
+        printf("赋值操作又成功啦！\n");
+    } else {
+        printf("赋值操作失败了！\n");
+    }
+    printDs(T, "T");
+
+    SString S1;
+    InitStr(S1);
+    if (StrEmpty(S1)) {
+        printf("字符串为空！\n");
+    } else {
+        printf("字符串非空！\n");
+    }
+    StrCopy(S1, S);
+    if (StrEmpty(S1)) {
+        printf("字符串为空！\n");
+    } else {
+        printf("字符串非空！\n");
+    }
+    printDs(S1, "S1");
+
 
     printf("测试结束!\n");
 }
 
+/**测试模块**/
+
 int main() {
-    TestStr();
+    testModule();
     return 0;
 }
 

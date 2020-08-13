@@ -1,15 +1,22 @@
 //
 // Created by kim on 2020/6/20.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //循环单链表
 #include <stdio.h>
 #include <stdlib.h>
 
+/**定义模块**/
+
 typedef struct LNode{
     int data;
     struct LNode *next;
 }LNode,*LinkList;
+
+/**定义模块**/
+
+/**实现模块**/
 
 //初始化一个循环单链表
 bool InitRLinkList(LinkList &L){
@@ -24,6 +31,13 @@ bool InitRLinkList(LinkList &L){
 bool IsTail(LinkList L,LNode *p){
     return (p->next==L);
 }
+
+/**实现模块**/
+
+/**测试模块**/
+
+
+/**测试模块**/
 
 int  main(){
 

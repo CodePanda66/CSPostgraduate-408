@@ -1,5 +1,6 @@
 //
 // Created by kim yang on 2020/8/8.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //链式存储——单结点多字符

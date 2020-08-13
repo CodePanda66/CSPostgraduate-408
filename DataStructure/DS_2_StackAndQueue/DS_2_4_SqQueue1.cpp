@@ -1,11 +1,13 @@
 //
 // Created by kim yang on 2020/8/1.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //循环顺序队列的第二种实现方式
 
 #include <stdio.h>
 
+/**定义模块**/
 #define MaxSize 10
 
 typedef struct {
@@ -13,7 +15,9 @@ typedef struct {
     int front, rear;//对头指针和队尾指针
     int size;//利用size变量记录队列长度，并用作判满的条件！有了size就不会浪费一个存储空间
 } SqQueue;
+/**定义模块**/
 
+/**实现模块**/
 //初始化
 void InitQueue(SqQueue &Q) {
     Q.rear = Q.front = 0;//初始化时，队头队尾都指向0
@@ -52,7 +56,9 @@ bool GetHead(SqQueue Q, int &x) {
     x = Q.data[Q.front];
     return true;
 }
+/**实现模块**/
 
+/**测试模块**/
 //打印整个队列
 void PrintQueue(SqQueue Q) {
     printf("开始打印队列\n");
@@ -104,6 +110,7 @@ void TestQueue() {
 
     printf("结束测试！\n");
 }
+/**测试模块**/
 
 int main() {
     TestQueue();

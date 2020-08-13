@@ -1,8 +1,11 @@
 //
 // Created by kim on 2020/6/17.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 #include <stdio.h>
+
+/**实现模块**/
 
 //下面四种函数的时间复杂度值得分析一二
 
@@ -58,6 +61,10 @@ void loveYou4(int n){
     printf("I love you %d\n",n);
 }//递归调用会带来多余的内存开销
 
+/**实现模块**/
+
+/**测试模块**/
+
 //测试函数
 void Test(){
     LoveYou0(30);
@@ -70,6 +77,8 @@ void Test(){
     loveYou4(4);
 
 }
+
+/**测试模块**/
 
 int main(){
     Test();

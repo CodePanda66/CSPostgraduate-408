@@ -1,11 +1,14 @@
 //
 // Created by kim on 2020/6/19.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //不带头节点的单链表
+
 #include <stdio.h>
 #include <stdlib.h>
 
+/**定义模块**/
 typedef struct LNode{
     int data;
     struct LNode *next;
@@ -18,6 +21,11 @@ typedef struct LNode{
 //
 //typedef struct LNode LNode;
 //typedef struct LNode *LinkList;
+
+/**定义模块**/
+
+
+/**实现模块**/
 
 //初始化
 bool InitList(LinkList &L){
@@ -64,6 +72,11 @@ bool ListInsert(LinkList &L,int i, int e){
     return true;
 }
 
+/**实现模块**/
+
+
+/**测试模块**/
+
 //Test
 void TestPrint(bool test,char about[]){
     if (test)
@@ -83,6 +96,8 @@ void PrintList(LinkList L){
         j++;
     }
 }
+
+/**测试模块**/
 
 int main(){
     LinkList L;

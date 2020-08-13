@@ -1,18 +1,22 @@
 //
 // Created by kim on 2020/7/28.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //链栈的实现
 #include <stdio.h>
 #include <stdlib.h>
 
+/**定义模块**/
 # define  MaxSize 10
 typedef struct LinkNode {
     int data;
     struct LinkNode *next;
 } *LinkStack;
 //从结构体的定义就可以看出来，两个共享栈的根源就在于定义两个指针
+/**定义模块**/
 
+/**实现模块**/
 //初始化
 bool InitStack(LinkStack &LS) {
     LS = (LinkNode *) malloc(sizeof(LinkNode));//分配一个头节点
@@ -54,8 +58,9 @@ bool GetTop(LinkStack LS, int &x) {
     x = LS->next->data;
     return true;
 }
+/**实现模块**/
 
-
+/**测试模块**/
 //打印整个栈,栈
 void PrintStack(LinkStack LS) {
     printf("从栈顶元素开始，栈如下：\n");
@@ -114,7 +119,7 @@ void testLinkStack() {
 
     printf("测试完毕了！\n");
 }
-
+/**测试模块**/
 
 int main() {
     printf("Hello, LinkNode!");

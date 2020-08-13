@@ -1,15 +1,22 @@
 //
 // Created by kim on 2020/6/20.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //循环双链表
 #include <stdio.h>
 #include <stdlib.h>
 
+/**定义模块**/
+
 typedef struct DNode{
     int data;
     struct DNode *prior,*next;
 }DNode,*DLinkList;
+
+/**定义模块**/
+
+/**实现模块**/
 
 //初始化
 bool InitRDLinkList(DLinkList &L){
@@ -42,6 +49,12 @@ bool DeleteNextDNode(DLinkList &L,DNode *p){
     free(q);
     return true;
 }
+/**实现模块**/
+
+/**测试模块**/
+
+
+/**测试模块**/
 
 int main(){
 

@@ -1,11 +1,14 @@
 //
 // Created by kim yang on 2020/8/3.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //链式队列（带头节点版本）
 
 #include <stdio.h>
 #include <stdlib.h>
+
+/**定义模块**/
 
 typedef struct LinkNode {
     int data;
@@ -15,7 +18,9 @@ typedef struct LinkNode {
 typedef struct {
     LinkNode *front, *rear;
 } LinkQueue;
+/**定义模块**/
 
+/**实现模块**/
 void InitQueue(LinkQueue &Q) {
     Q.front = Q.rear = NULL;
     //不带头点，初始化时，front 、rear 指向NULL
@@ -68,7 +73,9 @@ bool GetHead(LinkQueue Q, int &x) {
 bool QueueEmpty(LinkQueue Q) {
     return Q.front == Q.rear ? true : false;
 }
+/**实现模块**/
 
+/**测试模块**/
 void PrintQueue(LinkQueue Q) {
     printf("开始打印队列\n");
     int i = 0;
@@ -119,6 +126,7 @@ void TestLinkQueue() {
 
     printf("测试结束!\n");
 }
+/**测试模块**/
 
 int main() {
     TestLinkQueue();

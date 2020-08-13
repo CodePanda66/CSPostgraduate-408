@@ -1,11 +1,13 @@
 //
 // Created by kim on 2020/7/28.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //共享顺序栈的实现
 //简单来说就是两个栈共享一片存储空间，提高顺序栈的对存储空间的使用率
 #include <stdio.h>
 
+/**定义模块**/
 # define  MaxSize 10
 typedef struct {
     int data[MaxSize];
@@ -13,7 +15,9 @@ typedef struct {
     int top1;
 } ShStack;
 //从结构体的定义就可以看出来，两个共享栈的根源就在于定义两个指针
+/**定义模块**/
 
+/**实现模块**/
 //初始化
 void InitStack(ShStack &S) {
     S.top0 = -1;//这种初始化的方式，栈顶指针始终指向栈顶元素
@@ -74,8 +78,9 @@ bool GetTop1(ShStack S, int &x) {
     x = S.data[S.top1];
     return true;
 }
+/**实现模块**/
 
-
+/**测试模块**/
 //打印整个栈,栈0
 void PrintStack0(ShStack S) {
     printf("从栈顶元素开始，栈如下：\n");
@@ -155,6 +160,7 @@ void testShStack() {
     printf("测试完毕了！\n");
 }
 
+/**测试模块**/
 
 int main() {
     printf("Hello, ShStack!");

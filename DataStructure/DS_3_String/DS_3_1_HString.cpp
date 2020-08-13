@@ -1,5 +1,6 @@
 //
 // Created by kim yang on 2020/8/7.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //顺序存储——动态数组实现方式（堆分配存储）

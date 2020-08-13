@@ -1,5 +1,6 @@
 //
 // Created by kim on 2020/6/20.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //带有头节点版本——双链表
@@ -7,10 +8,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**定义模块**/
+
 typedef struct DNode{
     int data;//数据域
     struct DNode *prior,*next;//前指针和后指针
 }DNode,*DLinkList;
+
+/**定义模块**/
+
+
+/**实现模块**/
 
 //初始化
 bool InitDLinkList(DLinkList &L){
@@ -88,6 +96,11 @@ bool PrintPriorElemsOverHead(DNode *p){
     return true;
 }
 
+/**实现模块**/
+
+
+/**测试模块**/
+
 //测试函数
 void TestPrint(bool test,char message[]){
     if (test)
@@ -95,6 +108,8 @@ void TestPrint(bool test,char message[]){
     else
         printf("%s失败啦！\n",message);
 }
+
+/**测试模块**/
 
 int main(){
     DLinkList L;

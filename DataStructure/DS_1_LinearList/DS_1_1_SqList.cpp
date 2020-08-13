@@ -1,16 +1,26 @@
 //
 // Created by kim on 2020/6/17.
+// Copyright (c) Kim Yang All rights reserved.
 //
 
 //顺序表——动态分配的实现方式
+
 #include <stdio.h>
 #include <stdlib.h>
+
+/**定义模块**/
+
 #define InitSize 10
 typedef struct {
     int *data; //指示动态分配数组的指针
     int MaxSize;//顺序表的最大容量
     int length;//顺序表当前的长度
 }SeqList;
+
+/**定义模块**/
+
+
+/**实现模块**/
 
 //初始化
 bool InitList(SeqList &L){
@@ -113,6 +123,11 @@ void DestroySqList(SeqList &L){
     L.length=0;
 }
 
+/**实现模块**/
+
+
+/**测试模块**/
+
 //测试
 //打印整个顺序表
 void PrintSqList(SeqList L){
@@ -136,7 +151,7 @@ void TestPrint(bool test,char message[]){
         printf("%s失败啦！\n",message);
 }
 
-int main(){
+void testModule(){
     SeqList L;
 
     TestPrint(InitList(L),"初始化");
@@ -177,6 +192,11 @@ int main(){
     DestroySqList(L);
     TestPrint(Empty(L),"删除");
     PrintSqList(L);
+}
 
+/**测试模块**/
+
+int main(){
+    testModule();
     return 0;
 }
