@@ -17,6 +17,17 @@ typedef struct {
     int length;//顺序表当前的长度
 }SeqList;
 
+//函数声明
+bool InitList(SeqList &L);//初始化
+bool Empty(SeqList L);//判空
+bool Full(SeqList L);//判满
+void  IncreaseSize(SeqList &L,int len);//动态扩展空间
+bool ListInsert(SeqList &L,int i,int e);//插入
+int GetElem(SeqList L,int i);//按位查找
+int LocateElem(SeqList L,int e);//按值查找
+bool ListDelete(SeqList &L, int i, int &e);//删除
+void DestroySqList(SeqList &L);//销毁
+
 /**定义模块**/
 
 
