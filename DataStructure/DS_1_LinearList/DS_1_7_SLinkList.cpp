@@ -23,6 +23,8 @@ typedef struct Node{
 }SLinkList[MaxSize];
 //相比之下，第二种方法可读性更强！，推荐
 
+//函数声明
+
 /**定义模块**/
 
 /**实现模块**/
@@ -39,13 +41,15 @@ void TestSLinkList(){
 /**实现模块**/
 
 /**测试模块**/
+void TestModule(){
 
+}
 
 
 /**测试模块**/
 
 int main(){
     //后续来填坑吧！！
-
+    TestModule();
     return 0;
 }

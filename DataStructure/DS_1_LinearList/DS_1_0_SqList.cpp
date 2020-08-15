@@ -17,17 +17,17 @@ typedef struct {
 } SqList;
 
 //函数声明
-void InitList(SqList &L);//初始化
-bool Empty(SqList L);//判空
-bool ListInsert(SqList &L, int i, int e);//插入
-bool ListDelete(SqList &L, int i, int &e);//删除
-int GetElem(SqList L, int i);//按位查找
-int LocateElem(SqList L, int e);//按值查找
-bool LocateChangeElem(SqList &L, int e, int em);//按值修改
-bool getChangeElem(SqList &L, int i, int em);//按位修改
+void InitList(SqList &L);                           //初始化
+bool Empty(SqList L);                               //判空
+bool ListInsert(SqList &L, int i, int e);           //插入
+bool ListDelete(SqList &L, int i, int &e);          //删除
+int GetElem(SqList L, int i);                       //按位查找
+int LocateElem(SqList L, int e);                    //按值查找
+bool LocateChangeElem(SqList &L, int e, int em);    //按值修改
+bool getChangeElem(SqList &L, int i, int em);       //按位修改
 
-void PrintSqList(SqList L);//打印函数
-
+void PrintSqList(SqList L);                         //打印函数
+void testModule();                                  //测试模块
 
 /**定义模块**/
 
@@ -188,7 +188,10 @@ void testModule() {
     PrintSqList(L);
 
     //测试改模块功能是否正常
-    int e1=2; int em1=6; int i=1;int em2=7;
+    int e1 = 2;
+    int em1 = 6;
+    int i = 1;
+    int em2 = 7;
     printf("开始测试【改】\n"
            "第一种方式先按值查找后改值\n");
     if (LocateChangeElem(L, e1, em1)) {
@@ -204,9 +207,9 @@ void testModule() {
     } else {
         printf("第二种先按位序查找后改值的方式失败了，再检查一下吧！\n");
     }
-    if (Empty(L)){
+    if (Empty(L)) {
         printf("顺序表为空！\n");
-    } else{
+    } else {
         printf("顺序表非空！\n");
     }
 

@@ -14,6 +14,12 @@ typedef struct DNode{
     struct DNode *prior,*next;
 }DNode,*DLinkList;
 
+//函数声明
+bool InitRDLinkList(DLinkList &L);//初始化
+bool iTail(DLinkList L,DNode *p);//判断节点p是不是循环双链表的表尾节点
+bool InsertNextDNode(DNode *p,DNode *s);//在p节点之后插入s节点
+bool DeleteNextDNode(DLinkList &L,DNode *p);//删除操作
+
 /**定义模块**/
 
 /**实现模块**/
@@ -52,12 +58,13 @@ bool DeleteNextDNode(DLinkList &L,DNode *p){
 /**实现模块**/
 
 /**测试模块**/
+void TestModule(){
 
+}
 
 /**测试模块**/
 
 int main(){
-
-
+    TestModule();
     return 0;
 }
