@@ -17,6 +17,13 @@ typedef struct LinkNode {
 typedef struct {
     LinkNode *front, *rear;
 } LinkQueue;
+
+//函数声明
+void InitQueue(LinkQueue &Q);//初始化
+bool EnQueue(LinkQueue &Q, int x);//入队操作
+bool DeQueue(LinkQueue &Q, int &x);//出队
+bool GetHead(LinkQueue Q, int &x);//获取头元素
+bool QueueEmpty(LinkQueue Q);//判空
 /**定义模块**/
 
 /**实现模块**/
@@ -26,7 +33,6 @@ void InitQueue(LinkQueue &Q) {
     Q.front->next = NULL;
 }
 
-//入队操作
 bool EnQueue(LinkQueue &Q, int x) {
     //判满？链式存储一般不需要判满，除非内存不足
     LinkNode *s = (LinkNode *) malloc(sizeof(LinkNode));
@@ -38,7 +44,6 @@ bool EnQueue(LinkQueue &Q, int x) {
     return true;
 }
 
-//出队
 bool DeQueue(LinkQueue &Q, int &x) {
     if (Q.front == Q.rear)return false;//队空
     LinkNode *p = Q.front->next;//用指针p记录队头元素
@@ -55,7 +60,8 @@ bool GetHead(LinkQueue Q, int &x) {
     x = Q.front->next->data;//用x变量返回队头元素
     return true;
 }
-bool QueueEmpty(LinkQueue Q){
+
+bool QueueEmpty(LinkQueue Q) {
     return Q.front==Q.rear? true: false;
 }
 /**实现模块**/

@@ -15,6 +15,15 @@ typedef struct {
     int top1;
 } ShStack;
 //从结构体的定义就可以看出来，两个共享栈的根源就在于定义两个指针
+
+//函数声明
+void InitStack(ShStack &S);//初始化
+bool Push0(ShStack &S, int t);//入栈0
+bool Push1(ShStack &S, int t);//入栈1
+bool Pop0(ShStack &S, int &x);//出栈,并打印出栈顶元素
+bool Pop1(ShStack &S, int &x);//出栈1
+bool GetTop0(ShStack S, int &x);//读取栈顶元素，栈0
+bool GetTop1(ShStack S, int &x);//栈1
 /**定义模块**/
 
 /**实现模块**/

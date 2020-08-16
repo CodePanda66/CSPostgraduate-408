@@ -13,11 +13,17 @@ typedef struct LinkNode {
     int data;
     struct LinkNode *next;
 } *LinkStack;
-//从结构体的定义就可以看出来，两个共享栈的根源就在于定义两个指针
+
+//函数声明
+bool InitStack(LinkStack &LS);//初始化
+bool Push(LinkStack &LS, int t);//入栈 参考头插法建立单链表
+bool Pop(LinkStack &LS, int &x);//出栈,并打印出栈顶元素
+bool GetTop(LinkStack LS, int &x);//读取栈顶元素，栈
+
 /**定义模块**/
 
 /**实现模块**/
-//初始化
+
 bool InitStack(LinkStack &LS) {
     LS = (LinkNode *) malloc(sizeof(LinkNode));//分配一个头节点
     if (LS == NULL) {
@@ -27,7 +33,6 @@ bool InitStack(LinkStack &LS) {
     return true;
 }
 
-//入栈 参考头插法建立单链表
 bool Push(LinkStack &LS, int t) {
     //入站不需要检查
     LinkNode *s = (LinkNode *) malloc(sizeof(LinkNode));
@@ -38,8 +43,6 @@ bool Push(LinkStack &LS, int t) {
     return true;
 }
 
-
-//出栈,并打印出栈顶元素
 bool Pop(LinkStack &LS, int &x) {
     //判断
     if (LS->next == NULL)return false;//栈空,这里的条件
@@ -51,13 +54,12 @@ bool Pop(LinkStack &LS, int &x) {
     return true;
 }
 
-
-//读取栈顶元素，栈
 bool GetTop(LinkStack LS, int &x) {
     if (LS == NULL)return false;
     x = LS->next->data;
     return true;
 }
+
 /**实现模块**/
 
 /**测试模块**/

@@ -3,7 +3,7 @@
 // Copyright (c) Kim Yang All rights reserved.
 //
 
-//栈的应用
+//栈的应用——扩号匹配问题
 
 #include <stdio.h>
 
@@ -13,16 +13,23 @@ typedef struct {
     char data[MaxSize];
     int top;
 } SqStack;
+
+//函数声明
+//以下都是基础操作定义以及实现的方式和前面一样
+void InitStack(SqStack &S);//初始化
+bool Push(SqStack &S, char t);//入栈
+bool Pop(SqStack &S, char &x);//出栈,并打印出栈顶元素
+bool StackEmpty (SqStack S);//判栈空
+//以上都是基础操作定义以及实现的方式和前面一样
+//括号匹配问题
+bool bracketCheck(char str[],int length);
 /**定义模块**/
 
 /**实现模块**/
-/**以下都是基础操作定义以及实现的方式和前面一样**/
-//初始化
 void InitStack(SqStack &S) {
     S.top = -1;//这种初始化的方式，栈顶指针始终指向栈顶元素
 }
 
-//入栈
 bool Push(SqStack &S, char t) {
     if (S.top == MaxSize - 1)return false;//栈满
     S.data[++S.top] = t;
@@ -32,7 +39,6 @@ bool Push(SqStack &S, char t) {
     return true;
 }
 
-//出栈,并打印出栈顶元素
 bool Pop(SqStack &S, char &x) {
     //判断
     if (S.top == -1)return false;//栈空报错
@@ -43,15 +49,11 @@ bool Pop(SqStack &S, char &x) {
     return true;
 }
 
-
-//读取栈顶元素
-bool StackEmpty (SqStack S) {
+bool StackEmpty(SqStack S) {
     return S.top==-1;
 }
 
-
-/**以上都是基础操作定义以及实现的方式和前面一样**/
-bool bracketCheck(char str[],int length){
+bool bracketCheck(char *str, int length) {
     SqStack S;
     InitStack(S);
     for (int i = 0; i <length ; i++) {
@@ -72,6 +74,7 @@ bool bracketCheck(char str[],int length){
     }
     return StackEmpty(S);//最后检查栈，若空匹配成功，非空匹配失败
 }
+
 /**实现模块**/
 
 /**测试模块**/
