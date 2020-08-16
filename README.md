@@ -1,14 +1,17 @@
 
 <div align="center"><img src="./408Notes/.vuepress/public/icons@2x.png"></div>
 
+<div align="center">
+
 # 2021-CSPostgraduate-408
 
-[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](LICENSE)
 ![Top Language](https://img.shields.io/github/languages/top/KimYangOfCat/2021-CSPostgraduate-408?color=F8008E)
 ![DataStructure](https://img.shields.io/static/v1?label=&message=DataStructure&color=brightgreen)
 ![ComputerOrganization](https://img.shields.io/static/v1?label=&message=ComputerOrganization&color=blueviolet)
 ![ComputerNetWork](https://img.shields.io/static/v1?label=&message=ComputerNetWork&color=blue)
 ![OperatingSystem](https://img.shields.io/static/v1?label=&message=OperatingSystem&color=important)
+
+</div>
 
 本仓库主要记录了一些CS考研408等专业课的一些资料、笔记以及算法源码。
 <!--
