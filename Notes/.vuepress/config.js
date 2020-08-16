@@ -1,20 +1,13 @@
 module.exports = {
-    site:{
-        "title": "CSPostgraduate",
-        "description": "CSKaoYan CSPostgraduate 408",
-        "base": "/2021-CSPostgraduate-408/",
-        "pages": [
-            {
-                "lastUpdated": 1524027677000,
-                "path": "/2021-CSPostgraduate-408/",
-                "title": "CSPostgraduate",
-                "frontmatter": {}
-            },
-            ]
-    },
+    title: "CSPostgraduate",
+    base: "/2021-CSPostgraduate-408/",
+    repo: "https://github.com/KimYangOfCat/2021-CSPostgraduate-408",
+    description:"2021 CSPostgraduate 408",
+    port:4080,
+
     theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: '/assets/img/logo.png',
+        // logo: '/assets/img/logo.png',
         nav: [
             {text: '首页', link: '/'},
             {text: '数据结构', link: '/DataStructure/'},
@@ -26,17 +19,17 @@ module.exports = {
         ],
         sidebar:
             {
-            '/DataStructure/': getDataStructureSidebar(),
-            '/ComputerOrganization/':getComputerOrganizationSidebar(),
-            '/ComputerNetwork/':getComputerNetworkSidebar(),
-            '/OperatingSystem/':getOperatingSystemSidebar(),
-            // fallback
-            '/': [
-                // '',        /* / */
-                'contact', /* /contact.html */
-                // 'about'    /* /about.html */
-            ]
-        },
+                '/DataStructure/': getDataStructureSidebar(),
+                '/ComputerOrganization/': getComputerOrganizationSidebar(),
+                '/ComputerNetwork/': getComputerNetworkSidebar(),
+                '/OperatingSystem/': getOperatingSystemSidebar(),
+                // fallback
+                '/': [
+                    // '',        /* / */
+                    'contact', /* /contact.html */
+                    // 'about'    /* /about.html */
+                ]
+            },
 
         sidebarDepth: 2,
         // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
@@ -115,11 +108,13 @@ function getComputerOrganizationSidebar() {
         '/ComputerOrganization/',
     ]
 }
+
 function getComputerNetworkSidebar() {
     return [
         '/ComputerNetwork/',
     ]
 }
+
 function getOperatingSystemSidebar() {
     return [
         '/OperatingSystem/',
