@@ -110,9 +110,9 @@ function getDataStructureSidebar() {
                 '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_2_二叉树',
                 '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_3_二叉树的性质',
                 '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_4_二叉树的存储结构',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_5_二叉树的性质',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_6_二叉树的遍历',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_7_二叉树的构造',
+                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_5_二叉树的遍历',
+                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_6_二叉树的构造',
+                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_7_线索二叉树',
                 '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_8_二叉树的线索化',
             ]
         },
