@@ -2,9 +2,9 @@ name: vuepress-deploy
 
 on:
   push:
-    branches: [ dev-web]
+    branches: [ master ]
   pull_request:
-    branches: [ dev-web ]
+    branches: [ master ]
 
 jobs:
   build-and-deploy:
