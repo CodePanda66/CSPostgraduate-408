@@ -1,5 +1,5 @@
 
-<div align="center"><img src="./408Notes/.vuepress/public/icons@2x.png"><div>
+<div align="center"><img src="./408Notes/.vuepress/public/icons@2x.png"></div>
 
 # 2021-CSPostgraduate-408
 
