@@ -7,10 +7,15 @@ actionText: 开始阅读 →
 actionLink: /DataStructure/
 footer: GPL Licensed | Copyright © 2020-present Kim Yang
 ---
+<div align="center">
+
 ![DataStructure](https://img.shields.io/static/v1?label=&message=DataStructure&color=brightgreen) 
 ![ComputerOrganization](https://img.shields.io/static/v1?label=&message=ComputerOrganization&color=blueviolet)
 ![ComputerNetWork](https://img.shields.io/static/v1?label=&message=ComputerNetWork&color=blue)
 ![OperatingSystem](https://img.shields.io/static/v1?label=&message=OperatingSystem&color=important)
+
+</div>
+
 ## 21年考408的院校(信息来源于网络，更准确的信息请于各高校官网查询)
 
 ### 985高校
