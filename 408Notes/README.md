@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /408.jpg
+heroImage: /icons@2x.png
 heroText: 2021 计算机考研 408 专业课
 tagline: 2021-CSPostgraduate-408
 actionText: 开始阅读 →
