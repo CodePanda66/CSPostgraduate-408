@@ -15,7 +15,7 @@ module.exports = {
             {text: '计算机网络', link: '/ComputerNetwork/'},
             {text: '操作系统', link: '/OperatingSystem/'},
             {text: '联系我', link: '/contact'},
-            {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
+            // {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
         ],
         sidebar:
             {
@@ -29,14 +29,28 @@ module.exports = {
                     'contact', /* /contact.html */
                 ]
             },
-
-        sidebarDepth: 2,
         // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
         nextLinks: true,
         // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
         prevLinks: true,
-
+        lastUpdated:"最后更新时间：",
         smoothScroll: true,
+        // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+        repo: 'KimYangOfCat/2021-CSPostgraduate-408',
+        // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+        // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+        repoLabel: 'GitHub',
+        // 以下为可选的编辑链接选项
+        // 假如你的文档仓库和项目本身不在一个仓库：
+        // docsRepo: 'KimYangOfCat/2021-CSPostgraduate-408',
+        // 假如文档不是放在仓库的根目录下：
+        docsDir: '408Notes',
+        // 假如文档放在一个特定的分支下：
+        docsBranch: 'master',
+        // 默认是 false, 设置为 true 来启用
+        editLinks: true,
+        // 默认为 "Edit this page"
+        editLinkText: '帮助我们完善此页面吧～'
     }
 }
 
