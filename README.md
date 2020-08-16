@@ -1,3 +1,6 @@
+
+<div align="center"><img src="./408Notes/.vuepress/public/icons@2x.png"><div>
+
 # 2021-CSPostgraduate-408
 
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](LICENSE)
