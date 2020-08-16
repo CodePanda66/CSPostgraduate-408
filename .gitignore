@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
-
+node_modules/
+yarn.lock
 cmake-build-debug/*
 .idea/*
 
