@@ -2,11 +2,11 @@ module.exports = {
     site:{
         "title": "CSPostgraduate",
         "description": "CSKaoYan CSPostgraduate 408",
-        "base": "https://kimyang.cn/2021-CSPostgraduate-408/",
+        "base": "/2021-CSPostgraduate-408/",
         "pages": [
             {
                 "lastUpdated": 1524027677000,
-                "path": "/",
+                "path": "/2021-CSPostgraduate-408/",
                 "title": "CSPostgraduate",
                 "frontmatter": {}
             },

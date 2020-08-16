@@ -5,6 +5,9 @@ yarn.lock
 cmake-build-debug/*
 .idea/*
 
+docs/.vuepress/dist/*
+
+
 .DS_Store
 # Object files
 *.o
