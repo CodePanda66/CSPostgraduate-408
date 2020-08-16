@@ -1,8 +1,12 @@
 # Prerequisites
 *.d
-
+node_modules/
+yarn.lock
 cmake-build-debug/*
 .idea/*
+
+Notes/.vuepress/dist/*
+
 
 .DS_Store
 # Object files
