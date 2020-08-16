@@ -20,4 +20,4 @@ jobs:
         TARGET_REPO: KimYangOfCat/2021-CSPostgraduate-408
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: Notes/.vuepress/dist/
+        BUILD_DIR: 408Notes/.vuepress/dist/

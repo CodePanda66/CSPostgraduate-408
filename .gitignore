@@ -5,7 +5,7 @@ yarn.lock
 cmake-build-debug/*
 .idea/*
 
-Notes/.vuepress/dist/*
+408Notes/.vuepress/dist/*
 
 
 .DS_Store
