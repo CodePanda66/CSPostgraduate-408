@@ -7,7 +7,11 @@ module.exports = {
 
     theme: '@vuepress/theme-default',
     themeConfig: {
-        // logo: '/assets/img/logo.png',
+        logo: 'icons.png',
+        head:[
+            ['link',{rel:'icon',href:'/icons.png'}],
+            ['link', { rel: 'apple-touch-icon', href: `/icons.png` }],
+        ],
         nav: [
             {text: '首页', link: '/'},
             {text: '数据结构', link: '/DataStructure/'},
