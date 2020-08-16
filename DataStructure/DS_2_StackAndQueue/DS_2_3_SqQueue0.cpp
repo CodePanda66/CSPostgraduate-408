@@ -14,15 +14,23 @@ typedef struct {
     int data[MaxSize];//
     int front, rear;//对头指针和队尾指针
 } SqQueue;
+
+//函数声明
+
+void InitQueue(SqQueue &Q);//初始化
+bool QueueEmpty(SqQueue Q);//判空
+bool EnQueue(SqQueue &Q, int t);//入队操作
+bool DeQueue(SqQueue &Q, int &x);//出队操作
+bool GetHead(SqQueue Q, int &x);//获取队头元素,用x返回
+
 /**定义模块**/
 
 /**实现模块**/
-//初始化
+
 void InitQueue(SqQueue &Q) {
     Q.rear = Q.front = 0;//初始化时，队头队尾都指向0
 }
 
-//判空
 bool QueueEmpty(SqQueue Q) {
     if (Q.front == Q.rear)
         return true;
@@ -30,7 +38,6 @@ bool QueueEmpty(SqQueue Q) {
         return true;
 }
 
-//入队操作
 bool EnQueue(SqQueue &Q, int t) {
     if ((Q.rear + 1) % MaxSize == Q.front)return false;//队满，注意这里的判满条件
     //这里的判满条件会造成浪费一个存储空间的问题
@@ -39,7 +46,6 @@ bool EnQueue(SqQueue &Q, int t) {
     return true;
 }
 
-//出队操作
 bool DeQueue(SqQueue &Q, int &x) {
     if (Q.rear == Q.front)return false;//队空
     x = Q.data[Q.front];
@@ -47,12 +53,12 @@ bool DeQueue(SqQueue &Q, int &x) {
     return true;
 }
 
-//获取队头元素,用x返回
 bool GetHead(SqQueue Q, int &x) {
     if (Q.front == Q.rear)return false;
     x = Q.data[Q.front];
     return true;
 }
+
 /**实现模块**/
 
 /**测试模块**/

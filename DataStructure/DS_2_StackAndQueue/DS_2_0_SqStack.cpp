@@ -14,6 +14,18 @@ typedef struct {
     int top;
 } SqStack;
 
+//函数声明
+void InitStack(SqStack &S);//初始化
+bool Push(SqStack &S, int t);//入栈
+bool Pop(SqStack &S, int &x);//出栈,并打印出栈顶元素
+bool GetTop(SqStack S, int &x);//读取栈顶元素
+int GetTopOther(SqStack S);//读取栈顶元素的第二种实现方式
+
+void InitStack1(SqStack &S);//初始化1
+bool Push1(SqStack &S, int t);//入栈，初始化1
+bool Pop1(SqStack &S, int &x);//出栈,并打印出栈顶元素，初始化1
+bool GetTop1(SqStack S, int &x);//读取栈顶元素，初始化1
+int GetTopOther1(SqStack S);//读取栈顶元素的第二种实现方式
 /**定义模块**/
 
 /**实现模块**/

@@ -14,6 +14,10 @@ typedef struct LNode{
     struct LNode *next;
 }LNode,*LinkList;
 
+//函数声明
+bool InitRLinkList(LinkList &L);//初始化
+bool IsTail(LinkList L,LNode *p);//判断P是不是表尾指针
+
 /**定义模块**/
 
 /**实现模块**/
@@ -35,11 +39,13 @@ bool IsTail(LinkList L,LNode *p){
 /**实现模块**/
 
 /**测试模块**/
+void TestModule(){
 
+}
 
 /**测试模块**/
 
 int  main(){
-
+    TestModule();
     return 0;
 }
