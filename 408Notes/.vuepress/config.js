@@ -9,8 +9,9 @@ module.exports = {
     themeConfig: {
         logo: 'icons.png',
         head:[
-            ['link',{rel:'icon',href:'/icons.png'}],
-            ['link', { rel: 'apple-touch-icon', href: `/icons.png` }],
+            ['link',{rel:'icon',href:'/favicon.ico',type:"image/x-icon"}],
+            ['link',{rel:' short icon',href:'/favicon.ico',type:"image/x-icon"}],
+            ['link', { rel: 'apple-touch-icon', href: `/favicon.ico`,type:"image/x-icon" }],
         ],
         nav: [
             {text: '首页', link: '/'},
