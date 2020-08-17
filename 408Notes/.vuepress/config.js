@@ -59,6 +59,8 @@ module.exports = {
     },
     plugins: {
         '@vssue/vuepress-plugin-vssue': {
+            baseURL:"https://github.com",
+
             platform: 'github-v4', //v3的platform是github，v4的是github-v4
             locale: 'zh', //语言
             // 其他的 Vssue 配置
@@ -66,7 +68,12 @@ module.exports = {
             repo: '2021-CSPostgraduate-408', //github一个项目的名称
             clientId: '0b51066b027f4cb4a5a3',//注册的Client ID
             clientSecret: '4b816edafb10d7e828c0faaaa18df1e7d08585c2',//注册的Client Secret
-            autoCreateIssue:true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
+            autoCreateIssue:false,// 自动创建评论，默认是false
+            labels:['Comments'],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
+            prefix:'[Comments]',//Issue 标题的前缀
+            locale:'zh',//使用的语言。
+            issueContent: ({ url }) =>
+                `这个 Issue 由评论系统自动创建，用来存储[该页面](${url})的评论：`,
         },
     },
 }
