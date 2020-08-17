@@ -56,7 +56,19 @@ module.exports = {
         editLinks: true,
         // 默认为 "Edit this page"
         editLinkText: '帮助我们完善此页面吧～'
-    }
+    },
+    plugins: {
+        '@vssue/vuepress-plugin-vssue': {
+            platform: 'github-v4', //v3的platform是github，v4的是github-v4
+            locale: 'zh', //语言
+            // 其他的 Vssue 配置
+            owner: 'KimYangOfCat', //github账户名
+            repo: '2021-CSPostgraduate-408', //github一个项目的名称
+            clientId: '0b51066b027f4cb4a5a3',//注册的Client ID
+            clientSecret: '4b816edafb10d7e828c0faaaa18df1e7d08585c2',//注册的Client Secret
+            autoCreateIssue:true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
+        },
+    },
 }
 
 function getDataStructureSidebar() {
