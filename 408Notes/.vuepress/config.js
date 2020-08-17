@@ -72,8 +72,7 @@ module.exports = {
             labels:['Comments'],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
             prefix:'[Comments]',//Issue 标题的前缀
             locale:'zh',//使用的语言。
-            issueContent: ({ url }) =>
-                `这个 Issue 由评论系统自动创建，用来存储该页面的评论：${url}`,
+            issueContent: ({ url }) =>`这个 Issue 由评论系统自动创建，用来存储该页面的评论：${url}`,
         },
     },
 }
