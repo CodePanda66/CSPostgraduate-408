@@ -127,6 +127,21 @@
 
 目前本仓库只收录了[408 真题](408Exam),如果你有其他专业课或者更干净无水印的真题资源，欢迎提交 PR 或者在 issues 中提交相关资源的下载链接，感激不尽～
 
+## 下载：
+
+### 镜像仓库：
+[github上的CSPostgraduate-408-2021 仓库](https://github.com/KimYangOfCat/CSPostgraduate-408-2021)与[ gitee 上的 CSPostgraduate-408-2021 仓库](https://gitee.com/kim_yang/CSPostgraduate-408-2021)互为镜像仓库，保持同步更新。
+
+若因网络问题无法在其一下载，可切换至另一仓库进行尝试
+
+
+### 其他下载途径：
+
+若因网络原因无法下载 Release 与真题中的资源，可点击下方网盘链接下载相应的资源：
+
+>  https://cloud.189.cn/t/VN3AZv32aeyy（访问码：7oaq）
+
+若网盘链接失效，可在 issues 中体现作者更新嗷～
 
 ## 贡献
 
