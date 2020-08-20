@@ -21,3 +21,4 @@ jobs:
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: 408Notes/.vuepress/dist/
+        CNAME: 408.kimyang.cn
