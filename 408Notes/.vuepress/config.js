@@ -1,6 +1,6 @@
 module.exports = {
     title: "CSPostgraduate",
-    base: "/2021-CSPostgraduate-408/",
+    base: "/",
     repo: "https://github.com/KimYangOfCat/2021-CSPostgraduate-408",
     description:"2021 CSPostgraduate 408",
     port:4080,
