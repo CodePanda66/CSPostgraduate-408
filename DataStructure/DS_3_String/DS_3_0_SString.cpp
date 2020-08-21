@@ -16,6 +16,24 @@ typedef struct {
     int length; //串的实际长度
 } SString;
 
+//函数声明
+void InitStr(SString &S);//初始化
+bool StrAssign(SString &T, char *str, int strLength);//赋值操作
+void StrCopy(SString &T, SString S);//复制操作
+bool StrEmpty(SString S);//判空
+void Concat(SString &T, SString S1, SString S2);//串链操作
+bool SubString(SString &Sub, SString S, int pos, int len);//求子串
+int StrCompare(SString S, SString T);//比较操作，若S>T,则返回值>0;若S=T,则返回值=0；若S<T，则返回值<0;
+int StrLength(SString S);//获取字符串长度
+int Index(SString S, SString T);//定位操作,若主串S中存在与串T值相同的子串，则返回它在主串S中第一次出现的位置，否则函数值为0；
+int Index_Simple(SString S, SString T);//简单模式匹配
+int Index_Simple_CSKaoYan(SString S, SString T);//简单模式匹配——王道教材写法
+int Index_KMP(SString S, SString T, int next[]);//KMP算法
+void getNext(SString T, int *next);//求模式串T的next数组
+int Index_KMP1(SString S, SString T);//KMP2
+void Get_BetterNext(SString T, int betterNext[]);//优化next数组
+void ClearStr(SString &S);//清空操作
+
 /**定义模块**/
 
 /**实现模块**/
@@ -28,11 +46,11 @@ void InitStr(SString &S) {
 }
 
 //赋值操作
-bool StrAssign(SString &T, char *str) {
+bool StrAssign(SString &T, char *str, int strLength) {
 
     if (str[0] == '\0')return false;//传入空数组就失败,条件依据初始化操作和清空操作而定
-    int strLength = sizeof(str) / sizeof(str[0]);
-    for (int i = 0; i < strLength; ++i) {
+
+    for (int i = 0; i < strLength; ++i) {//想一想为什么这是i<strLength
         T.ch[i + 1] = str[i];//空置T的第一个元素位置
     }
     T.length = strLength;
@@ -42,7 +60,7 @@ bool StrAssign(SString &T, char *str) {
 //复制操作
 void StrCopy(SString &T, SString S) {
 
-    for (int i = 1; i < S.length; ++i) {
+    for (int i = 1; i <= S.length; ++i) {//想一想为什么这是i<=S.length
         T.ch[i] = S.ch[i];
     }
     T.length = S.length;
@@ -57,11 +75,11 @@ bool StrEmpty(SString S) {
 
 //串链操作
 void Concat(SString &T, SString S1, SString S2) {
-    for (int i = 1; i < S1.length; ++i) {
+    for (int i = 1; i <= S1.length; i++) {
         T.ch[i] = S1.ch[i];
     }
-    for (int j = S1.length; j < S1.length + S2.length; ++j) {
-        T.ch[j] == S2.ch[j];
+    for (int j = S1.length + 1; j <= S1.length + S2.length; j++) {
+        T.ch[j] = S2.ch[j - S1.length];//这里好好想一下循环的条件及数组下标
     }
     T.length = S1.length + S2.length;
 }
@@ -254,9 +272,9 @@ void testModule() {
     // 而这种不会，所以在选择初始化方式的时候尽量做到统一，否则你很有可能因为'\0'而匹配不到子串
 
     char str2[] = "kimYang";
-    testBoolOperate(StrAssign(S, str1), "赋值操作", "成功啦！", "失败啦！");
+    testBoolOperate(StrAssign(S, str1, 3), "赋值操作", "成功啦！", "失败啦！");
     printDs(S, "S");
-    testBoolOperate(StrAssign(S, str2), "赋值操作", "又成功啦！", "失败啦！");
+    testBoolOperate(StrAssign(T, str2, 7), "赋值操作", "又成功啦！", "失败啦！");
     printDs(T, "T");
 
     SString S1;
@@ -267,7 +285,31 @@ void testModule() {
     SString S2;
     InitStr(S2);
     Concat(S2, S, T);
-    printDs(S2, "S2");
+    printDs(S2, "串链结束后S2");
+
+    SString S3;
+    InitStr(S3);
+    testBoolOperate(SubString(S3, T, 2, 4), "取子串操作", "成功啦", "失败啦");
+    printDs(S3, "当前取出的S3");
+
+    if (0 == StrCompare(S, S1)) {
+        printf("两字符串一样\n");
+    } else {
+        printf("两个字符串不一样！\n");
+    }
+    int n = Index(T, S3);
+    if (0 == n) {
+        printf("主串T中不含子串S3\n");
+    } else {
+        printf("主串T中含有S3，其下标为：%d\n", n);
+    }
+    int n1 = Index_Simple(T, S3);
+    if (0 == n1) {
+        printf("主串T中不含子串S3\n");
+    } else {
+        printf("主串T中含有S3，其下标为：%d\n", n1);
+    }
+
 
     printf("测试结束!\n");
 }
