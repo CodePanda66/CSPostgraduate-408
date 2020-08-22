@@ -125,7 +125,7 @@ int Index(SString S, SString T) {
 int Index_Simple(SString S, SString T) {
     int k = 1;//k记录当前主串指针
     int i = k, j = 1;//j记录模式串指针，i记录主串中与模式串进行对比的子串的起始地址
-    while (i < S.length && j < T.length) {
+    while (i <= S.length && j <= T.length) {
         if (S.ch[i] == T.ch[j]) {
             ++i;
             ++j;//继续比较后续字符
@@ -146,7 +146,7 @@ int Index_Simple(SString S, SString T) {
 int Index_Simple_CSKaoYan(SString S, SString T) {
     int i = 1;//i记录当前主串指针
     int j = 1;//j记录模式串指针
-    while (i < S.length && j < T.length) {
+    while (i <= S.length && j <= T.length) {
         if (S.ch[i] == T.ch[j]) {
             ++i;
             ++j;//继续比较后续字符
@@ -160,23 +160,6 @@ int Index_Simple_CSKaoYan(SString S, SString T) {
     } else {
         return 0;
     }
-}
-
-//KMP算法
-int Index_KMP(SString S, SString T, int next[]) {
-    int i = 1, j = 1;
-    while (i <= S.length && j <= T.length) {
-        if (j == 0 || S.ch[i] == T.ch[j]) {
-            ++i;
-            ++j;//继续比较后继字符
-        } else {
-            j = next[j];//模式串向右移动
-        }
-    }
-    if (j > T.length)//匹配成功
-        return i - T.length;
-    else
-        return 0;
 }
 
 //求模式串T的next数组
@@ -196,8 +179,8 @@ void getNext(SString T, int *next) {
     }
 }
 
-//KMP2
-int Index_KMP1(SString S, SString T) {
+//KMP1
+int Index_KMP(SString S, SString T) {
     int i = 1, j = 1;
     int next[T.length + 1];
     getNext(T, next);
@@ -216,7 +199,7 @@ int Index_KMP1(SString S, SString T) {
 }
 
 //优化next数组
-void Get_BetterNext(SString T, int betterNext[]) {
+void Get_BetterNext(SString T, int *betterNext) {
     int i = 1, j = 0;
     int next[T.length + 1];
     getNext(T, next);//先求出next数组
@@ -227,6 +210,24 @@ void Get_BetterNext(SString T, int betterNext[]) {
         else
             betterNext[j] = next[j];
     }
+}
+//KMP1
+int Index_KMP1(SString S, SString T,int next[]) {
+    int i = 1, j = 1;
+//    int next[T.length + 1];
+//    getNext(T, next);
+    while (i <= S.length && j <= T.length) {
+        if (j == 0 || S.ch[i] == T.ch[j]) {
+            ++i;
+            ++j;//继续比较后继字符
+        } else {
+            j = next[j];//模式串向右移动
+        }
+    }
+    if (j > T.length)//匹配成功
+        return i - T.length;
+    else
+        return 0;
 }
 
 //清空操作
@@ -297,18 +298,44 @@ void testModule() {
     } else {
         printf("两个字符串不一样！\n");
     }
+
     int n = Index(T, S3);
     if (0 == n) {
         printf("主串T中不含子串S3\n");
     } else {
         printf("主串T中含有S3，其下标为：%d\n", n);
     }
+
     int n1 = Index_Simple(T, S3);
     if (0 == n1) {
         printf("主串T中不含子串S3\n");
     } else {
         printf("主串T中含有S3，其下标为：%d\n", n1);
     }
+
+    int n2 = Index_Simple_CSKaoYan(T, S3);
+    if (0 == n2) {
+        printf("主串T中不含子串S3\n");
+    } else {
+        printf("主串T中含有S3，其下标为：%d\n", n2);
+    }
+
+    int n3 = Index_KMP(T, S3);
+    if (0 == n3) {
+        printf("主串T中不含子串S3\n");
+    } else {
+        printf("主串T中含有S3，其下标为：%d\n", n3);
+    }
+
+    int betterNext[S3.length+1];
+    Get_BetterNext(S3,betterNext);
+    int n4=Index_KMP1(T,S3,betterNext);
+    if (0 == n4) {
+        printf("主串T中不含子串S3\n");
+    } else {
+        printf("主串T中含有S3，其下标为：%d\n", n4);
+    }
+
 
 
     printf("测试结束!\n");
