@@ -62,7 +62,7 @@ bool GetHead(LinkQueue Q, int &x) {
 }
 
 bool QueueEmpty(LinkQueue Q) {
-    return Q.front==Q.rear? true: false;
+    return Q.front == Q.rear ? true : false;
 }
 /**实现模块**/
 
