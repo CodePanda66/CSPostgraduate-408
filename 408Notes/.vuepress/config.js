@@ -81,18 +81,17 @@ function getDataStructureSidebar() {
     return [
         '/DataStructure/',
         {
-            title: '0、绪论',   // 必要的
+            title: '零、绪论',   // 必要的
             path: '/DataStructure/DS_0_Introduction',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
                 '/DataStructure/DS_0_Introduction/Doc_0_0_数据结构基本概念',
                 '/DataStructure/DS_0_Introduction/Doc_0_1_算法基本概念',
-                '/DataStructure/DS_0_Introduction/Doc_0_2_错题总结',
             ]
         },
         {
-            title: '1、线性表',   // 必要的
+            title: '一、线性表',   // 必要的
             path: '/DataStructure/DS_1_LinearList',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
@@ -107,7 +106,7 @@ function getDataStructureSidebar() {
             ]
         },
         {
-            title: '2、栈与队列',   // 必要的
+            title: '二、栈与队列',   // 必要的
             path: '/DataStructure/DS_2_StackAndQueue',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
@@ -124,7 +123,7 @@ function getDataStructureSidebar() {
             ]
         },
         {
-            title: '3、字符串',   // 必要的
+            title: '三、字符串',   // 必要的
             path: '/DataStructure/DS_3_String',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
@@ -137,7 +136,7 @@ function getDataStructureSidebar() {
             ]
         },
         {
-            title: '4、树与二叉树',   // 必要的
+            title: '四、树与二叉树',   // 必要的
             path: '/DataStructure/DS_4_TreeAndBinaryTree',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
@@ -154,7 +153,7 @@ function getDataStructureSidebar() {
             ]
         },
         {
-            title: '5、图',   // 必要的
+            title: '五、图',   // 必要的
             path: '/DataStructure/DS_5_Graph/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
@@ -162,7 +161,7 @@ function getDataStructureSidebar() {
             ]
         },
         {
-            title: '6、搜索',   // 必要的
+            title: '六、搜索',   // 必要的
             path: '/DataStructure/DS_6_Search/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
@@ -170,7 +169,7 @@ function getDataStructureSidebar() {
             ]
         },
         {
-            title: '7、排序',   // 必要的
+            title: '七、排序',   // 必要的
             path: '/DataStructure/DS_7_Sort/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
