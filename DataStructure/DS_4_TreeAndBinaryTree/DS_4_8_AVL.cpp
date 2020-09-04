@@ -4,12 +4,13 @@
 //
 #include <stdio.h>
 
+//平衡二叉树
 /**定义模块**/
-typedef struct AVLNode{
+typedef struct AVLNode {
     int key; //数据域
     int balance;//平衡因子
-    struct AVLNode *lchild,*rchild;
-}AVLNode,*AVLTree;
+    struct AVLNode *lchild, *rchild;
+} AVLNode, *AVLTree;
 
 /**定义模块**/
 
