@@ -73,13 +73,19 @@
 
 ### [计算机组成原理](ComputerOrganization)
 
+[思维导图](ComputerOrganization/MindMap)更新中～
+
 推荐到王道论坛游览[计算机组成原理](http://www.cskaoyan.com/forum-25-1.html)相关的学习方法。
 
 ### [操作系统](OperatingSystem)
 
+[思维导图](OperatingSystem/MindMap)更新中～
+
 推荐到王道论坛游览[操作系统](http://www.cskaoyan.com/forum-26-1.html)相关的学习方法。
 
 ### [计算机网络](ComputerNetwork)
+
+[思维导图](ComputerNetwork/MindMap)更新中～
 
 推荐到王道论坛游览[计算机网络](http://www.cskaoyan.com/forum-27-1.html)相关的学习方法。
 
