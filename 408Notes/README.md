@@ -71,13 +71,19 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 ### [计算机组成原理](ComputerOrganization)
 
+[思维导图](ComputerOrganization/MindMap)更新中～
+
 推荐到王道论坛游览[计算机组成原理](http://www.cskaoyan.com/forum-25-1.html)相关的学习方法。
 
 ### [操作系统](OperatingSystem)
 
+[思维导图](OperatingSystem/MindMap)更新中～
+
 推荐到王道论坛游览[操作系统](http://www.cskaoyan.com/forum-26-1.html)相关的学习方法。
 
 ### [计算机网络](ComputerNetwork)
+
+[思维导图](ComputerNetwork/MindMap)更新中～
 
 推荐到王道论坛游览[计算机网络](http://www.cskaoyan.com/forum-27-1.html)相关的学习方法。
 
@@ -100,9 +106,9 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 ### 王道系列
 
-王道系列起源于[王道考研论坛](http://cskaoyan.com/)，从它的论坛中，你能找到不少经验贴，非常值得关注！而王道系列辅导书籍，题量充足，知识点全面，可能更适合科班考研🈶️一定专业课基础的同学。
+王道系列起源于[王道考研论坛](http://cskaoyan.com/) ，从它的论坛中，你能找到不少经验贴，非常值得关注！而王道系列辅导书籍，题量充足，知识点全面，可能更适合科班考研🈶️一定专业课基础的同学。
 
-需要2021王道高清无水印PDF，可至[Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D)中下载。
+需要2021王道高清无水印PDF，可至 [Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D) 中下载。
 ### 天勤系列
 
 天勤系列，相比于王道更注重基础知识，，但是题量并没有王道的多。也正是由于它更注重基础，所以也许它更适合跨考计算机的同学。
@@ -110,7 +116,7 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 但是总的来说，辅导资料这一块儿还是适合自己的最好。所以对自己的知识储备有较为清晰的认识也许对你复习 408 更有帮助。
 
-需要2021天勤高清无水印PDF，可至[Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8Dv1)中下载。
+需要2021天勤高清无水印PDF，可至 [Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8Dv1) 中下载。
 
 ## 教材
 
@@ -125,12 +131,30 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 目前本仓库只收录了[408 真题](408Exam),如果你有其他专业课或者更干净无水印的真题资源，欢迎提交 PR 或者在 issues 中提交相关资源的下载链接，感激不尽～
 
+## 下载：
+
+### 镜像仓库：
+[github上的CSPostgraduate-408-2021 仓库](https://github.com/KimYangOfCat/CSPostgraduate-408-2021) 与 [ gitee 上的 CSPostgraduate-408-2021 仓库](https://gitee.com/kim_yang/CSPostgraduate-408-2021) 互为镜像仓库，保持同步更新。
+
+若因网络问题无法在其一下载，可切换至另一仓库进行尝试
+
+
+### 其他下载途径：
+
+若因网络原因无法下载 Release 与真题中的资源，可点击下方网盘链接下载相应的资源：
+
+> 链接: [https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA](https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA) 提取码: hdqb
+
+若网盘链接失效，可在 issues 中体现作者更新嗷～
 
 ## 贡献
 
-看到这里了，如果觉得对你有所帮助的话，不妨给本仓库点个 Star ⭐️吧！
+看到这里了，如果觉得对你有所帮助的话，不妨给本仓库点个 Star ⭐ ️吧！
 
-如果你有新的内容📜想要贡献到本仓库或者发现了本仓库的一些错误🐛，👏🏻欢迎阅读[贡献文档](CONTRIBUTE.md)提交Pr～
+如果你有新的内容 📜 想要贡献到本仓库或者发现了本仓库的一些错误 🐛，👏🏻 欢迎阅读[贡献文档](CONTRIBUTE.md)提交Pr～
 
-## ❤️致谢
-欢迎你前来占据前排👏🏻~
+## ❤️ 致谢
+欢迎你前来占据前排 👏🏻 ~
+
+## 许可证
+本仓库采用GPL许可证，希望能为开源世界贡献一份力量～
