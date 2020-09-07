@@ -17,7 +17,7 @@ module.exports = {
             {text: '首页', link: '/'},
             {text: '数据结构', link: '/DataStructure/'},
             {text: '计算机组成原理', link: '/ComputerOrganization/'},
-            {text: '计算机网络', link: '/ComputerNetwork/'},
+            {text: 'CSKaoYanVIPMindMap', link: '/ComputerNetwork/'},
             {text: '操作系统', link: '/OperatingSystem/'},
             {text: '联系我', link: '/contact'},
             // {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
