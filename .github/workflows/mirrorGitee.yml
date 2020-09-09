@@ -20,5 +20,5 @@ jobs:
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.DEPLOY_TOKEN }}
           #白名单
-          white_list: "CSPostgraduate-408-2021"
+          static_list: "CSPostgraduate-408-2021"
           force_update: true
