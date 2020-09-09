@@ -2,9 +2,9 @@
 name: Gitee repos mirror periodic job
 on:
   push:
-    branches: [ master,beta,dev ]
+    branches: [ master ]
   pull_request:
-    branches: [ master,beta ]
+    branches: [ master ]
 #  schedule:
 #    # 每天北京时间9点跑
 #    - cron:  '0 1 * * *'
