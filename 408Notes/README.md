@@ -152,12 +152,16 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 若网盘链接失效，可在 issues 中体现作者更新嗷～
 
-## 贡献
+## 🔥 贡献
 
 看到这里了，如果觉得对你有所帮助的话，不妨给本仓库点个 Star ⭐ ️吧！
 
 如果你有新的内容 📜 想要贡献到本仓库或者发现了本仓库的一些错误 🐛，👏🏻 欢迎阅读[贡献文档](CONTRIBUTE.md)提交Pr～
 
+## 🍰 赞赏
+如果你觉得本仓库帮助到了你，欢迎你点击上方的
+[Sponsor](https://cdn.jsdelivr.net/gh/KimYangOfCat/KimYangOfCat/img/sponsor.png)
+按钮来赞助作者，这将会给作者更多更新的动力，感谢～
 ## ❤️ 致谢
 欢迎你前来占据前排 👏🏻 ~
 

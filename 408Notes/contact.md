@@ -3,7 +3,7 @@
 
 当然，如果你只想夸夸不经意间帮助到你的勤奋的我😉，也欢迎你在下面留言哟～
 
-如果想要私聊一些问题的话，欢迎<a href="mailto:Kim.Yang.YJ@outlook.com">给我发送邮件</a>。（PS:☺️我很好撩的哟～）
+如果想要私聊一些问题的话，欢迎<a href="mailto:Kim.Yang.YJ@outlook.com">给我发送邮件</a>。
 
 
 
