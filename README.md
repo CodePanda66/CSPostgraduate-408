@@ -110,11 +110,9 @@
 
 ## 教材
 
-* 数据结构 严薇敏 第二版
-* 计算机网络 谢希仁 第七版
-* 计算机组成原理 唐朔飞 第二版
-* 操作系统 汤子瀛
-* 计算机网络自顶向下方法 第七版
+|                       数据结构 严薇敏                        | 计算机组成原理 唐朔飞                                        | 操作系统 汤子瀛                                              | 计算机网络 谢希仁                                            | 计算机网络自顶向下方法 第七版                                |
+| :----------------------------------------------------------: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![郑州大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/DS0.jpg) | ![郑州大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/CO0.jpg) | ![郑州大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/OS0.jpg) | ![郑州大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/CN1.jpg) | ![郑州大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/CN0.jpg) |
 
 ## 真题
 干净无水印的真题资源十分稀少可贵，在搜集的过程中，本仓库尽力找了一些干净无水印的资源，奈何个人力量有限，其中有些真题资源的质量仍不如人意。
@@ -137,9 +135,9 @@
 
 若因网络原因无法下载 Release 与真题中的资源，可点击下方网盘链接下载相应的资源：
 
-> 链接: [https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA](https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA) 提取码: hdqb
-
-若网盘链接失效，可在 issues 中提醒作者更新嗷～
+> 链接: [https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA](https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA) 提取码: hdqb 
+>
+> 若网盘链接失效，可在 issues 中提醒作者更新嗷～
 
 ## 🔥 贡献
 
