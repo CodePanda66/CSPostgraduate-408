@@ -31,7 +31,7 @@ module.exports = {
                 // fallback
                 '/': [
                     // '',        /* / */
-                    'contact', /* /contact.html */
+                    // 'contact', /* /contact.html */
                 ]
             },
         // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
