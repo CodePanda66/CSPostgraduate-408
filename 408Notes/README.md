@@ -18,6 +18,8 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 本仓库主要记录了 CS 考研 408 专业课的一些真题资料、笔记、思维导图以及算法源码。
 
+关于项目的介绍博文：[Blog](https://kimyang.cn/posts/2020-08-31-408.html) 、[CSDN](https://blog.csdn.net/weixin_43316691/article/details/108634030) 、[知乎](https://zhuanlan.zhihu.com/p/249377361) 。
+
 ## 21年考408的院校(信息来源于网络，更准确的信息请于各高校官网查询)
 
 ### 985高校
