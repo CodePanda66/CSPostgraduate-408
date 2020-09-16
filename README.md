@@ -1,5 +1,5 @@
 
-<div align="center"><img src="./408Notes/.vuepress/public/icons@2x.png"></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/408Notes/.vuepress/public/icons@2x.png"></div>
 
 <div align="center">
 
