@@ -45,6 +45,11 @@
 ### [数据结构](DataStructure)
 `DataStructure`文件夹下为 2021 [王道考研](http://cskaoyan.com/forum.php) 课程数据结构源代码！点击此下载 [ 21王道数据结构 PDF](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D)
 
+#### [思维导图](DataStructure/MindMap/)
++ [王道书籍上的思维导图](DataStructure/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](DataStructure/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](DataStructure/MindMap/CSKaoYanVIPMindMap)
+
 #### 编程语言
 
 虽然都是.cpp文件，但其中的语法既有C++的语法也有部分C的语法！
@@ -61,21 +66,35 @@
 * [查找](DataStructure/Src/DS_6_Search)
 * [排序](DataStructure/Src/DS_7_Sort)
 
-### [计算机组成原理](ComputerOrganization)
+### [计算机组成原理](/ComputerOrganization/)
+#### [思维导图](/ComputerOrganization/MindMap/)
++ [王道书籍上的思维导图](/ComputerOrganization/MindMapBook/MindMap)
++ [视频教程PPT中的思维导图](/ComputerOrganization/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](/ComputerOrganization/MindMapCSKaoYanVIPMindMap)
 
-[思维导图](ComputerOrganization/MindMap)更新中～
-
-推荐到王道论坛游览[计算机组成原理](http://www.cskaoyan.com/forum-25-1.html)相关的学习方法。
+持续更新中～
+#### 其他
+推荐到王道论坛游览 [计算机组成原理](http://www.cskaoyan.com/forum-25-1.html) 相关的学习方法。
 
 ### [操作系统](OperatingSystem)
 
-[思维导图](OperatingSystem/MindMap)更新中～
+#### [思维导图](OperatingSystem/MindMap/)
++ [王道书籍上的思维导图](OperatingSystem/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](OperatingSystem/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](OperatingSystem/MindMap/CSKaoYanVIPMindMap)
 
+持续更新中～
+#### 其他
 推荐到王道论坛游览[操作系统](http://www.cskaoyan.com/forum-26-1.html)相关的学习方法。
 
 ### [计算机网络](ComputerNetwork)
 
-[思维导图](ComputerNetwork/MindMap)更新中～
+#### [思维导图](ComputerNetwork/MindMap)
++ [王道书籍上的思维导图](BookMindMap)
++ [视频教程PPT中的思维导图](PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](CSKaoYanVIPMindMap)
+持续更新中～
+#### 其他
 
 推荐到王道论坛游览[计算机网络](http://www.cskaoyan.com/forum-27-1.html)相关的学习方法。
 
