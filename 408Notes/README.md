@@ -16,6 +16,7 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 </div>
 
+
 本仓库主要记录了 CS 考研 408 专业课的一些真题资料、笔记、思维导图以及算法源码。
 
 关于项目的介绍博文：[Blog](https://kimyang.cn/posts/2020-08-31-408.html) 、[CSDN](https://blog.csdn.net/weixin_43316691/article/details/108634030) 、[知乎](https://zhuanlan.zhihu.com/p/249377361) 。
@@ -42,10 +43,16 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![郑州大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/school/211-ZZU.jpg) | ![云南大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/school/211-YNU.jpg) | ![河北工业大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/school/211-HBTU.webp) | ![华中农业大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/school/211-HZAU.jpg) | ![西南财经大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/school/211-FESU.jpg) | ![武汉理工大学](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/school/211-WHTU.jpg) |
 
+
 ## 408 科目
 
 ### [数据结构](DataStructure)
 `DataStructure`文件夹下为 2021 [王道考研](http://cskaoyan.com/forum.php) 课程数据结构源代码！点击此下载 [ 21王道数据结构 PDF](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D)
+
+#### [思维导图](DataStructure/MindMap/)
++ [王道书籍上的思维导图](DataStructure/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](DataStructure/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](DataStructure/MindMap/CSKaoYanVIPMindMap)
 
 #### 编程语言
 
@@ -54,30 +61,44 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 如果想要C++版本的源码，可以参考我学习数据结构时写的一些数据结构的C++版本源码！[传送门](https://github.com/KimYangOfCat/Data_Structure) 在此～
 
 #### 章节目录
-* [绪论](DataStructure/DS_0_Introduction)
-* [线性表](DataStructure/DS_1_LinearList)
-* [栈与队列](DataStructure/DS_2_StackAndQueue)
-* [字符串](DataStructure/DS_3_String)
-* [树与二叉树](DataStructure/DS_4_TreeAndBinaryTree)
-* [图](DataStructure/DS_5_Graph)
-* [查找](DataStructure/DS_6_Search)
-* [排序](DataStructure/DS_7_Sort)
+* [绪论](DataStructure/Src/DS_0_Introduction)
+* [线性表](DataStructure/Src/DS_1_LinearList)
+* [栈与队列](DataStructure/Src/DS_2_StackAndQueue)
+* [字符串](DataStructure/Src/DS_3_String)
+* [树与二叉树](DataStructure/Src/DS_4_TreeAndBinaryTree)
+* [图](DataStructure/Src/DS_5_Graph)
+* [查找](DataStructure/Src/DS_6_Search)
+* [排序](DataStructure/Src/DS_7_Sort)
 
-### [计算机组成原理](ComputerOrganization)
+### [计算机组成原理](/ComputerOrganization/)
+#### [思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerOrganization/MindMap/)
++ [王道书籍上的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerOrganization/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerOrganization/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerOrganization/MindMap/CSKaoYanVIPMindMap)
 
-[思维导图](ComputerOrganization/MindMap)更新中～
-
-推荐到王道论坛游览[计算机组成原理](http://www.cskaoyan.com/forum-25-1.html)相关的学习方法。
+持续更新中～
+#### 其他
+推荐到王道论坛游览 [计算机组成原理](http://www.cskaoyan.com/forum-25-1.html) 相关的学习方法。
 
 ### [操作系统](OperatingSystem)
 
-[思维导图](OperatingSystem/MindMap)更新中～
+#### [思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/OperatingSystem/MindMap/)
++ [王道书籍上的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/OperatingSystem/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/OperatingSystem/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/OperatingSystem/MindMap/CSKaoYanVIPMindMap)
 
+持续更新中～
+#### 其他
 推荐到王道论坛游览[操作系统](http://www.cskaoyan.com/forum-26-1.html)相关的学习方法。
 
 ### [计算机网络](ComputerNetwork)
 
-[思维导图](ComputerNetwork/MindMap)更新中～
+#### [思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerNetwork/MindMap/)
++ [王道书籍上的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerNetwork/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerNetwork/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/tree/master/ComputerNetwork/MindMap/CSKaoYanVIPMindMap)
+持续更新中～
+#### 其他
 
 推荐到王道论坛游览[计算机网络](http://www.cskaoyan.com/forum-27-1.html)相关的学习方法。
 
@@ -102,7 +123,7 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 王道系列起源于[王道考研论坛](http://cskaoyan.com/)，从它的论坛中，你能找到不少经验贴，非常值得关注！而王道系列辅导书籍，题量充足，知识点全面，可能更适合科班考研🈶️ 一定专业课基础的同学。
 
-需要2021王道高清无水印PDF，可至[Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D)中下载。
+需要2021王道高清无水印PDF，可至 [Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D) 中下载。
 ### 天勤系列
 
 天勤系列，相比于王道更注重基础知识，，但是题量并没有王道的多。也正是由于它更注重基础，所以也许它更适合跨考计算机的同学。
@@ -110,7 +131,7 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 但是总的来说，辅导资料这一块儿还是适合自己的最好。所以对自己的知识储备有较为清晰的认识也许对你复习 408 更有帮助。
 
-需要2021天勤高清无水印PDF，可至[Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8Dv1)中下载。
+需要2021天勤高清无水印PDF，可至 [Release](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8Dv1) 中下载。
 
 ## 教材
 
@@ -119,7 +140,7 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 | ![数据结构](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/DS0.jpg) | ![计算机组成原理](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/CO0.jpg) | ![操作系统](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/OS0.png) | ![计算机网络](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/CN1.png) | ![计算机网络·自顶向下方法](https://cdn.jsdelivr.net/gh/KimYangOfCat/CSPostgraduate-408-2021/imgs/book/CN0.jpg) |
 
 ## 真题
-干净无水印的真题资源十分稀少可贵，在搜集的过程中，本仓库尽力找了一些干净无水印的资源，奈何个人力量有限，其中有些真题资源的质量仍不如人意。
+干净无水印的真题资源十分稀少可贵，在搜集的过程中，作者尽力找了一些干净无水印的资源，奈何个人力量有限，其中有些真题资源的质量仍不如人意。
 
 目前本仓库只收录了[408 真题](408Exam),如果你有其他专业课或者更干净无水印的真题资源，欢迎提交 PR 或者在 issues 中提交相关资源的下载链接，感激不尽～
 
@@ -139,9 +160,9 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 若因网络原因无法下载 Release 与真题中的资源，可点击下方网盘链接下载相应的资源：
 
-> 链接: [https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA](https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA) 提取码: hdqb
-
-若网盘链接失效，可在 issues 中提醒作者更新嗷～
+> 链接: [https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA](https://pan.baidu.com/s/1pa2kQHhsvp9XaJSCS1v-xA) 提取码: hdqb 
+>
+> 若网盘链接失效，可在 issues 中提醒作者更新嗷～
 
 ## 🔥 贡献
 

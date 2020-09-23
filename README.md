@@ -68,9 +68,9 @@
 
 ### [计算机组成原理](/ComputerOrganization/)
 #### [思维导图](/ComputerOrganization/MindMap/)
-+ [王道书籍上的思维导图](/ComputerOrganization/MindMapBook/MindMap)
++ [王道书籍上的思维导图](/ComputerOrganization/MindMap/BookMindMap)
 + [视频教程PPT中的思维导图](/ComputerOrganization/MindMap/PPTMindMap)
-+ [王道论坛VIP学员独享的思维导图](/ComputerOrganization/MindMapCSKaoYanVIPMindMap)
++ [王道论坛VIP学员独享的思维导图](/ComputerOrganization/MindMap/CSKaoYanVIPMindMap)
 
 持续更新中～
 #### 其他
@@ -89,10 +89,10 @@
 
 ### [计算机网络](ComputerNetwork)
 
-#### [思维导图](ComputerNetwork/MindMap)
-+ [王道书籍上的思维导图](BookMindMap)
-+ [视频教程PPT中的思维导图](PPTMindMap)
-+ [王道论坛VIP学员独享的思维导图](CSKaoYanVIPMindMap)
+#### [思维导图](ComputerNetwork/MindMap/)
++ [王道书籍上的思维导图](ComputerNetwork/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](ComputerNetwork/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](ComputerNetwork/MindMap/CSKaoYanVIPMindMap)
 持续更新中～
 #### 其他
 
