@@ -69,10 +69,10 @@
 
 ### [计算机组成原理](/ComputerOrganization/)
 
-#### [思维导图](/ComputerOrganization/MindMap/)
-+ [王道书籍上的思维导图](/ComputerOrganization/MindMap/BookMindMap)
-+ [视频教程PPT中的思维导图](/ComputerOrganization/MindMap/PPTMindMap)
-+ [王道论坛VIP学员独享的思维导图](/ComputerOrganization/MindMap/CSKaoYanVIPMindMap)
+#### [思维导图](ComputerOrganization/MindMap/)
++ [王道书籍上的思维导图](ComputerOrganization/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](ComputerOrganization/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](ComputerOrganization/MindMap/CSKaoYanVIPMindMap)
 
 #### [PPT](ComputerOrganization/PPT)
 `PPT` 文件夹下存放的是 2021 王道考研**计算机组成原理**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
