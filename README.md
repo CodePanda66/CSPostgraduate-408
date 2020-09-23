@@ -44,6 +44,12 @@
 
 ### [数据结构](DataStructure)
 `DataStructure`文件夹下为 2021 [王道考研](http://cskaoyan.com/forum.php) 课程数据结构源代码！点击此下载 [ 21王道数据结构 PDF](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D)
+#### [源码](DataStructure/Src)
+408 所有科目基本都偏向理论，只有数据结构一门稍有实践性，故此动手写下所有数据结构源码，以供大家参考～
+##### 编程语言
+虽然都是.cpp文件，但其中的语法既有C++的语法也有部分C的语法！
+
+如果想要C++版本的源码，可以参考我学习数据结构时写的一些数据结构的C++版本源码！[传送门](https://github.com/KimYangOfCat/Data_Structure) 在此～
 
 #### [思维导图](DataStructure/MindMap/)
 + [王道书籍上的思维导图](DataStructure/MindMap/BookMindMap)
@@ -93,6 +99,7 @@
 + [王道书籍上的思维导图](ComputerNetwork/MindMap/BookMindMap)
 + [视频教程PPT中的思维导图](ComputerNetwork/MindMap/PPTMindMap)
 + [王道论坛VIP学员独享的思维导图](ComputerNetwork/MindMap/CSKaoYanVIPMindMap)
+
 持续更新中～
 #### 其他
 
