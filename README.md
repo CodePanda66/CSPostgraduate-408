@@ -45,24 +45,8 @@
 ### [数据结构](DataStructure)
 `DataStructure`文件夹下为 2021 [王道考研](http://cskaoyan.com/forum.php) 课程数据结构源代码！点击此下载 [ 21王道数据结构 PDF](https://github.com/KimYangOfCat/2021-CSPostgraduate-408/releases/tag/%E8%BE%85%E5%AF%BC%E4%B9%A6%E7%B1%8D)
 #### [源码](DataStructure/Src)
-408 所有科目基本都偏向理论，只有数据结构一门稍有实践性，故此动手写下所有数据结构源码，以供大家参考～
-##### 编程语言
-虽然都是.cpp文件，但其中的语法既有C++的语法也有部分C的语法！
-
-如果想要C++版本的源码，可以参考我学习数据结构时写的一些数据结构的C++版本源码！[传送门](https://github.com/KimYangOfCat/Data_Structure) 在此～
-
-#### [思维导图](DataStructure/MindMap/)
-+ [王道书籍上的思维导图](DataStructure/MindMap/BookMindMap)
-+ [视频教程PPT中的思维导图](DataStructure/MindMap/PPTMindMap)
-+ [王道论坛VIP学员独享的思维导图](DataStructure/MindMap/CSKaoYanVIPMindMap)
-
-#### 编程语言
-
-虽然都是.cpp文件，但其中的语法既有C++的语法也有部分C的语法！
-
-如果想要C++版本的源码，可以参考我学习数据结构时写的一些数据结构的C++版本源码！[传送门](https://github.com/KimYangOfCat/Data_Structure) 在此～
-
-#### 章节目录
+408 所有科目基本都偏向理论，只有数据结构一门稍有实践性，故此动手写下所有数据结构源码，以章节分类整理，以供大家参考～
+##### 源码目录
 * [绪论](DataStructure/Src/DS_0_Introduction)
 * [线性表](DataStructure/Src/DS_1_LinearList)
 * [栈与队列](DataStructure/Src/DS_2_StackAndQueue)
@@ -71,17 +55,29 @@
 * [图](DataStructure/Src/DS_5_Graph)
 * [查找](DataStructure/Src/DS_6_Search)
 * [排序](DataStructure/Src/DS_7_Sort)
+##### 编程语言
+虽然都是.cpp文件，但其中的语法既有C++的语法也有部分C的语法！如果想要C++版本的源码，可以参考我学习数据结构时写的一些数据结构的C++版本源码！[传送门](https://github.com/KimYangOfCat/Data_Structure) 在此～
+
+#### [思维导图](DataStructure/MindMap/)
++ [王道书籍上的思维导图](DataStructure/MindMap/BookMindMap)
++ [视频教程PPT中的思维导图](DataStructure/MindMap/PPTMindMap)
++ [王道论坛VIP学员独享的思维导图](DataStructure/MindMap/CSKaoYanVIPMindMap)
+
+#### [PPT](DataStructure/PPT)
+`PPT` 文件夹下存放的是 2021 王道考研**数据结构**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
+
 
 ### [计算机组成原理](/ComputerOrganization/)
+
 #### [思维导图](/ComputerOrganization/MindMap/)
 + [王道书籍上的思维导图](/ComputerOrganization/MindMap/BookMindMap)
 + [视频教程PPT中的思维导图](/ComputerOrganization/MindMap/PPTMindMap)
 + [王道论坛VIP学员独享的思维导图](/ComputerOrganization/MindMap/CSKaoYanVIPMindMap)
 
-持续更新中～
-#### 其他
-推荐到王道论坛游览 [计算机组成原理](http://www.cskaoyan.com/forum-25-1.html) 相关的学习方法。
+#### [PPT](ComputerOrganization/PPT)
+`PPT` 文件夹下存放的是 2021 王道考研**计算机组成原理**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
 
+持续更新中～
 ### [操作系统](OperatingSystem)
 
 #### [思维导图](OperatingSystem/MindMap/)
@@ -90,8 +86,8 @@
 + [王道论坛VIP学员独享的思维导图](OperatingSystem/MindMap/CSKaoYanVIPMindMap)
 
 持续更新中～
-#### 其他
-推荐到王道论坛游览[操作系统](http://www.cskaoyan.com/forum-26-1.html)相关的学习方法。
+#### [PPT](OperatingSystem/PPT)
+`PPT` 文件夹下存放的是 2021 王道考研**操作系统**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
 
 ### [计算机网络](ComputerNetwork)
 
@@ -101,9 +97,8 @@
 + [王道论坛VIP学员独享的思维导图](ComputerNetwork/MindMap/CSKaoYanVIPMindMap)
 
 持续更新中～
-#### 其他
-
-推荐到王道论坛游览[计算机网络](http://www.cskaoyan.com/forum-27-1.html)相关的学习方法。
+#### [PPT](ComputerNetwork/PPT)
+`PPT` 文件夹下存放的是 2021 王道考研**计算机网络**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
 
 
 ### 总结
