@@ -2,9 +2,9 @@ name: vuepress-deploy
 
 on:
   push:
-    branches: [  ]
+    branches: [ gh-pages ]
   pull_request:
-    branches: [  ]
+    branches: [ gh-pages ]
 
 jobs:
   build-and-deploy:
