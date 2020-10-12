@@ -86,8 +86,8 @@ function getDataStructureSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/DataStructure/DS_0_Introduction/Doc_0_0_数据结构基本概念',
-                '/DataStructure/DS_0_Introduction/Doc_0_1_算法基本概念',
+                '/DataStructure/DS_0_Introduction/DS_Doc_0_0_数据结构基本概念',
+                '/DataStructure/DS_0_Introduction/DS_Doc_0_1_算法基本概念',
             ]
         },
         {
@@ -96,13 +96,13 @@ function getDataStructureSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/DataStructure/DS_1_LinearList/Doc_1_0_线性表',
-                '/DataStructure/DS_1_LinearList/Doc_1_1_顺序表',
-                '/DataStructure/DS_1_LinearList/Doc_1_2_单链表',
-                '/DataStructure/DS_1_LinearList/Doc_1_3_双链表',
-                '/DataStructure/DS_1_LinearList/Doc_1_4_循环链表',
-                '/DataStructure/DS_1_LinearList/Doc_1_5_静态链表',
-                '/DataStructure/DS_1_LinearList/Doc_1_6_章节总结',
+                '/DataStructure/DS_1_LinearList/DS_Doc_1_0_线性表',
+                '/DataStructure/DS_1_LinearList/DS_Doc_1_1_顺序表',
+                '/DataStructure/DS_1_LinearList/DS_Doc_1_2_单链表',
+                '/DataStructure/DS_1_LinearList/DS_Doc_1_3_双链表',
+                '/DataStructure/DS_1_LinearList/DS_Doc_1_4_循环链表',
+                '/DataStructure/DS_1_LinearList/DS_Doc_1_5_静态链表',
+                '/DataStructure/DS_1_LinearList/DS_Doc_1_6_章节总结',
             ]
         },
         {
@@ -111,15 +111,15 @@ function getDataStructureSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_0_栈',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_1_顺序栈',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_2_链栈',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_3_队列',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_4_顺序队列',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_5_链式队列',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_6_双端队列',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_7_栈的应用',
-                '/DataStructure/DS_2_StackAndQueue/Doc_2_8_队列的应用',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_0_栈',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_1_顺序栈',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_2_链栈',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_3_队列',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_4_顺序队列',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_5_链式队列',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_6_双端队列',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_7_栈的应用',
+                '/DataStructure/DS_2_StackAndQueue/DS_Doc_2_8_队列的应用',
             ]
         },
         {
@@ -128,11 +128,11 @@ function getDataStructureSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/DataStructure/DS_3_String/Doc_3_0_串',
-                '/DataStructure/DS_3_String/Doc_3_1_串的存储结构',
-                '/DataStructure/DS_3_String/Doc_3_2_模式匹配',
-                '/DataStructure/DS_3_String/Doc_3_3_KMP算法',
-                '/DataStructure/DS_3_String/Doc_3_4_KMP算法的优化',
+                '/DataStructure/DS_3_String/DS_Doc_3_0_串',
+                '/DataStructure/DS_3_String/DS_Doc_3_1_串的存储结构',
+                '/DataStructure/DS_3_String/DS_Doc_3_2_模式匹配',
+                '/DataStructure/DS_3_String/DS_Doc_3_3_KMP算法',
+                '/DataStructure/DS_3_String/DS_Doc_3_4_KMP算法的优化',
             ]
         },
         {
@@ -141,15 +141,15 @@ function getDataStructureSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_0_树',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_1_树的性质',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_2_二叉树',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_3_二叉树的性质',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_4_二叉树的存储结构',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_5_二叉树的遍历',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_6_二叉树的构造',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_7_线索二叉树',
-                '/DataStructure/DS_4_TreeAndBinaryTree/Doc_4_8_二叉树的线索化',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_0_树',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_1_树的性质',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_2_二叉树',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_3_二叉树的性质',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_4_二叉树的存储结构',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_5_二叉树的遍历',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_6_二叉树的构造',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_7_线索二叉树',
+                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_8_二叉树的线索化',
             ]
         },
         {
