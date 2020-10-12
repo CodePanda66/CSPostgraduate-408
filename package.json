@@ -11,6 +11,7 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "vue-router": "3.4.5",
     "@vssue/api-github-v4": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.6",
     "@vuepress/theme-default": "^1.5.3"
