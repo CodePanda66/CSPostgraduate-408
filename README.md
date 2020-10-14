@@ -64,7 +64,7 @@
 + [数据结构-王道论坛VIP学员独享的思维导图](DataStructure/MindMap/CSKaoYanVIPMindMap)
 
 #### [数据结构-PPT](DataStructure/PPT)
-`PPT` 文件夹下存放的是 2021 王道考研**数据结构**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
+`DataStructure/PPT` 文件夹下存放的是 2021 王道考研**数据结构**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
 
 
 ### [计算机组成原理](/ComputerOrganization/)
@@ -75,7 +75,7 @@
 + [计算机组成原理-王道论坛VIP学员独享的思维导图](ComputerOrganization/MindMap/CSKaoYanVIPMindMap)
 
 #### [计算机组成原理-PPT](ComputerOrganization/PPT)
-`PPT` 文件夹下存放的是 2021 王道考研**计算机组成原理**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
+`ComputerOrganization/PPT` 文件夹下存放的是 2021 王道考研**计算机组成原理**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
 
 ### [操作系统](OperatingSystem)
 
@@ -85,7 +85,7 @@
 + [操作系统-王道论坛VIP学员独享的思维导图](OperatingSystem/MindMap/CSKaoYanVIPMindMap)
 
 #### [操作系统-PPT](OperatingSystem/PPT)
-`PPT` 文件夹下存放的是 2021 王道考研**操作系统**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
+`OperatingSystem/PPT` 文件夹下存放的是 2021 王道考研**操作系统**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
 
 ### [计算机网络](ComputerNetwork)
 
@@ -94,7 +94,7 @@
 + [计算机网络-视频教程PPT中的思维导图](ComputerNetwork/MindMap/PPTMindMap)
 + [计算机网络-王道论坛VIP学员独享的思维导图](ComputerNetwork/MindMap/CSKaoYanVIPMindMap)
 #### [计算机网络-PPT](ComputerNetwork/PPT)
-`PPT` 文件夹下存放的是 2021 王道考研**计算机网络**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
+`ComputerNetwork/PPT` 文件夹下存放的是 2021 王道考研**计算机网络**视频课程的 PPT，以供大家快速查找知识点或着复习视频内容！
 
 
 ### 总结
