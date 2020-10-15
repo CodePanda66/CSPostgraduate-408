@@ -146,24 +146,22 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 目前本仓库只收录了[408 真题](408Exam),如果你有其他专业课或者更干净无水印的真题资源，欢迎提交 PR 或者在 issues 中提交相关资源的下载链接，感激不尽～
 
 ## 笔记
-> ~~原本笔记是由 Github pages 服务托管的，使用的是 `VuePress` 静态博客框架生成，但由于 VuePress 不断更新，导致原有的设置失效，不能完整编译通过，且近期复习时间越来越紧，所以再尝试了修复 BUG 但依旧未能解决的一段时间之后，我选择放弃了 Web Notes ，但你依旧可以通过 [408.kimyang.cn](https://408.kimyang.cn) 域名来访问以前生成的 Web 页面笔记，但后续不再更新。（也许等考完试之后还会更新吧）~~
-> ~~此外，后续更新的笔记将会持续发布在 [ **wiki**](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/wiki) 中，大家一起加油冲鸭 🦆 。~~
 
-此 BUG 已经修复，新的笔记依旧会发布在 github pages 中，欢迎大家通过查看 [408.kimyang.cn](https://408.kimyang.cn)笔记，[ **wiki**](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/wiki) 也会保持同步更新～
+ 笔记是由 Github pages 服务托管的，使用的是 `VuePress` 静态博客框架生成，你可以通过 [408.kimyang.cn](https://408.kimyang.cn) 域名来访问生成的 Web 页面笔记，
+ 
+ 此外，后续更新的笔记将会持续发布在 [ **wiki**](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/wiki) 中，大家一起加油冲鸭 🦆 。
 
 ## 下载：
 
-~~### 镜像仓库：~~
+### 镜像仓库：
 
-~~本仓库与[ gitee 上的 CSPostgraduate-408-2021 仓库]()互为镜像仓库，保持同步更新。~~
+本仓库与[ GitLab 上的 CSPostgraduate-408-2021 仓库](https://gitlab.com/Kim.Yang/CSPostgraduate-408-2021) 互为镜像仓库，保持同步更新。
+若因网络问题无法在其一下载，可切换至另一仓库进行尝试
 
-~~若因网络问题无法在其一下载，可切换至另一仓库进行尝试~~
+### DownGit
+只需要仓库中收录的个别文件的同学可以直接将该仓库文件的链接拷贝至[DownGit](https://minhaskamal.github.io/DownGit/#/home) 进行下载～
 
->由于仓库收录的资源越来越多，仓库体积已经超过 1.5GB,超过了 Gitee 单仓库体积上限，故无法保持再同步更新，非常抱歉～
->
->后面，作者会不定期手动将本仓库打包至下文中的网盘中，大家可尝试下载～
-
-### 其他下载途径：
+### 百毒网盘：
 
 若因网络原因无法下载 Release 与真题中的资源，可点击下方网盘链接下载相应的资源：
 
@@ -177,13 +175,22 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 如果你有新的内容 📜 想要贡献到本仓库或者发现了本仓库的一些错误 🐛 ，👏🏻 欢迎阅读[贡献文档](CONTRIBUTE.md)提交Pr～
 
+如果你认为本仓库的一些文件侵犯了您的权益，请 [向我发送邮件](mailto:Kim.Yang.YJ@outlook.com) 。我将会从仓库中彻底清除这些文件。
+
 ## 🍰 赞赏
 如果你觉得本仓库帮助到了你，欢迎你点击上方的
 [Sponsor](https://cdn.jsdelivr.net/gh/KimYangOfCat/KimYangOfCat/img/sponsor.png)
-按钮来赞助作者，这将会给作者更多更新的动力，感谢～
+按钮来赞赏我，这将会给我更多更新的动力，感谢～
 
 ## ❤️ 致谢
 欢迎你前来占据前排 👏🏻 ~
 
 ## 许可证
-本仓库采用GPL许可证，希望能为开源世界贡献一份力量～
+
+由贡献者编写部分的许可如下：
+
+[CC-BY-NC-SA：署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+
+> 资料仅供参考，请自己判断其适用性。
+
+其他部分的版权归属于其各自的作者。
