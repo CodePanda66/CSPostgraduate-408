@@ -151,8 +151,14 @@
 本仓库与[ GitLab 上的 CSPostgraduate-408-2021 仓库](https://gitlab.com/Kim.Yang/CSPostgraduate-408-2021) 互为镜像仓库，保持同步更新。
 若因网络问题无法在其一下载，可切换至另一仓库进行尝试
 
-### DownGit
-只需要仓库中收录的个别文件的同学可以直接将该仓库文件的链接拷贝至[DownGit](https://minhaskamal.github.io/DownGit/#/home) 进行下载～
+### 下载代理工具
+只需要仓库中收录的个别文件的同学可以直接将该仓库文件的链接拷贝至下载代理工具进行下载，推荐使用的工具有：
+
++ [GitD](http://gitd.cc/)
++ [DownGit](https://minhaskamal.github.io/DownGit/#/home) 
++ [d.serctl](https://d.serctl.com/)
+
+感谢以上所有下载工具的维护者～
 
 ### 百毒网盘：
 
