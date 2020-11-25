@@ -120,7 +120,8 @@ int GetTopOther1(SqStack S) {
 void PrintStack(SqStack S) {
     printf("从栈顶元素开始，栈如下：\n");
     while (S.top >= 0) {//注意判空的条件
-        printf("S[%d]=%d\n", S.top, S.data[S.top--]);
+        printf("S[%d]=%d\n", S.top, S.data[S.top]);
+        S.top--;
     }
     printf("栈打印完毕\n");
 }
@@ -129,7 +130,8 @@ void PrintStack(SqStack S) {
 void PrintStack1(SqStack S) {
     printf("从栈顶元素开始，栈如下：\n");
     while (S.top > 0) {//注意判空的条件
-        printf("S1[%d]=%d\n", S.top - 1, S.data[--S.top]);//初始化方式1得先移动指针再获取元素
+        S.top--;
+        printf("S1[%d]=%d\n", S.top, S.data[S.top]);//初始化方式1得先移动指针再获取元素
     }
     printf("栈打印完毕\n");
 }
