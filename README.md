@@ -149,9 +149,9 @@
 ### 下载命令：
 由于仓库历史原因导致仓库体积十分庞大，所以推荐使用如下命令下载最新文件：
 
-`git clone --depth 1 https://github.com/KimYangOfCat/CSPostgraduate-408-2021.git`
+`git clone --depth 1 https://github.com/KimYangOfCat/CSPostgraduate-408.git`
 
-上述命令只会下最新版本，不会下载历史文件，可以显著提高下载速度～
+上述命令只会下 master 分支下的最新版本，不会下载历史版本和其他分支，可以显著提高下载速度～ 
 ### 镜像仓库：
 
 本仓库与[ GitLab 上的 CSPostgraduate-408-2021 仓库](https://gitlab.com/Kim.Yang/CSPostgraduate-408-2021) 互为镜像仓库，保持同步更新。
@@ -188,7 +188,7 @@
 按钮来赞赏我，这将会给我更多更新的动力，感谢～
 
 ## ❤️ 致谢
-欢迎你前来占据前排 👏🏻 ~
+欢迎你通过捐赠前来占据前排 👏🏻 ~
 
 ## 许可证
 

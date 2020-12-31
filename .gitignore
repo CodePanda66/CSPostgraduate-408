@@ -1,7 +1,7 @@
 # Prerequisites
 *.d
 node_modules/
-yarn.lock
+# yarn.lock
 yarn-error.log
 package-lock.json
 cmake-build-debug/*
