@@ -168,9 +168,9 @@
 
 ### 终极方案(推荐)：
 
-若因网络原因无法下载 Release 与真题中的资源，可使用微信扫描下方二维码关注“程序点金”公众号，回复“408”,即可获取百度网盘下载链接。
+若因网络原因无法下载 Release 与真题中的资源，可使用微信扫描下方二维码关注“程序食铁兽”公众号，回复“408”,即可获取百度网盘下载链接。
 
-![微信二维码](https://cdn.jsdelivr.net/gh/KimYangOfCat/KimYangOfCat/img/weixin.png)
+![微信二维码](https://cdn.jsdelivr.net/gh/KimYangOfCat/PictureBed/wechat/search.png)
 
 ## 🔥 贡献
 
