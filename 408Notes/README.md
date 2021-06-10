@@ -171,9 +171,11 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 ### 终极方案(推荐)：
 
-若因网络原因无法下载 Release 与真题中的资源，可使用微信扫描下方二维码关注“程序食铁兽”公众号，回复“408”,即可获取百度网盘下载链接。
+若因网络原因无法下载 Release 与真题中的资源，可使用微信扫描下方二维码关注 “程序食铁兽” 公众号，回复 “408”,即可获取百度网盘下载链接。
 
-![微信二维码](https://cdn.jsdelivr.net/gh/KimYangOfCat/PictureBed/wechat/search.png)
+如果有 22 考研的同学，想要找研友，也欢迎关注作者B站账号：[程序食铁兽](https://space.bilibili.com/240836280)，我会在22考研期间坚持直播学习，陪伴大家一起上岸!!也可以实时回答大家一些备考问题，欢迎大家来B站私信我嗷！！
+
+![二维码](https://pic-bed-1256389522.cos.ap-chengdu.myqcloud.com/info/binarycode.png)
 
 ## 🔥 贡献
 
@@ -186,10 +188,12 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 ## 🍰 赞赏
 如果你觉得本仓库帮助到了你，欢迎你点击上方的
 [Sponsor](https://cdn.jsdelivr.net/gh/KimYangOfCat/KimYangOfCat/img/sponsor.png)
-按钮来赞赏我，这将会给我更多更新的动力，感谢～
+按钮来赞赏我并备注你的个人 ID，这将会给我更多更新的动力，感谢～
 
 ## ❤️ 致谢
-欢迎你通过捐赠前来占据前排 👏🏻 ~
+|捐赠人|金额|日期|备注|
+|-|-|-|-|
+|E*t|10元|2021-05-19|非常感谢|
 
 ## 许可证
 
