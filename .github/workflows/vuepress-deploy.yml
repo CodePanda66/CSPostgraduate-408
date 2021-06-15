@@ -17,7 +17,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-        TARGET_REPO: CodePanda66/2021-CSPostgraduate-408
+        TARGET_REPO: CodePanda66/CSPostgraduate-408
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: 408Notes/.vuepress/dist/
