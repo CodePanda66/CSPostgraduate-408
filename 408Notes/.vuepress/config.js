@@ -2,43 +2,43 @@ module.exports = {
     title: "CSPostgraduate",
     base: "/",
     repo: "https://github.com/KimYangOfCat/2021-CSPostgraduate-408",
-    description:"2021 CSPostgraduate 408",
-    port:4080,
+    description: "2021 CSPostgraduate 408",
+    port: 4080,
 
     theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: 'icons.png',
-        head:[
-            ['link',{rel:'icon',href:'/favicon.ico',type:"image/x-icon"}],
-            ['link',{rel:' short icon',href:'/favicon.ico',type:"image/x-icon"}],
-            ['link', { rel: 'apple-touch-icon', href: `/favicon.ico`,type:"image/x-icon" }],
+        logo: '/icons.png',
+        head: [
+            ['link', { rel: 'icon', href: '/favicon.ico', type: "image/x-icon" }],
+            ['link', { rel: ' short icon', href: '/favicon.ico', type: "image/x-icon" }],
+            ['link', { rel: 'apple-touch-icon', href: `/favicon.ico`, type: "image/x-icon" }],
         ],
         nav: [
-            {text: '首页', link: '/'},
-            {text: '数据结构', link: '/DataStructure/'},
-            {text: '计算机组成原理', link: '/ComputerOrganization/'},
-            {text: '计算机网络', link: '/ComputerNetwork/'},
-            {text: '操作系统', link: '/OperatingSystem/'},
-            {text: '留言板', link: '/contact'},
+            { text: '首页', link: '/' },
+            { text: '数据结构', link: '/DataStructure/' },
+            { text: '计算机组成原理', link: '/ComputerOrganization/' },
+            { text: '计算机网络', link: '/ComputerNetwork/' },
+            { text: '操作系统', link: '/OperatingSystem/' },
+            { text: '留言板', link: '/contact' },
             // {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
         ],
         sidebar:
-            {
-                '/DataStructure/': getDataStructureSidebar(),
-                '/ComputerOrganization/': getComputerOrganizationSidebar(),
-                '/ComputerNetwork/': getComputerNetworkSidebar(),
-                '/OperatingSystem/': getOperatingSystemSidebar(),
-                // fallback
-                '/': [
-                    // '',        /* / */
-                    // 'contact', /* /contact.html */
-                ]
-            },
+        {
+            '/DataStructure/': getDataStructureSidebar(),
+            '/ComputerOrganization/': getComputerOrganizationSidebar(),
+            '/ComputerNetwork/': getComputerNetworkSidebar(),
+            '/OperatingSystem/': getOperatingSystemSidebar(),
+            // fallback
+            '/': [
+                // '',        /* / */
+                // 'contact', /* /contact.html */
+            ]
+        },
         // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
         nextLinks: true,
         // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
         prevLinks: true,
-        lastUpdated:"最后更新时间：",
+        lastUpdated: "最后更新时间：",
         smoothScroll: true,
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: 'KimYangOfCat/2021-CSPostgraduate-408',
@@ -59,7 +59,7 @@ module.exports = {
     },
     plugins: {
         '@vssue/vuepress-plugin-vssue': {
-            baseURL:"https://github.com",
+            baseURL: "https://github.com",
 
             platform: 'github-v4', //v3的platform是github，v4的是github-v4
             locale: 'zh', //语言
@@ -68,11 +68,11 @@ module.exports = {
             repo: '2021-CSPostgraduate-408', //github一个项目的名称
             clientId: '0b51066b027f4cb4a5a3',//注册的Client ID
             clientSecret: '4b816edafb10d7e828c0faaaa18df1e7d08585c2',//注册的Client Secret
-            autoCreateIssue:false,// 自动创建评论，默认是false
-            labels:['Comments'],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
-            prefix:'[Comments]',//Issue 标题的前缀
-            locale:'zh',//使用的语言。
-            issueContent: ({ url }) =>`这个 Issue 由评论系统自动创建，用来存储该页面的评论：${url}`,
+            autoCreateIssue: false,// 自动创建评论，默认是false
+            labels: ['Comments'],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
+            prefix: '[Comments]',//Issue 标题的前缀
+            locale: 'zh',//使用的语言。
+            issueContent: ({ url }) => `这个 Issue 由评论系统自动创建，用来存储该页面的评论：${url}`,
         },
     },
 }
