@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /icons@2x.png
-heroText: 2021 计算机考研 408 专业课
-tagline: 2021-CSPostgraduate-408
+heroText: 计算机考研 408 专业课
+tagline: CSPostgraduate-408
 actionText: 开始阅读 →
 actionLink: /DataStructure/
 footer: GPL Licensed | Copyright © 2020-present Kim Yang
