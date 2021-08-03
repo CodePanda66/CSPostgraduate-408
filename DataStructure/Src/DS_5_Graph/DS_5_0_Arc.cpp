@@ -4,7 +4,7 @@
 //
 #include <stdio.h>
 
-//邻接标法（顺序+链式存储）
+//邻接表法（顺序+链式存储）
 /**定义模块**/
 
 #define MaxVertexNum 100
