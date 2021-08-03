@@ -55,7 +55,7 @@ module.exports = {
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
-        editLinkText: '帮助我们完善此页面吧～'
+        editLinkText: '发现错误？帮我修正一下吧！'
     },
     plugins: {
         '@vssue/vuepress-plugin-vssue': {
