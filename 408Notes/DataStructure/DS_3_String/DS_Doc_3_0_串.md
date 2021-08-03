@@ -22,5 +22,3 @@
 
 ![image-20200803215953538](https://tva1.sinaimg.cn/large/007S8ZIlly1ghdyy8zrrwj31sq0u0qv5.jpg)
 
-<!-- 评论模块，不可删除 -->
-<Vssue  />
