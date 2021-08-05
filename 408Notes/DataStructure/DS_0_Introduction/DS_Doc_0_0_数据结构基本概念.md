@@ -120,6 +120,3 @@ ADT 是用数学化的语言定义数据的逻辑结构、定义运算。与其�
 3. 确定某种存储结构，实现数据结构，并实现一些对数据结构的基本运算
 
 ![image-20200616212530957](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001239.jpg)
-
-<!-- 评论模块，不可删除 -->
-<Vssue  />
