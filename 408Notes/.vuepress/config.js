@@ -19,6 +19,7 @@ module.exports = {
             { text: '计算机组成原理', link: '/ComputerOrganization/' },
             { text: '计算机网络', link: '/ComputerNetwork/' },
             { text: '操作系统', link: '/OperatingSystem/' },
+            { text: '个人博客', link: 'https://kimyang.cn' },
             { text: '留言板', link: '/contact' },
             // {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
         ],
@@ -55,7 +56,7 @@ module.exports = {
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
-        editLinkText: '发现错误？帮我修正一下吧！'
+        editLinkText: '发现错误？点击修正！'
     },
     plugins: {
         '@vssue/vuepress-plugin-vssue': {
