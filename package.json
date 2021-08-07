@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.8.2",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.8.1"
   },
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.0",
