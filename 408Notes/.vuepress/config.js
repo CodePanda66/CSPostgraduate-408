@@ -58,10 +58,16 @@ module.exports = {
         // 默认为 "Edit this page"
         editLinkText: '发现错误？点击修正！'
     },
-    plugins: {
-        '@vssue/vuepress-plugin-vssue': {
+    plugins: [
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: "有新的内容更新啦！",
+                buttonText: "更新"
+            }
+        }],
+        ['@vssue/vuepress-plugin-vssue', {
             baseURL: "https://github.com",
-
             platform: 'github-v4', //v3的platform是github，v4的是github-v4
             locale: 'zh', //语言
             // 其他的 Vssue 配置
@@ -74,8 +80,27 @@ module.exports = {
             prefix: '[留言板]',//Issue 标题的前缀
             locale: 'zh',//使用的语言。
             issueContent: ({ url }) => `这个 Issue 由评论系统自动创建，用来存储该页面的评论：${url}`,
-        },
-    },
+        }],
+        [
+            //图片放大插件 先安装在配置， npm install @vuepress\plugin-medium-zoom --save
+            '@vuepress/medium-zoom',
+            {
+                selector: '.page img',
+                delay: 1000,
+                options: {
+                    margin: 24,
+                    background: 'rgba(25,18,25,0.9)',
+                    scrollOffset: 40
+                }
+            }
+        ],
+        ["vuepress-plugin-nuggets-style-copy", {
+            copyText: "复制代码",  //vuepress复制粘贴提示插件P 先安装在配置 npm install vuepress-plugin-nuggets-style-copy --save
+            tip: {
+                content: "复制成功!"
+            }
+        }],
+    ]
 }
 
 function getDataStructureSidebar() {

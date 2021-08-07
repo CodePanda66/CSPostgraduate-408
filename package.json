@@ -4,18 +4,20 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev 408Notes",
+    "dev": "vuepress dev 408Notes --debug",
     "build": "vuepress build 408Notes"
   },
   "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
     "vuepress": "^1.5.3"
   },
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.6",
-    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
+    "@vuepress/plugin-pwa": "^1.8.2",
     "@vuepress/theme-default": "^1.5.3",
     "axios": "^0.21.1",
-    "vue-router": "^3.4.5"
+    "vue-router": "^3.4.5",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3"
   }
 }
