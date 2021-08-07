@@ -331,6 +331,10 @@ function getOperatingSystemSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/OperatingSystem/OS_1_绪论/OS_1_1_基本概念',
+                '/OperatingSystem/OS_1_绪论/OS_1_2_发展与分类',
+                '/OperatingSystem/OS_1_绪论/OS_1_3_运行环境',
+                '/OperatingSystem/OS_1_绪论/OS_1_4_体系结构',
             ]
         },
         {
