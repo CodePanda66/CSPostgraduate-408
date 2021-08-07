@@ -343,6 +343,10 @@ function getOperatingSystemSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/OperatingSystem/OS_2_进程管理/OS_2_1_进程与线程',
+                '/OperatingSystem/OS_2_进程管理/OS_2_2_处理器调度',
+                '/OperatingSystem/OS_2_进程管理/OS_2_3_同步与互斥',
+                '/OperatingSystem/OS_2_进程管理/OS_2_4_死锁',
             ]
         },
         {
@@ -351,22 +355,31 @@ function getOperatingSystemSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/OperatingSystem/OS_3_内存管理/OS_3_1_内存管理基础',
+                '/OperatingSystem/OS_3_内存管理/OS_3_2_虚拟内存管理',
+                '/OperatingSystem/OS_3_内存管理/OS_3_3_对比',
+
             ]
         },
         {
-            title: '四、设备管理',   // 必要的
-            path: '/OperatingSystem/OS_4_设备管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            title: '四、文件管理',   // 必要的
+            path: '/OperatingSystem/OS_4_文件管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/OperatingSystem/OS_4_文件管理/OS_4_1_文件系统基础',
+                '/OperatingSystem/OS_4_文件管理/OS_4_2_文件系统实现',
+                '/OperatingSystem/OS_4_文件管理/OS_4_3_磁盘组织与管理',
             ]
         },
         {
-            title: '五、文件管理',   // 必要的
-            path: '/OperatingSystem/OS_5_文件管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            title: '五、设备管理',   // 必要的
+            path: '/OperatingSystem/OS_5_设备管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/OperatingSystem/OS_5_设备管理/OS_5_1_IO管理概述',
+                '/OperatingSystem/OS_5_设备管理/OS_5_2_IO核心子系统',
             ]
         },
         {
