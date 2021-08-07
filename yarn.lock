@@ -1060,6 +1060,11 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vuepress-reco/vuepress-plugin-bulletin-popover@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-bulletin-popover/-/vuepress-plugin-bulletin-popover-1.6.0.tgz#f11a229db172ad931996f325fefd0bc6335e474a"
+  integrity sha512-vMCzvDDXMlzQDADqCwitQetjD0NiQ2skOJ+xXSZWJj/n1Mj4q+eMLDXgFOZ1z6xiNWrDO7CBXGcJIp8kRfAS5g==
+
 "@vuepress/core@1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@vuepress/core/-/core-1.7.1.tgz#e92faad0e9445fdd775f8e0d65e927bc35e80571"
