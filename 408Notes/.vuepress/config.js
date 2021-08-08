@@ -366,6 +366,8 @@ function getComputerNetworkSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机网络/CN_1_概述/CN_1_1_概述',
+                '/计算机网络/CN_1_概述/CN_1_2_体系结构与参考模型',
             ]
         },
         {
@@ -374,6 +376,9 @@ function getComputerNetworkSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机网络/CN_2_物理层/CN_2_1_通信基础',
+                '/计算机网络/CN_2_物理层/CN_2_2_传输介质',
+                '/计算机网络/CN_2_物理层/CN_2_3_物理层设备',
             ]
         },
         {
@@ -382,6 +387,13 @@ function getComputerNetworkSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机网络/CN_3_数据链路层/CN_3_1_数据链路层功能与组帧',
+                '/计算机网络/CN_3_数据链路层/CN_3_2_差错控制',
+                '/计算机网络/CN_3_数据链路层/CN_3_3_流量控制与可靠传输机制',
+                '/计算机网络/CN_3_数据链路层/CN_3_4_介质访问控制',
+                '/计算机网络/CN_3_数据链路层/CN_3_5_局域网',
+                '/计算机网络/CN_3_数据链路层/CN_3_6_广域网',
+                '/计算机网络/CN_3_数据链路层/CN_3_7_链路层设备',
             ]
         },
         {
@@ -390,6 +402,14 @@ function getComputerNetworkSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机网络/CN_4_网络层/CN_4_1_网络层功能',
+                '/计算机网络/CN_4_网络层/CN_4_2_路由算法',
+                '/计算机网络/CN_4_网络层/CN_4_3_IPV4',
+                '/计算机网络/CN_4_网络层/CN_4_4_IPV6',
+                '/计算机网络/CN_4_网络层/CN_4_5_路由协议',
+                '/计算机网络/CN_4_网络层/CN_4_6_IP组播',
+                '/计算机网络/CN_4_网络层/CN_4_7_移动IP',
+                '/计算机网络/CN_4_网络层/CN_4_8_网络层设备',
             ]
         },
         {
@@ -398,6 +418,9 @@ function getComputerNetworkSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机网络/CN_5_传输层/CN_5_1_传输层服务',
+                '/计算机网络/CN_5_传输层/CN_5_2_UDP',
+                '/计算机网络/CN_5_传输层/CN_5_3_TCP',
             ]
         },
         {
@@ -406,6 +429,11 @@ function getComputerNetworkSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机网络/CN_6_应用层/CN_6_1_网络应用模型',
+                '/计算机网络/CN_6_应用层/CN_6_2_DNS系统',
+                '/计算机网络/CN_6_应用层/CN_6_3_FTP',
+                '/计算机网络/CN_6_应用层/CN_6_4_电子邮件',
+                '/计算机网络/CN_6_应用层/CN_6_5_WWW',
             ]
         },
         {
