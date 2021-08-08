@@ -15,11 +15,23 @@ module.exports = {
         ],
         nav: [
             { text: '首页', link: '/' },
-            { text: '数据结构', link: '/DataStructure/' },
+            {
+                text: '数据结构',
+                items: [
+                    { text: '数据结构笔记', link: '/数据结构/' },
+                    // {text:'数据结构错题集',link:'/数据结构错题集/'},
+                    { text: "数据结构笔记(旧版)", link: '/DataStructure/' },
+                ],
+            },
             { text: '计算机组成原理', link: '/计算机组成原理/' },
             { text: '计算机网络', link: '/计算机网络/' },
-            { text: '操作系统', link: '/操作系统/' },
-            { text: '数据结构（新）', link: '/数据结构/' },
+            {
+                text: '操作系统',
+                items: [
+                    { text: '操作系统笔记', link: '/操作系统/' },
+                    { text: '操作系统错题集', link: '/操作系统错题集/' },
+                ]
+            },
             { text: '留言板', link: '/contact' },
             { text: '个人博客', link: 'https://kimyang.cn' },
             // {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
@@ -31,6 +43,7 @@ module.exports = {
             '/计算机组成原理/': getComputerOrganizationSidebar(),
             '/计算机网络/': getComputerNetworkSidebar(),
             '/操作系统/': getOperatingSystemSidebar(),
+            '/操作系统错题集/': getOperatingSystemWrongSetSidebar(),
             // fallback
             '/': [
                 // '',        /* / */
@@ -546,6 +559,21 @@ function getOperatingSystemSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+            ]
+        }
+    ]
+}
+function getOperatingSystemWrongSetSidebar() {
+    return [
+        '/操作系统错题集/',
+        // '/操作系统错题集/Err_OS_1_绪论',
+        {
+            title: '一、绪论',   // 必要的
+            // path: '/操作系统错题集/Err_OS_1_绪论/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+                '/操作系统错题集/Err_OS_1_绪论/Err_OS_1_天勤',
             ]
         }
     ]
