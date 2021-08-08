@@ -16,9 +16,10 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             { text: '数据结构', link: '/DataStructure/' },
-            { text: '计算机组成原理', link: '/ComputerOrganization/' },
-            { text: '计算机网络', link: '/ComputerNetwork/' },
-            { text: '操作系统', link: '/OperatingSystem/' },
+            { text: '计算机组成原理', link: '/计算机组成原理/' },
+            { text: '计算机网络', link: '/计算机网络/' },
+            { text: '操作系统', link: '/操作系统/' },
+            { text: '数据结构（新）', link: '/数据结构/' },
             { text: '留言板', link: '/contact' },
             { text: '个人博客', link: 'https://kimyang.cn' },
             // {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
@@ -26,9 +27,10 @@ module.exports = {
         sidebar:
         {
             '/DataStructure/': getDataStructureSidebar(),
-            '/ComputerOrganization/': getComputerOrganizationSidebar(),
-            '/ComputerNetwork/': getComputerNetworkSidebar(),
-            '/OperatingSystem/': getOperatingSystemSidebar(),
+            '/数据结构/': getDataStructureSidebar1(),
+            '/计算机组成原理/': getComputerOrganizationSidebar(),
+            '/计算机网络/': getComputerNetworkSidebar(),
+            '/操作系统/': getOperatingSystemSidebar(),
             // fallback
             '/': [
                 // '',        /* / */
@@ -100,6 +102,83 @@ module.exports = {
                 content: "复制成功!"
             }
         }],
+    ]
+}
+function getDataStructureSidebar1() {
+    return [
+        '/数据结构/',
+        {
+            title: '一、绪论',   // 必要的
+            path: '/数据结构/DS_1_概述/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '二、线性表',   // 必要的
+            path: '/数据结构/DS_2_线性表/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '三、栈和队列',   // 必要的
+            path: '/数据结构/DS_3_栈和队列/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '四、串',   // 必要的
+            path: '/数据结构/DS_4_串/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '五、数组、矩阵和广义表',   // 必要的
+            path: '/数据结构/DS_5_数组矩阵与广义表/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '六、树与二叉树',   // 必要的
+            path: '/数据结构/DS_6_树与二叉树/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '七、图',   // 必要的
+            path: '/数据结构/DS_7_图/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '八、排序',   // 必要的
+            path: '/数据结构/DS_8_排序/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
+        {
+            title: '九、查找',   // 必要的
+            path: '/数据结构/DS_9_查找/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+            ]
+        },
     ]
 }
 
@@ -208,77 +287,70 @@ function getDataStructureSidebar() {
 
 function getComputerOrganizationSidebar() {
     return [
-        '/ComputerOrganization/',
+        '/计算机组成原理/',
         {
             title: '一、计算机系统概述',   // 必要的
-            path: '/ComputerOrganization/CO_0_Introduction/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_1_概述/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/ComputerOrganization/CO_0_Introduction/CO_0_0_计算机系统概述'
+                // '/计算机组成原理/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         },
         {
             title: '二、数据的表示和运算',   // 必要的
-            path: '/ComputerOrganization/CO_1_Data/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_2_数据/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/ComputerNetwork/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         },
         {
             title: '三、存储器层次结构',   // 必要的
-            path: '/ComputerOrganization/CO_2_Memory/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_3_存储器/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/ComputerNetwork/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         },
         {
             title: '四、指令系统',   // 必要的
-            path: '/ComputerOrganization/CO_3_CommandSystem/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_4_指令系统/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/ComputerNetwork/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         },
         {
             title: '五、中央处理器',   // 必要的
-            path: '/ComputerOrganization/CO_4_CPU/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_5_CPU/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/ComputerNetwork/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         },
         {
             title: '六、总线',   // 必要的
-            path: '/ComputerOrganization/CO_5_Bus/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_6_总线/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/ComputerNetwork/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         },
         {
             title: '七、输入/输出系统',   // 必要的
-            path: '/ComputerOrganization/CO_6_IO/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_7_IO/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/ComputerNetwork/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         },
         {
             title: '八、非统考知识点补充',   // 必要的
-            path: '/ComputerOrganization/CO_7_Other/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机组成原理/CO_8_Other/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/ComputerNetwork/CO_0_Introduction/CO_0_0_计算机系统概述'
             ]
         }
 
@@ -287,10 +359,10 @@ function getComputerOrganizationSidebar() {
 
 function getComputerNetworkSidebar() {
     return [
-        '/ComputerNetwork/',
+        '/计算机网络/',
         {
             title: '一、计算机网络体系结构',   // 必要的
-            path: '/ComputerNetwork/CN_1_概述/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机网络/CN_1_概述/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
@@ -298,7 +370,7 @@ function getComputerNetworkSidebar() {
         },
         {
             title: '二、物理层',   // 必要的
-            path: '/ComputerNetwork/CN_2_物理层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机网络/CN_2_物理层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
@@ -306,7 +378,7 @@ function getComputerNetworkSidebar() {
         },
         {
             title: '三、数据链路层',   // 必要的
-            path: '/ComputerNetwork/CN_3_数据链路层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机网络/CN_3_数据链路层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
@@ -314,7 +386,7 @@ function getComputerNetworkSidebar() {
         },
         {
             title: '四、网络层',   // 必要的
-            path: '/ComputerNetwork/CN_4_网络层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机网络/CN_4_网络层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
@@ -322,7 +394,7 @@ function getComputerNetworkSidebar() {
         },
         {
             title: '五、传输层',   // 必要的
-            path: '/ComputerNetwork/CN_5_传输层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机网络/CN_5_传输层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
@@ -330,7 +402,7 @@ function getComputerNetworkSidebar() {
         },
         {
             title: '六、应用层',   // 必要的
-            path: '/ComputerNetwork/CN_6_应用层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机网络/CN_6_应用层/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
@@ -338,7 +410,7 @@ function getComputerNetworkSidebar() {
         },
         {
             title: '七、其他知识补充',   // 必要的
-            path: '/ComputerNetwork/CN_7_补充/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/计算机网络/CN_7_补充/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
@@ -349,67 +421,67 @@ function getComputerNetworkSidebar() {
 
 function getOperatingSystemSidebar() {
     return [
-        '/OperatingSystem/',
+        '/操作系统/',
         {
             title: '一、绪论',   // 必要的
-            path: '/OperatingSystem/OS_1_绪论/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/操作系统/OS_1_绪论/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/OperatingSystem/OS_1_绪论/OS_1_1_基本概念',
-                '/OperatingSystem/OS_1_绪论/OS_1_2_发展与分类',
-                '/OperatingSystem/OS_1_绪论/OS_1_3_运行环境',
-                '/OperatingSystem/OS_1_绪论/OS_1_4_体系结构',
+                '/操作系统/OS_1_绪论/OS_1_1_基本概念',
+                '/操作系统/OS_1_绪论/OS_1_2_发展与分类',
+                '/操作系统/OS_1_绪论/OS_1_3_运行环境',
+                '/操作系统/OS_1_绪论/OS_1_4_体系结构',
             ]
         },
         {
             title: '二、进程管理',   // 必要的
-            path: '/OperatingSystem/OS_2_进程管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/操作系统/OS_2_进程管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/OperatingSystem/OS_2_进程管理/OS_2_1_进程与线程',
-                '/OperatingSystem/OS_2_进程管理/OS_2_2_处理器调度',
-                '/OperatingSystem/OS_2_进程管理/OS_2_3_同步与互斥',
-                '/OperatingSystem/OS_2_进程管理/OS_2_4_死锁',
+                '/操作系统/OS_2_进程管理/OS_2_1_进程与线程',
+                '/操作系统/OS_2_进程管理/OS_2_2_处理器调度',
+                '/操作系统/OS_2_进程管理/OS_2_3_同步与互斥',
+                '/操作系统/OS_2_进程管理/OS_2_4_死锁',
             ]
         },
         {
             title: '三、内存管理',   // 必要的
-            path: '/OperatingSystem/OS_3_内存管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/操作系统/OS_3_内存管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/OperatingSystem/OS_3_内存管理/OS_3_1_内存管理基础',
-                '/OperatingSystem/OS_3_内存管理/OS_3_2_虚拟内存管理',
-                '/OperatingSystem/OS_3_内存管理/OS_3_3_对比',
+                '/操作系统/OS_3_内存管理/OS_3_1_内存管理基础',
+                '/操作系统/OS_3_内存管理/OS_3_2_虚拟内存管理',
+                '/操作系统/OS_3_内存管理/OS_3_3_对比',
 
             ]
         },
         {
             title: '四、文件管理',   // 必要的
-            path: '/OperatingSystem/OS_4_文件管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/操作系统/OS_4_文件管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/OperatingSystem/OS_4_文件管理/OS_4_1_文件系统基础',
-                '/OperatingSystem/OS_4_文件管理/OS_4_2_文件系统实现',
-                '/OperatingSystem/OS_4_文件管理/OS_4_3_磁盘组织与管理',
+                '/操作系统/OS_4_文件管理/OS_4_1_文件系统基础',
+                '/操作系统/OS_4_文件管理/OS_4_2_文件系统实现',
+                '/操作系统/OS_4_文件管理/OS_4_3_磁盘组织与管理',
             ]
         },
         {
             title: '五、设备管理',   // 必要的
-            path: '/OperatingSystem/OS_5_设备管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/操作系统/OS_5_设备管理/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                '/OperatingSystem/OS_5_设备管理/OS_5_1_IO管理概述',
-                '/OperatingSystem/OS_5_设备管理/OS_5_2_IO核心子系统',
+                '/操作系统/OS_5_设备管理/OS_5_1_IO管理概述',
+                '/操作系统/OS_5_设备管理/OS_5_2_IO核心子系统',
             ]
         },
         {
             title: '六、补充',   // 必要的
-            path: '/OperatingSystem/OS_6_补充/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            path: '/操作系统/OS_6_补充/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
