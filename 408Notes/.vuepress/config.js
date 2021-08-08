@@ -294,7 +294,11 @@ function getComputerOrganizationSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
-                // '/计算机组成原理/CO_0_Introduction/CO_0_0_计算机系统概述'
+                '/计算机组成原理/CO_1_概述/CO_1_0_计算机系统概述',
+                '/计算机组成原理/CO_1_概述/CO_1_1_计算机发展历程',
+                '/计算机组成原理/CO_1_概述/CO_1_2_计算机系统层次结构',
+                '/计算机组成原理/CO_1_概述/CO_1_3_计算机性能指标',
+                '/计算机组成原理/CO_1_概述/CO_1_4_辅助知识点',
             ]
         },
         {
@@ -303,6 +307,10 @@ function getComputerOrganizationSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机组成原理/CO_2_数据/CO_2_1_数制与编码',
+                '/计算机组成原理/CO_2_数据/CO_2_2_定点数的表示和运算',
+                '/计算机组成原理/CO_2_数据/CO_2_3_浮点数的表示和运算',
+                '/计算机组成原理/CO_2_数据/CO_2_4_算数逻辑单元',
             ]
         },
         {
@@ -311,6 +319,14 @@ function getComputerOrganizationSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机组成原理/CO_3_存储器/CO_3_1_存储器的基本概念',
+                '/计算机组成原理/CO_3_存储器/CO_3_2_存储器的层次化结构',
+                '/计算机组成原理/CO_3_存储器/CO_3_3_半导体随机存取存储器',
+                '/计算机组成原理/CO_3_存储器/CO_3_4_主存储器与CPU的链接',
+                '/计算机组成原理/CO_3_存储器/CO_3_5_双口RAM和多模块存储器',
+                '/计算机组成原理/CO_3_存储器/CO_3_6_Cache',
+                '/计算机组成原理/CO_3_存储器/CO_3_7_虚拟存储器',
+                '/计算机组成原理/CO_3_存储器/CO_3_8_外存储器',
             ]
         },
         {
@@ -319,6 +335,9 @@ function getComputerOrganizationSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机组成原理/CO_4_指令系统/CO_4_1_指令格式',
+                '/计算机组成原理/CO_4_指令系统/CO_4_2_指令的寻址方式',
+                '/计算机组成原理/CO_4_指令系统/CO_4_3_CISC和RISC的基本概念',
             ]
         },
         {
@@ -327,6 +346,12 @@ function getComputerOrganizationSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机组成原理/CO_5_CPU/CO_5_1_CPU的功能和基本结构',
+                '/计算机组成原理/CO_5_CPU/CO_5_2_指令执行过程',
+                '/计算机组成原理/CO_5_CPU/CO_5_3_数据通路的功能和基本结构',
+                '/计算机组成原理/CO_5_CPU/CO_5_4_控制器的功能和工作原理',
+                '/计算机组成原理/CO_5_CPU/CO_5_5_指令流水线',
+                '/计算机组成原理/CO_5_CPU/CO_5_6_中断系统',
             ]
         },
         {
@@ -335,6 +360,10 @@ function getComputerOrganizationSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机组成原理/CO_6_总线/CO_6_1_总线概述',
+                '/计算机组成原理/CO_6_总线/CO_6_2_总线仲裁',
+                '/计算机组成原理/CO_6_总线/CO_6_3_总线操作和定时',
+                '/计算机组成原理/CO_6_总线/CO_6_4_总线标准',
             ]
         },
         {
@@ -343,6 +372,10 @@ function getComputerOrganizationSidebar() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/计算机组成原理/CO_7_IO/CO_7_1_IO系统基本概念',
+                '/计算机组成原理/CO_7_IO/CO_7_2_外部设备',
+                '/计算机组成原理/CO_7_IO/CO_7_3_IO接口',
+                '/计算机组成原理/CO_7_IO/CO_7_4_IO方式',
             ]
         },
         {
