@@ -4,7 +4,7 @@ heroImage: /icons@2x.png
 heroText: 计算机考研 408 专业课
 tagline: CSPostgraduate-408
 actionText: 开始阅读 →
-actionLink: /DataStructure/
+actionLink: /操作系统/
 footer: GPL Licensed | Copyright © 2020-present Kim Yang
 ---
 
