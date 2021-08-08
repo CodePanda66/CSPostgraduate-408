@@ -10,8 +10,6 @@ footer: GPL Licensed | Copyright © 2020-present Kim Yang
 
 <div align="center">
 
-# CSPostgraduate-408
-
 ![Top Language](https://img.shields.io/github/languages/top/KimYangOfCat/2021-CSPostgraduate-408?color=F8008E)
 ![DataStructure](https://img.shields.io/static/v1?label=&message=DataStructure&color=brightgreen)
 ![ComputerOrganization](https://img.shields.io/static/v1?label=&message=ComputerOrganization&color=blueviolet)

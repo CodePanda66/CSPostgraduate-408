@@ -7,7 +7,7 @@ module.exports = {
     themeConfig: {
         //reco 主题相关
         noFoundPageByTencent: false,
-
+        subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
         //默认主题支持
         logo: '/icons.png',
         head: [
@@ -16,7 +16,7 @@ module.exports = {
             ['link', { rel: 'apple-touch-icon', href: `/favicon.ico`, type: "image/x-icon" }],
         ],
         nav: [
-            { text: '首页', link: '/', link: 'reco-home' },
+            { text: '首页', link: '/', icon: 'reco-home' },
             {
                 text: '数据结构',
                 items: [
