@@ -1,12 +1,14 @@
 module.exports = {
-    title: "CSPostgraduate",
+    title: "CSPostgraduate-408",
     base: process.env.BASE408,
-    repo: "https://github.com/KimYangOfCat/2021-CSPostgraduate-408",
-    description: "2021 CSPostgraduate 408",
+    description: "一研为定！一战成硕！",
     port: 4080,
-
-    theme: '@vuepress/theme-default',
+    theme: 'reco',
     themeConfig: {
+        //reco 主题相关
+        noFoundPageByTencent: false,
+
+        //默认主题支持
         logo: '/icons.png',
         head: [
             ['link', { rel: 'icon', href: '/favicon.ico', type: "image/x-icon" }],
@@ -14,27 +16,38 @@ module.exports = {
             ['link', { rel: 'apple-touch-icon', href: `/favicon.ico`, type: "image/x-icon" }],
         ],
         nav: [
-            { text: '首页', link: '/' },
+            { text: '首页', link: '/', link: 'reco-home' },
             {
                 text: '数据结构',
                 items: [
-                    { text: '数据结构笔记', link: '/数据结构/' },
+                    { text: '数据结构笔记', link: '/数据结构/', icon: 'reco-document' },
                     // {text:'数据结构错题集',link:'/数据结构错题集/'},
-                    { text: "数据结构笔记(旧版)", link: '/DataStructure/' },
+                    { text: "数据结构笔记(旧版)", link: '/DataStructure/', icon: 'reco-document' },
                 ],
+                icon: 'reco-category'
             },
-            { text: '计算机组成原理', link: '/计算机组成原理/' },
-            { text: '计算机网络', link: '/计算机网络/' },
+            { text: '计算机组成原理', link: '/计算机组成原理/', icon: 'reco-category' },
+            { text: '计算机网络', link: '/计算机网络/', icon: 'reco-category' },
             {
                 text: '操作系统',
                 items: [
-                    { text: '操作系统笔记', link: '/操作系统/' },
-                    { text: '操作系统错题集', link: '/操作系统错题集/' },
-                ]
+                    { text: '操作系统笔记', link: '/操作系统/', icon: 'reco-document' },
+                    { text: '操作系统错题集', link: '/操作系统错题集/', icon: 'reco-suggestion' },
+                ],
+                icon: 'reco-category'
             },
-            { text: '留言板', link: '/contact' },
-            { text: '个人博客', link: 'https://kimyang.cn' },
-            // {text: 'GitHub', link: 'https://github.com/KimYangOfCat/2021-CSPostgraduate-408', target: '_blank'},
+            { text: '留言板', link: '/contact', icon: "reco-suggestion" },
+            {
+                text: '联系我',
+                items: [
+                    { text: 'Email', link: 'mailto:Kim.Yang.HG@outlook.com', icon: 'reco-mail' },
+                    { text: '个人博客', link: 'https://kimyang.cn', icon: 'reco-blog' },
+                    { text: 'GitHub', link: 'https://github.com/KimYangOfCat', icon: 'reco-github' },
+                    { text: 'BiliBili', link: 'https://space.bilibili.com/240836280', icon: 'reco-bilibili' },
+                    { text: '微信公众号', link: 'https://mp.weixin.qq.com/s/kSfjVbzlP46oB-Ux-MPWzA', icon: 'reco-wechat' },
+                ],
+                icon: 'reco-other'
+            },
         ],
         sidebar:
         {
@@ -60,7 +73,7 @@ module.exports = {
         repo: 'KimYangOfCat/2021-CSPostgraduate-408',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-        repoLabel: 'GitHub',
+        repoLabel: '查看源码',
         // 以下为可选的编辑链接选项
         // 假如你的文档仓库和项目本身不在一个仓库：
         // docsRepo: 'KimYangOfCat/2021-CSPostgraduate-408',
@@ -71,7 +84,18 @@ module.exports = {
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
-        editLinkText: '发现错误？点击修正！'
+        editLinkText: '发现错误？点击修正！',
+
+        vssueConfig: {
+            platform: 'github',
+            owner: 'CodePanda66',
+            repo: 'CSPostgraduate-408', //github一个项目的名称
+            clientId: '0b51066b027f4cb4a5a3',//注册的Client ID
+            clientSecret: '4b816edafb10d7e828c0faaaa18df1e7d08585c2',//注册的Client Secret
+            locale: 'zh', //语言
+            labels: ["留言板"],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
+            prefix: '[Comments]',//Issue 标题的前缀
+        }
     },
     plugins: [
         ['@vuepress/pwa', {
@@ -80,21 +104,6 @@ module.exports = {
                 message: "有新的内容更新啦！",
                 buttonText: "更新"
             }
-        }],
-        ['@vssue/vuepress-plugin-vssue', {
-            baseURL: "https://github.com",
-            platform: 'github-v4', //v3的platform是github，v4的是github-v4
-            locale: 'zh', //语言
-            // 其他的 Vssue 配置
-            owner: 'CodePanda66', //github账户名
-            repo: 'CSPostgraduate-408', //github一个项目的名称
-            clientId: '0b51066b027f4cb4a5a3',//注册的Client ID
-            clientSecret: '4b816edafb10d7e828c0faaaa18df1e7d08585c2',//注册的Client Secret
-            autoCreateIssue: false,// 自动创建评论，默认是false
-            labels: ["留言板"],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
-            prefix: '[留言板]',//Issue 标题的前缀
-            locale: 'zh',//使用的语言。
-            issueContent: ({ url }) => `这个 Issue 由评论系统自动创建，用来存储该页面的评论：${url}`,
         }],
         [
             //图片放大插件 先安装在配置， npm install @vuepress\plugin-medium-zoom --save
@@ -115,6 +124,36 @@ module.exports = {
                 content: "复制成功!"
             }
         }],
+        // 支持中文文件名
+        [
+            "permalink-pinyin",
+            {
+                lowercase: true, // Converted into lowercase, default: true
+                separator: "-", // Separator of the slug, default: '-'
+            },
+        ],
+        ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
+            width: '300px', // 默认 260px
+            title: '欢迎关注',
+            body: [
+                {
+                    type: 'title',
+                    content: '欢迎关注我的微信公众号和B站！🎉🎉🎉',
+                    style: 'text-aligin: center;'
+                },
+                {
+                    type: 'image',
+                    src: 'https://pic-bed-1256389522.cos.ap-chengdu.myqcloud.com/info/binarycode.png'
+                }
+            ],
+            footer: [
+                {
+                    type: 'button',
+                    text: '打赏',
+                    link: 'https://picbed.kimyang.cn/202108090635547.png'
+                }
+            ]
+        }]
     ]
 }
 function getDataStructureSidebar1() {
