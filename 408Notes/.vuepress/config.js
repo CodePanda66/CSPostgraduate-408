@@ -7,7 +7,8 @@ module.exports = {
     themeConfig: {
         //reco 主题相关
         noFoundPageByTencent: false,
-        subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+        startYear: 2020,
+        author: "Kim Yang",
         //默认主题支持
         logo: '/icons.png',
         head: [
@@ -48,6 +49,7 @@ module.exports = {
                 ],
                 icon: 'reco-other'
             },
+            { text: 'RSS', link: 'https://408.kimyang.cn/rss.xml', icon: 'reco-rss' },
         ],
         sidebar:
         {
@@ -63,6 +65,7 @@ module.exports = {
                 // 'contact', /* /contact.html */
             ]
         },
+        subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
         // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
         nextLinks: true,
         // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
@@ -70,10 +73,10 @@ module.exports = {
         lastUpdated: "最后更新时间：",
         smoothScroll: true,
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        repo: 'KimYangOfCat/2021-CSPostgraduate-408',
+        // repo: 'KimYangOfCat/2021-CSPostgraduate-408',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-        repoLabel: '查看源码',
+        // repoLabel: '查看源码',
         // 以下为可选的编辑链接选项
         // 假如你的文档仓库和项目本身不在一个仓库：
         // docsRepo: 'KimYangOfCat/2021-CSPostgraduate-408',
@@ -125,6 +128,10 @@ module.exports = {
             }
         }],
         // 支持中文文件名
+        ['@vuepress-reco/vuepress-plugin-rss', {
+            //RSS
+            site_url: "https://408.kimyang.cn"
+        }],
         [
             "permalink-pinyin",
             {
