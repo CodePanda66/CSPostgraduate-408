@@ -1,4 +1,7 @@
-# 链栈
+---
+title: 链栈
+---
+ 
 
 ![image-20200624153019827](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010327.jpg)
 

@@ -1,6 +1,9 @@
-# 线性表
+---
+title: 线性表
+---
+  
 
-##线性表的基本概念
+## 线性表的基本概念
 
 ![image-20200617165505571](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810002132.jpg)
 数据结构的三要素：逻辑结构、数据的运算、存储结构（物理结构）

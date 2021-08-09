@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev 408Notes --debug",
+    "dev": "vuepress dev 408Notes",
     "build": "vuepress build 408Notes"
   },
   "dependencies": {

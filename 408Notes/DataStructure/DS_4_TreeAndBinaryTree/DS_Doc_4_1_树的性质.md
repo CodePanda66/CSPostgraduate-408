@@ -1,4 +1,7 @@
-# 树的性质
+---
+title: 树的性质
+---
+  
 
 ![image-20200805182003121](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013150.jpg)
 

@@ -302,47 +302,47 @@ function getDataStructureSidebar() {
                 '/DataStructure/DS_3_String/DS_Doc_3_4_KMP算法的优化',
             ]
         },
-        {
-            title: '五、树与二叉树',   // 必要的
-            path: '/DataStructure/DS_4_TreeAndBinaryTree/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-            collapsable: true, // 可选的, 默认值是 true,
-            sidebarDepth: 2,    // 可选的, 默认值是 1
-            children: [
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_0_树',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_1_树的性质',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_2_二叉树',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_3_二叉树的性质',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_4_二叉树的存储结构',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_5_二叉树的遍历',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_6_二叉树的构造',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_7_线索二叉树',
-                '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_8_二叉树的线索化',
-            ]
-        },
-        {
-            title: '六、图',   // 必要的
-            path: '/DataStructure/DS_5_Graph/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-            collapsable: true, // 可选的, 默认值是 true,
-            sidebarDepth: 2,    // 可选的, 默认值是 1
-            children: [
-            ]
-        },
-        {
-            title: '七、搜索',   // 必要的
-            path: '/DataStructure/DS_6_Search/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-            collapsable: true, // 可选的, 默认值是 true,
-            sidebarDepth: 2,    // 可选的, 默认值是 1
-            children: [
-            ]
-        },
-        {
-            title: '八、排序',   // 必要的
-            path: '/DataStructure/DS_7_Sort/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-            collapsable: true, // 可选的, 默认值是 true,
-            sidebarDepth: 2,    // 可选的, 默认值是 1
-            children: [
-            ]
-        },
+        // {
+        //     title: '五、树与二叉树',   // 必要的
+        //     path: '/DataStructure/DS_4_TreeAndBinaryTree/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        //     collapsable: true, // 可选的, 默认值是 true,
+        //     sidebarDepth: 2,    // 可选的, 默认值是 1
+        //     children: [
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_0_树',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_1_树的性质',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_2_二叉树',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_3_二叉树的性质',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_4_二叉树的存储结构',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_5_二叉树的遍历',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_6_二叉树的构造',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_7_线索二叉树',
+        //         '/DataStructure/DS_4_TreeAndBinaryTree/DS_Doc_4_8_二叉树的线索化',
+        //     ]
+        // },
+        // {
+        //     title: '六、图',   // 必要的
+        //     path: '/DataStructure/DS_5_Graph/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        //     collapsable: true, // 可选的, 默认值是 true,
+        //     sidebarDepth: 2,    // 可选的, 默认值是 1
+        //     children: [
+        //     ]
+        // },
+        // {
+        //     title: '七、搜索',   // 必要的
+        //     path: '/DataStructure/DS_6_Search/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        //     collapsable: true, // 可选的, 默认值是 true,
+        //     sidebarDepth: 2,    // 可选的, 默认值是 1
+        //     children: [
+        //     ]
+        // },
+        // {
+        //     title: '八、排序',   // 必要的
+        //     path: '/DataStructure/DS_7_Sort/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        //     collapsable: true, // 可选的, 默认值是 true,
+        //     sidebarDepth: 2,    // 可选的, 默认值是 1
+        //     children: [
+        //     ]
+        // },
 
     ]
 }

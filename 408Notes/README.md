@@ -2,13 +2,15 @@
 home: true
 heroImage: /icons@2x.png
 heroText: 计算机考研 408 专业课
-tagline: CSPostgraduate-408
+tagline: null
 actionText: 开始阅读 →
 actionLink: /操作系统/
 footer: GPL Licensed | Copyright © 2020-present Kim Yang
 ---
 
 <div align="center">
+
+# CSPostgraduate-408
 
 ![Top Language](https://img.shields.io/github/languages/top/KimYangOfCat/2021-CSPostgraduate-408?color=F8008E)
 ![DataStructure](https://img.shields.io/static/v1?label=&message=DataStructure&color=brightgreen)

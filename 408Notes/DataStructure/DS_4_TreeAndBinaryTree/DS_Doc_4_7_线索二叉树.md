@@ -1,4 +1,7 @@
-# 线索二叉树
+---
+title: 线索二叉树
+---
+ 
 
 ![image-20200810110140084](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810110140.png)
 

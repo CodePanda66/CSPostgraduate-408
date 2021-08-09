@@ -1,4 +1,7 @@
-# 队列
+---
+title: 队列
+---
+  
 
 ![image-20200624153725089](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810010403.jpg)
 

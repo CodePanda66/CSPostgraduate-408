@@ -1,4 +1,7 @@
-# 二叉树
+---
+title: 二叉树
+---
+  
 
 ![image-20200805182546741](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013238.jpg)
 
