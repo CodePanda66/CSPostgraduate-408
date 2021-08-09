@@ -42,17 +42,23 @@ module.exports = {
             },
             // { text: '留言板', link: '/contact', icon: "reco-suggestion" },
             {
-                text: '联系我',
+                text: '其他',
                 items: [
-                    { text: 'Email', link: 'mailto:Kim.Yang.HG@outlook.com', icon: 'reco-mail' },
-                    { text: '个人博客', link: 'https://kimyang.cn', icon: 'reco-blog' },
-                    { text: 'GitHub', link: 'https://github.com/KimYangOfCat', icon: 'reco-github' },
-                    { text: 'BiliBili', link: 'https://space.bilibili.com/240836280', icon: 'reco-bilibili' },
-                    { text: '微信公众号', link: 'https://mp.weixin.qq.com/s/kSfjVbzlP46oB-Ux-MPWzA', icon: 'reco-wechat' },
+                    { text: '赞赏', link: '/sponsor', icon: 'reco-three' },
+                    { text: 'RSS', link: 'https://408.kimyang.cn/rss.xml', icon: 'reco-rss' },
+                    {
+                        text: '联系我', items: [
+                            { text: '微信公众号', link: 'https://mp.weixin.qq.com/s/kSfjVbzlP46oB-Ux-MPWzA', icon: 'reco-wechat' },
+                            { text: '个人博客', link: 'https://kimyang.cn', icon: 'reco-blog' },
+                            { text: 'GitHub', link: 'https://github.com/KimYangOfCat', icon: 'reco-github' },
+                            { text: 'BiliBili', link: 'https://space.bilibili.com/240836280', icon: 'reco-bilibili' },
+                            { text: 'Email', link: 'mailto:Kim.Yang.HG@outlook.com', icon: 'reco-mail' },
+                        ]
+                    },
                 ],
                 icon: 'reco-other'
             },
-            { text: 'RSS', link: 'https://408.kimyang.cn/rss.xml', icon: 'reco-rss' },
+
         ],
         sidebar:
         {
@@ -148,22 +154,37 @@ module.exports = {
             body: [
                 {
                     type: 'title',
-                    content: '欢迎关注我的微信公众号和B站！🎉🎉🎉',
+                    content: '更多资源请关注我的微信公众号！🎉🎉🎉',
                     style: 'text-aligin: center;'
                 },
                 {
                     type: 'image',
-                    src: 'https://pic-bed-1256389522.cos.ap-chengdu.myqcloud.com/info/binarycode.png'
+                    src: '/qc/wechatqc.png'
+                },
+                {
+                    type: 'image',
+                    src: '/qc/bilibili.png'
                 }
             ],
             footer: [
                 {
                     type: 'button',
-                    text: '打赏',
-                    link: 'https://picbed.kimyang.cn/202108090635547.png'
+                    text: '赞赏',
+                    link: '/sponsor'
                 }
             ]
-        }]
+        }], [
+            'vuepress-plugin-sponsor',
+            {
+                theme: 'simple',
+                alipay: '/sponsor/alipag.png',
+                wechat: '/sponsor/wechatpay.png',
+                qq: '/sponsor/qqpay.png',
+                // paypal: 'https://www.paypal.me/yokefellow',
+                duration: 2000
+            }
+        ]
+
     ]
 }
 function getDataStructureSidebar1() {
