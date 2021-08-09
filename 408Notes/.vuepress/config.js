@@ -88,7 +88,7 @@ module.exports = {
         // repoLabel: '查看源码',
         // 以下为可选的编辑链接选项
         // 假如你的文档仓库和项目本身不在一个仓库：
-        // docsRepo: 'KimYangOfCat/2021-CSPostgraduate-408',
+        docsRepo: 'KimYangOfCat/2021-CSPostgraduate-408',
         // 假如文档不是放在仓库的根目录下：
         docsDir: '408Notes',
         // 假如文档放在一个特定的分支下：
@@ -196,6 +196,9 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_1_概述/DS-1-1-代码书写规范以及语言基础',
+                '/数据结构/DS_1_概述/DS-1-2-算法时空复杂度分析',
+                '/数据结构/DS_1_概述/DS-1-3-数据结构和算法基本概念',
             ]
         },
         {
@@ -204,6 +207,8 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_2_线性表/DS-2-1-基本概念与实现',
+                '/数据结构/DS_2_线性表/DS-2-1-结构体定义和基本操作',
             ]
         },
         {
@@ -212,6 +217,9 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_3_栈和队列/DS-3-1-栈和队列的基本概念',
+                '/数据结构/DS_3_栈和队列/DS-3-2-栈和队列的存储结构',
+                '/数据结构/DS_3_栈和队列/DS-3-3-抽象数据类型',
             ]
         },
         {
@@ -220,6 +228,8 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_4_串/DS-4-1-串数据类型的定义',
+                '/数据结构/DS_4_串/DS-4-2-串的模式匹配算法',
             ]
         },
         {
@@ -228,6 +238,10 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_5_数组矩阵与广义表/DS-5-1-数组',
+                '/数据结构/DS_5_数组矩阵与广义表/DS-5-2-矩阵的压缩存储',
+                '/数据结构/DS_5_数组矩阵与广义表/DS-5-3-广义表',
+
             ]
         },
         {
@@ -236,6 +250,10 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_6_树与二叉树/DS-6-1-树的基本概念',
+                '/数据结构/DS_6_树与二叉树/DS-6-2-二叉树',
+                '/数据结构/DS_6_树与二叉树/DS-6-3-树和森林与二叉树的互相转换',
+                '/数据结构/DS_6_树与二叉树/DS-6-4-树和二叉树的应用',
             ]
         },
         {
@@ -244,6 +262,13 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_7_图/DS-7-1-图的基本概念',
+                '/数据结构/DS_7_图/DS-7-2-图的存储结构',
+                '/数据结构/DS_7_图/DS-7-3-图的遍历算法操作',
+                '/数据结构/DS_7_图/DS-7-4-最小代价生成树',
+                '/数据结构/DS_7_图/DS-7-5-最短路径',
+                '/数据结构/DS_7_图/DS-7-6-拓扑排序',
+                '/数据结构/DS_7_图/DS-7-7-关键路径',
             ]
         },
         {
@@ -252,6 +277,13 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_8_排序/DS-8-1-排序的基本概念',
+                '/数据结构/DS_8_排序/DS-8-2-插入类排序',
+                '/数据结构/DS_8_排序/DS-8-3-交换类排序',
+                '/数据结构/DS_8_排序/DS-8-4-选择类排序',
+                '/数据结构/DS_8_排序/DS-8-5-二路归并排序',
+                '/数据结构/DS_8_排序/DS-8-6-基数排序',
+                '/数据结构/DS_8_排序/DS-8-7-外部排序',
             ]
         },
         {
@@ -260,6 +292,10 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_9_查找/DS-9-1-查找的基本概念',
+                '/数据结构/DS_9_查找/DS-9-2-二叉排序树和平衡二叉树',
+                '/数据结构/DS_9_查找/DS-9-3-B-树',
+                '/数据结构/DS_9_查找/DS-9-4-散列表',
             ]
         },
     ]
