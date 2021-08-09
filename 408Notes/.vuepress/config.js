@@ -4,6 +4,9 @@ module.exports = {
     description: "一研为定！一战成硕！",
     port: 4080,
     theme: 'reco',
+    head: [
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ],
     themeConfig: {
         //reco 主题相关
         noFoundPageByTencent: false,
@@ -37,7 +40,7 @@ module.exports = {
                 ],
                 icon: 'reco-category'
             },
-            { text: '留言板', link: '/contact', icon: "reco-suggestion" },
+            // { text: '留言板', link: '/contact', icon: "reco-suggestion" },
             {
                 text: '联系我',
                 items: [
@@ -89,16 +92,16 @@ module.exports = {
         // 默认为 "Edit this page"
         editLinkText: '发现错误？点击修正！',
 
-        vssueConfig: {
-            platform: 'github',
-            owner: 'CodePanda66',
-            repo: 'CSPostgraduate-408', //github一个项目的名称
-            clientId: '0b51066b027f4cb4a5a3',//注册的Client ID
-            clientSecret: '4b816edafb10d7e828c0faaaa18df1e7d08585c2',//注册的Client Secret
-            locale: 'zh', //语言
-            labels: ["留言板"],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
-            prefix: '[Comments]',//Issue 标题的前缀
-        }
+        // vssueConfig: {
+        //     platform: 'github',
+        //     owner: 'CodePanda66',
+        //     repo: 'CSPostgraduate-408', //github一个项目的名称
+        //     clientId: '0b51066b027f4cb4a5a3',//注册的Client ID
+        //     clientSecret: '4b816edafb10d7e828c0faaaa18df1e7d08585c2',//注册的Client Secret
+        //     locale: 'zh', //语言
+        //     labels: ["留言板"],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
+        //     prefix: '[Comments]',//Issue 标题的前缀
+        // }
     },
     plugins: [
         ['@vuepress/pwa', {
