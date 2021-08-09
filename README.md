@@ -141,9 +141,16 @@
 ## 笔记
 
  笔记是由 Github pages 服务托管的，使用的是 `VuePress` 静态博客框架生成，你可以通过 [408.kimyang.cn](https://408.kimyang.cn) 域名来访问生成的 Web 页面笔记，
- 
- 此外，后续更新的笔记将会持续发布在 [ **wiki**](https://github.com/KimYangOfCat/CSPostgraduate-408-2021/wiki) 中，大家一起加油冲鸭 🦆 。
 
+## 工具说明
+
+### 思维导图
+
+所有以 `.xmind` 结尾的文件均是作者使用 `XMind` 软件制作出来的思维导图源文件，故推荐使用正版软件打开相关思维导图文件。
+
+### IDE
+
+书写并运行源码使用的 IDE 是 `CLion`，其主要的配置文件是仓库根目录下的 `CMakeLists.txt` 文件。
 ## 下载：
 
 ### 下载命令：

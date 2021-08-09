@@ -1,4 +1,7 @@
-# 数据结构基本概念
+---
+title: 数据结构基本概念
+---
+  
 
 ![image-20200616203728181](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810001224.jpg)
 

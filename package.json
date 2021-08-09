@@ -7,14 +7,13 @@
     "dev": "vuepress dev 408Notes",
     "build": "vuepress build 408Notes"
   },
-  "devDependencies": {
-    "vuepress": "^1.5.3"
-  },
   "dependencies": {
-    "vue-router": "^3.4.5",
-    "@vssue/api-github-v4": "^1.4.0",
-    "axios":"^0.21.1",
-    "@vssue/vuepress-plugin-vssue": "^1.4.6",
-    "@vuepress/theme-default": "^1.5.3"
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-theme-reco": "^1.6.6"
   }
 }

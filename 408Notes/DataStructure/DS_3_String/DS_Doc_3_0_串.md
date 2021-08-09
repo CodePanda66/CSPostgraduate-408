@@ -1,4 +1,7 @@
-# 串
+---
+title: 串
+---
+  
 
 ![image-20200803212400697](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810012004.jpg)
 

@@ -1,4 +1,7 @@
-# 二叉树的线索化
+---
+title: 二叉树的线索化
+---
+ 
 
 ![image-20200810105331721](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810105331.png)
 

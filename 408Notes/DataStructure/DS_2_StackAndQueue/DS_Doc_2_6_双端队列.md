@@ -1,4 +1,7 @@
-# 双端队列
+---
+title: 双端队列
+---
+  
 
 ![image-20200624161331529](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810011030.jpg)
 

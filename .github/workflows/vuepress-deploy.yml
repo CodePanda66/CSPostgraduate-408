@@ -2,22 +2,22 @@ name: vuepress-deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-        TARGET_REPO: CodePanda66/CSPostgraduate-408
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: 408Notes/.vuepress/dist/
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          TARGET_REPO: CodePanda66/CSPostgraduate-408
+          TARGET_BRANCH: gh-pages
+          BUILD_SCRIPT: yarn && export BASE408=/CSPostgraduate-408/ && yarn build
+          BUILD_DIR: 408Notes/.vuepress/dist/

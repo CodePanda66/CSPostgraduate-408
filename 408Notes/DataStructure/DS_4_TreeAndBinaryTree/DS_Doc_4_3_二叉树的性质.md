@@ -1,4 +1,7 @@
-# 二叉树的性质
+---
+title: 二叉树的性质
+---
+  
 
 ![image-20200805183656513](https://cdn.jsdelivr.net/gh/KimYangOfCat/MyPicStorage/2021-CSPostgraduate-408/20200810013326.jpg)
 

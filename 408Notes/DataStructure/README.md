@@ -1,5 +1,7 @@
-# 数据结构
-
+---
+title: 数据结构
+---
+旧版笔记
 ## 章节目录
 * [绪论](DS_0_Introduction)
 * [线性表](DS_1_LinearList)
