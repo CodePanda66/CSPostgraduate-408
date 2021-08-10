@@ -4,7 +4,7 @@ heroImage: /icons@2x.png
 heroText: 一研为定！一战成硕！
 tagline: 计算机考研 408 专业课 
 actionText: 开始阅读 →
-actionLink: /操作系统/
+actionLink: /操作系统/OS_1_绪论/OS_1_1_基本概念
 footer: GPL Licensed | Copyright © 2020-present Kim Yang
 ---
 
