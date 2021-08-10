@@ -110,6 +110,11 @@ module.exports = {
         // }
     },
     plugins: [
+        //支持数学公式
+        ['@renovamen/vuepress-plugin-katex', {
+            'throwOnError': false,  // (optional)
+            'errorColor': '#cc0000'  // (optional)
+        }],
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: {
