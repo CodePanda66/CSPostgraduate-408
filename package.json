@@ -8,12 +8,15 @@
     "build": "vuepress build 408Notes"
   },
   "dependencies": {
+    "@renovamen/vuepress-plugin-katex": "^0.1.8",
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
     "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
     "@vuepress/plugin-pwa": "^1.8.2",
+    "markdown-it-katex": "^2.0.3",
     "vuepress": "^1.8.2",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",
     "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-plugin-sponsor": "^1.0.0",
     "vuepress-theme-reco": "^1.6.6"
   }
 }

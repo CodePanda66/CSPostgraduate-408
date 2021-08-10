@@ -24,14 +24,14 @@ module.exports = {
             {
                 text: '数据结构',
                 items: [
-                    { text: '数据结构笔记', link: '/数据结构/', icon: 'reco-document' },
+                    // { text: '数据结构笔记', link: '/数据结构/', icon: 'reco-document' },
                     // {text:'数据结构错题集',link:'/数据结构错题集/'},
                     { text: "数据结构笔记(旧版)", link: '/DataStructure/', icon: 'reco-document' },
                 ],
                 icon: 'reco-category'
             },
-            { text: '计算机组成原理', link: '/计算机组成原理/', icon: 'reco-category' },
-            { text: '计算机网络', link: '/计算机网络/', icon: 'reco-category' },
+            // { text: '计算机组成原理', link: '/计算机组成原理/', icon: 'reco-category' },
+            // { text: '计算机网络', link: '/计算机网络/', icon: 'reco-category' },
             {
                 text: '操作系统',
                 items: [
@@ -42,17 +42,23 @@ module.exports = {
             },
             // { text: '留言板', link: '/contact', icon: "reco-suggestion" },
             {
-                text: '联系我',
+                text: '其他',
                 items: [
-                    { text: 'Email', link: 'mailto:Kim.Yang.HG@outlook.com', icon: 'reco-mail' },
-                    { text: '个人博客', link: 'https://kimyang.cn', icon: 'reco-blog' },
-                    { text: 'GitHub', link: 'https://github.com/KimYangOfCat', icon: 'reco-github' },
-                    { text: 'BiliBili', link: 'https://space.bilibili.com/240836280', icon: 'reco-bilibili' },
-                    { text: '微信公众号', link: 'https://mp.weixin.qq.com/s/kSfjVbzlP46oB-Ux-MPWzA', icon: 'reco-wechat' },
+                    { text: '赞赏', link: '/sponsor', icon: 'reco-three' },
+                    { text: 'RSS', link: 'https://408.kimyang.cn/rss.xml', icon: 'reco-rss' },
+                    {
+                        text: '联系我', items: [
+                            { text: '微信公众号', link: 'https://mp.weixin.qq.com/s/kSfjVbzlP46oB-Ux-MPWzA', icon: 'reco-wechat' },
+                            { text: '个人博客', link: 'https://kimyang.cn', icon: 'reco-blog' },
+                            { text: 'GitHub', link: 'https://github.com/KimYangOfCat', icon: 'reco-github' },
+                            { text: 'BiliBili', link: 'https://space.bilibili.com/240836280', icon: 'reco-bilibili' },
+                            { text: 'Email', link: 'mailto:Kim.Yang.HG@outlook.com', icon: 'reco-mail' },
+                        ]
+                    },
                 ],
                 icon: 'reco-other'
             },
-            { text: 'RSS', link: 'https://408.kimyang.cn/rss.xml', icon: 'reco-rss' },
+
         ],
         sidebar:
         {
@@ -82,7 +88,7 @@ module.exports = {
         // repoLabel: '查看源码',
         // 以下为可选的编辑链接选项
         // 假如你的文档仓库和项目本身不在一个仓库：
-        // docsRepo: 'KimYangOfCat/2021-CSPostgraduate-408',
+        docsRepo: 'KimYangOfCat/2021-CSPostgraduate-408',
         // 假如文档不是放在仓库的根目录下：
         docsDir: '408Notes',
         // 假如文档放在一个特定的分支下：
@@ -104,6 +110,11 @@ module.exports = {
         // }
     },
     plugins: [
+        //支持数学公式
+        ['@renovamen/vuepress-plugin-katex', {
+            'throwOnError': false,  // (optional)
+            'errorColor': '#cc0000'  // (optional)
+        }],
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: {
@@ -148,22 +159,37 @@ module.exports = {
             body: [
                 {
                     type: 'title',
-                    content: '欢迎关注我的微信公众号和B站！🎉🎉🎉',
+                    content: '更多资源请关注我的微信公众号！🎉🎉🎉',
                     style: 'text-aligin: center;'
                 },
                 {
                     type: 'image',
-                    src: 'https://pic-bed-1256389522.cos.ap-chengdu.myqcloud.com/info/binarycode.png'
+                    src: '/qc/wechatqc.png'
+                },
+                {
+                    type: 'image',
+                    src: '/qc/bilibili.png'
                 }
             ],
             footer: [
                 {
                     type: 'button',
-                    text: '打赏',
-                    link: 'https://picbed.kimyang.cn/202108090635547.png'
+                    text: '赞赏',
+                    link: '/sponsor'
                 }
             ]
-        }]
+        }], [
+            'vuepress-plugin-sponsor',
+            {
+                theme: 'simple',
+                alipay: '/sponsor/alipag.png',
+                wechat: '/sponsor/wechatpay.png',
+                qq: '/sponsor/qqpay.png',
+                // paypal: 'https://www.paypal.me/yokefellow',
+                duration: 2000
+            }
+        ]
+
     ]
 }
 function getDataStructureSidebar1() {
@@ -175,6 +201,9 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_1_概述/DS-1-1-代码书写规范以及语言基础',
+                '/数据结构/DS_1_概述/DS-1-2-算法时空复杂度分析',
+                '/数据结构/DS_1_概述/DS-1-3-数据结构和算法基本概念',
             ]
         },
         {
@@ -183,6 +212,8 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_2_线性表/DS-2-1-基本概念与实现',
+                '/数据结构/DS_2_线性表/DS-2-1-结构体定义和基本操作',
             ]
         },
         {
@@ -191,6 +222,9 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_3_栈和队列/DS-3-1-栈和队列的基本概念',
+                '/数据结构/DS_3_栈和队列/DS-3-2-栈和队列的存储结构',
+                '/数据结构/DS_3_栈和队列/DS-3-3-抽象数据类型',
             ]
         },
         {
@@ -199,6 +233,8 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_4_串/DS-4-1-串数据类型的定义',
+                '/数据结构/DS_4_串/DS-4-2-串的模式匹配算法',
             ]
         },
         {
@@ -207,6 +243,10 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_5_数组矩阵与广义表/DS-5-1-数组',
+                '/数据结构/DS_5_数组矩阵与广义表/DS-5-2-矩阵的压缩存储',
+                '/数据结构/DS_5_数组矩阵与广义表/DS-5-3-广义表',
+
             ]
         },
         {
@@ -215,6 +255,10 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_6_树与二叉树/DS-6-1-树的基本概念',
+                '/数据结构/DS_6_树与二叉树/DS-6-2-二叉树',
+                '/数据结构/DS_6_树与二叉树/DS-6-3-树和森林与二叉树的互相转换',
+                '/数据结构/DS_6_树与二叉树/DS-6-4-树和二叉树的应用',
             ]
         },
         {
@@ -223,6 +267,13 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_7_图/DS-7-1-图的基本概念',
+                '/数据结构/DS_7_图/DS-7-2-图的存储结构',
+                '/数据结构/DS_7_图/DS-7-3-图的遍历算法操作',
+                '/数据结构/DS_7_图/DS-7-4-最小代价生成树',
+                '/数据结构/DS_7_图/DS-7-5-最短路径',
+                '/数据结构/DS_7_图/DS-7-6-拓扑排序',
+                '/数据结构/DS_7_图/DS-7-7-关键路径',
             ]
         },
         {
@@ -231,6 +282,13 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_8_排序/DS-8-1-排序的基本概念',
+                '/数据结构/DS_8_排序/DS-8-2-插入类排序',
+                '/数据结构/DS_8_排序/DS-8-3-交换类排序',
+                '/数据结构/DS_8_排序/DS-8-4-选择类排序',
+                '/数据结构/DS_8_排序/DS-8-5-二路归并排序',
+                '/数据结构/DS_8_排序/DS-8-6-基数排序',
+                '/数据结构/DS_8_排序/DS-8-7-外部排序',
             ]
         },
         {
@@ -239,6 +297,10 @@ function getDataStructureSidebar1() {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
+                '/数据结构/DS_9_查找/DS-9-1-查找的基本概念',
+                '/数据结构/DS_9_查找/DS-9-2-二叉排序树和平衡二叉树',
+                '/数据结构/DS_9_查找/DS-9-3-B-树',
+                '/数据结构/DS_9_查找/DS-9-4-散列表',
             ]
         },
     ]
