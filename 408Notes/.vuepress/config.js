@@ -24,14 +24,14 @@ module.exports = {
             {
                 text: '数据结构',
                 items: [
-                    { text: '数据结构笔记', link: '/数据结构/', icon: 'reco-document' },
+                    // { text: '数据结构笔记', link: '/数据结构/', icon: 'reco-document' },
                     // {text:'数据结构错题集',link:'/数据结构错题集/'},
                     { text: "数据结构笔记(旧版)", link: '/DataStructure/', icon: 'reco-document' },
                 ],
                 icon: 'reco-category'
             },
-            { text: '计算机组成原理', link: '/计算机组成原理/', icon: 'reco-category' },
-            { text: '计算机网络', link: '/计算机网络/', icon: 'reco-category' },
+            // { text: '计算机组成原理', link: '/计算机组成原理/', icon: 'reco-category' },
+            // { text: '计算机网络', link: '/计算机网络/', icon: 'reco-category' },
             {
                 text: '操作系统',
                 items: [
