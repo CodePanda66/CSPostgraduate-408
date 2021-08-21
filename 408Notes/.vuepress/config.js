@@ -57,8 +57,10 @@ module.exports = {
         //     labels: ["留言板"],//Vssue 通过 title 和 labels 来确定用来存储评论的对应 Issue
         //     prefix: '[Comments]',//Issue 标题的前缀
         // }
+
+        //config 目录
+        nav,
+        sidebar,
     },
-    nav,
-    sidebar,
     plugins,
 }
