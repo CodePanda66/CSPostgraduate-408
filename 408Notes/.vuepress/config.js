@@ -110,6 +110,7 @@ module.exports = {
         // }
     },
     plugins: [
+        ['@vuepress-reco/extract-code'],
         //支持数学公式
         ['@renovamen/vuepress-plugin-katex', {
             'throwOnError': false,  // (optional)

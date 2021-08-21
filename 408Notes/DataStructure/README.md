@@ -12,4 +12,8 @@ title: 数据结构
 * [查找](DS_6_Search)
 * [排序](DS_7_Sort)
 
-
+<RecoDemo>
+  <template slot="code-cpp">
+    <<< @/DataStructure/Src/DS_HelloWord.cpp
+  </template>
+</RecoDemo>

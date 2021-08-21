@@ -1302,6 +1302,11 @@
     valine "^1.4.14"
     vssue "^1.4.6"
 
+"@vuepress-reco/vuepress-plugin-extract-code@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/@vuepress-reco/vuepress-plugin-extract-code/-/vuepress-plugin-extract-code-1.0.4.tgz#c50b521d8a5d1c9dfd705e245a7e920a80315a32"
+  integrity sha512-J4Cas3JRxs0TnfjtzQ+3bl7iNwL/va9cOXMtpayse3sETul863BwYk1vEBXRAZMiLmbmWqnBrGIrJGmD/TnO5Q==
+
 "@vuepress-reco/vuepress-plugin-loading-page@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-loading-page/-/vuepress-plugin-loading-page-1.6.0.tgz#34b72ed342dc9b15021d077ff8faeafe52146159"

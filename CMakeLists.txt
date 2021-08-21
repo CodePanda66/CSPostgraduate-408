@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 project(2021_CSKaoYan_408)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # 遍历项目根目录下所有的 .cpp 文件
 # 排除掉leetcode 下的代码，其不需要在Clion 中编译运行！
