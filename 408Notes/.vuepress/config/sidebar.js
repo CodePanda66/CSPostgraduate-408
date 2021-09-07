@@ -464,6 +464,15 @@ function getOperatingSystemWrongSetSidebar() {
             children: [
                 '/操作系统错题集/Err_OS_1_绪论/Err_OS_1_天勤',
             ]
+        },
+        {
+            title: '二、进程管理',   // 必要的
+            // path: '/操作系统错题集/Err_OS_1_绪论/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: [
+                '/操作系统错题集/Err_OS_2_进程管理/Err_OS_2_天勤',
+            ]
         }
     ]
 }
