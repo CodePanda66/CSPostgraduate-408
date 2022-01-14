@@ -15,11 +15,11 @@ jobs:
       - name: Checkout # step的名称，将会在 github action 的控制台中显示
         # 选择一个action，可以理解为若干 steps.run，有利于代码复用
         uses: actions/checkout@master
-      # 安装使用 node:10
-      - name: use Node.js 10
+      # 安装使用 node:12
+      - name: use Node.js 12
         uses: actions/setup-node@v1
         with:
-          node-version: 10
+          node-version: 12
       # 运行命令，npm install && npm run build
       - name: npm install and build
         run: |
