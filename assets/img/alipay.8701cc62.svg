@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="448.5px" height="145.5px"
+	 viewBox="0 0 448.5 145.5" enable-background="new 0 0 448.5 145.5" xml:space="preserve">
+<switch>
+	<g i:extraneous="self">
+		<g id="椭圆_2_1_" enable-background="new    ">
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#074098" d="M105.611,0.046h-23.82v18.673H33.767v9.824h48.024v18.012
+				H48.086v11.107H115.5c0,0-0.001,15.927-20.25,37.588c-20.249,21.661-27.836,24.915-37.5,27.75c-9.664,2.835-26.037,2.38-31.5-1.5
+				c-5.463-3.88-11.751-8.9-11.25-18c0.501-9.1,11.884-19.412,18.877-20.523c0,0-20.044-2.206-24.544,18.106
+				c-3.455,15.596,6.602,23.258,12.417,27.167s18.19,8.475,26.336,9c8.146,0.525,25.84-0.552,42.664-12.75
+				c16.823-12.198,37.282-36.662,43.5-51.75c6.218-15.088,8.91-21.331,9.75-26.195h-38.389V28.543h50.234v-9.824h-50.234V0.046"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#074098" d="M186,0.046c0,0-2.498,21.476-33.75,44.954l3.595,5.25
+				c0,0,13.926-5.466,17.401-8.25v80.25h24.732V25.5c0,0,12.021-12.461,12.022-25.454H186z"/>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#074098" points="245.961,0.046 245.961,27.004 202.485,27.004 
+				202.485,36.082 245.961,36.082 245.961,121.5 270.083,121.5 270.083,36.082 281.338,36.082 281.338,27.004 270.083,27.004 
+				270.083,0.046 			"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#074098" d="M364.452,0.046v11.216h46.508v7.456
+				c0,22.097-14.212,24.825-14.212,24.825h-32.296v19.421h32.296v9.786h-32.296v45.75H339.75V72.75h-34.568v-9.786h34.568V43.543
+				h-49.471V8.289h23.06v2.973h26.412V0.046H364.452z M313.338,21.521V34.53h77.412V21.521H313.338z"/>
+		</g>
+		<g id="椭圆_1_1_" enable-background="new    ">
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#ED6C1F" d="M44.099,136.744c0,0-22.471-3.673-32.099-20.494
+				C8.33,109.839,7.958,97,18,88.5c8.357-7.074,19.518-6.553,33.75-3c14.232,3.553,24.419,8.078,42.75,17.25
+				c18.486,9.25,44.916,22.501,78.656,29.647c33.741,7.146,52.273,9.357,72.805,10.853c35.377,2.577,149.409-2.407,164.998-6
+				l37.541-39c0,0-112.934,17.355-183.75,18c-70.816,0.645-78.784-3.66-95.25-6.75c-16.466-3.09-59.859-17.214-72.75-22.5
+				c-6.296-2.582-41.73-16.265-62.983-14.25S1.155,83.992,0.75,98.25S5.809,132.166,44.099,136.744z"/>
+			
+				<rect x="206.624" y="46.661" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 421.6157 -51.5838)" fill-rule="evenodd" clip-rule="evenodd" fill="#ED6C1F" width="29.734" height="29.734"/>
+			
+				<rect x="378.414" y="78.855" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 727.0344 -122.4926)" fill-rule="evenodd" clip-rule="evenodd" fill="#ED6C1F" width="20.945" height="20.945"/>
+		</g>
+	</g>
+</switch>
+</svg>
